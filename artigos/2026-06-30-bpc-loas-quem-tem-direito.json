@@ -1,0 +1,34 @@
+{
+  "slug": "bpc-loas-quem-tem-direito-2026",
+  "area": "Previdenciário",
+  "tag": "Previdenciário",
+  "date": "2026-06-30",
+  "date_display": "30/06/2026",
+  "data": {
+    "titulo": "BPC LOAS, Saiba Se Você Tem Direito ao Benefício Assistencial",
+    "subtitulo": "Entenda os critérios de renda, idade e deficiência para receber o benefício de prestação continuada",
+    "descricao_seo": "Saiba quem tem direito ao BPC LOAS em 2026, critérios de renda familiar, idade e como funciona o pedido junto ao INSS.",
+    "tempo_leitura": "5 min",
+    "introducao": "Diferente das aposentadorias tradicionais, o BPC não exige contribuição prévia ao INSS, é um benefício assistencial pensado para garantir o mínimo de dignidade a quem mais precisa. Ainda assim, muitas famílias que teriam direito não sabem que podem solicitar.",
+    "secoes": [
+      {
+        "titulo": "O que é o BPC LOAS",
+        "conteudo": "O Benefício de Prestação Continuada, conhecido como BPC ou LOAS, é um benefício assistencial que garante o pagamento de um salário mínimo mensal a idosos ou pessoas com deficiência que comprovem não ter meios de prover o próprio sustento, nem de tê-lo provido pela família. Diferente da aposentadoria comum, não é necessário ter contribuído ao INSS durante a vida profissional, o benefício é financiado pela assistência social, não pela previdência. Por isso, muitas pessoas que nunca trabalharam formalmente, ou que trabalharam por pouco tempo, ainda assim podem ter direito, desde que se enquadrem nos critérios de idade ou deficiência combinados com a situação de baixa renda familiar."
+      },
+      {
+        "titulo": "Critérios de idade e deficiência",
+        "conteudo": "Existem dois caminhos principais para ter direito ao BPC. O primeiro é por idade, destinado a pessoas com 65 anos ou mais. O segundo é por deficiência, destinado a pessoas de qualquer idade que tenham impedimento de longo prazo, físico, mental, intelectual ou sensorial, que, em interação com diversas barreiras, possa obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas. Esse impedimento precisa ser comprovado por perícia médica e social do INSS, que avalia não apenas a condição de saúde isoladamente, mas também o impacto dela na vida da pessoa em sociedade."
+      },
+      {
+        "titulo": "Critério de renda familiar",
+        "conteudo": "Além da idade ou deficiência, é necessário comprovar que a renda mensal por pessoa da família é baixa, considerando todos os moradores da mesma casa que tenham algum tipo de vínculo familiar reconhecido. O cálculo considera a soma de todas as rendas da família dividida pelo número de integrantes. Quando esse valor por pessoa fica abaixo do limite estabelecido pela legislação assistencial vigente, a família pode se enquadrar no critério de miserabilidade exigido para o benefício. É importante notar que, mesmo quando o cálculo automático do governo indica que a renda está acima do limite, ainda é possível, em alguns casos, comprovar judicialmente que a família realmente vive em situação de vulnerabilidade considerando outras despesas, como gastos com remédios, tratamentos de saúde ou outras necessidades especiais não capturadas pelo cálculo simples de renda."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você ou um familiar se enquadra nesses critérios, ou já teve o pedido negado por conta do cálculo de renda, vale a pena buscar uma análise mais detalhada da situação, pois muitas negativas administrativas podem ser revertidas judicialmente quando bem fundamentadas. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre o seu caso."
+      }
+    ],
+    "conclusao": "O BPC LOAS é um direito assistencial importante para proteger quem está em situação de maior vulnerabilidade social. Conhecer os critérios corretamente, e buscar orientação quando o pedido é negado, faz toda a diferença para garantir esse benefício a quem realmente precisa.",
+    "palavras_chave": ["BPC LOAS", "benefício assistencial", "INSS", "renda familiar", "previdenciário"]
+  }
+}

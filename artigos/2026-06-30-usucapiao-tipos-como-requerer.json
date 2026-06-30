@@ -1,0 +1,34 @@
+{
+  "slug": "usucapiao-tipos-requisitos-como-requerer",
+  "area": "Imobiliário",
+  "tag": "Imobiliário",
+  "date": "2026-06-30",
+  "date_display": "30/06/2026",
+  "data": {
+    "titulo": "Usucapião, Quem Tem Direito e Como Requerer",
+    "subtitulo": "Entenda os principais tipos de usucapião e como a posse prolongada de um imóvel pode gerar direito à propriedade",
+    "descricao_seo": "Saiba o que é usucapião, os principais tipos existentes e como requerer esse direito na Justiça ou diretamente em cartório.",
+    "tempo_leitura": "5 min",
+    "introducao": "Muitas pessoas vivem ou utilizam um imóvel por anos, às vezes décadas, sem nunca terem formalizado a propriedade em seu nome. A usucapião existe justamente para essas situações, reconhecendo juridicamente uma posse longa e estável como caminho para a propriedade.",
+    "secoes": [
+      {
+        "titulo": "O que é usucapião",
+        "conteudo": "Usucapião é o instituto jurídico que permite a alguém adquirir a propriedade de um imóvel através da posse mansa, pacífica e contínua por um determinado período de tempo, desde que cumpridos outros requisitos legais específicos para cada modalidade. A lógica por trás desse instituto é reconhecer que, quando uma pessoa cuida, utiliza e mantém um imóvel como se fosse seu por um longo período, sem oposição do verdadeiro proprietário, isso gera uma situação que merece proteção jurídica, equilibrando a segurança da propriedade formal com a função social que o imóvel deve cumprir."
+      },
+      {
+        "titulo": "Principais tipos de usucapião",
+        "conteudo": "Existem diversas modalidades de usucapião no ordenamento jurídico brasileiro, cada uma com requisitos próprios de tempo de posse e demais condições. A usucapião extraordinária costuma exigir período mais longo de posse, mas dispensa a necessidade de título ou boa fé do possuidor. Já a usucapião ordinária exige tempo menor, mas pressupõe que o possuidor tenha algum documento, mesmo que com vício, que demonstre boa fé na aquisição. Existe também a usucapião especial urbana, voltada para imóveis de pequena área utilizados como moradia própria, e a usucapião especial rural, com finalidade semelhante para áreas de produção agrícola familiar. Cada modalidade tem prazos e requisitos próprios estabelecidos em lei, sendo fundamental identificar corretamente qual se aplica ao caso concreto antes de iniciar o processo."
+      },
+      {
+        "titulo": "Via judicial ou via cartório",
+        "conteudo": "Atualmente, é possível buscar o reconhecimento da usucapião por duas vias diferentes. A via judicial, mais tradicional, envolve ajuizar uma ação específica, com produção de provas da posse ao longo do tempo, geralmente através de testemunhas, fotos, contas de consumo no endereço, e outros documentos que comprovem a permanência no imóvel. A via extrajudicial, mais recente e geralmente mais rápida, permite que o pedido seja feito diretamente no cartório de registro de imóveis, desde que haja consenso entre as partes envolvidas e a documentação necessária esteja completa, incluindo planta e memorial descritivo do imóvel assinados por profissional habilitado. A escolha entre as duas vias depende muito das particularidades de cada caso, principalmente se existe ou não contestação de terceiros sobre a posse."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você ocupa um imóvel há muitos anos e nunca formalizou a propriedade, vale a pena entender se a sua situação se enquadra em alguma modalidade de usucapião. Reunir desde já documentos que comprovem o tempo de posse, como contas de água, luz, IPTU pago, ou declarações de vizinhos, ajuda muito na análise do caso. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre a sua situação."
+      }
+    ],
+    "conclusao": "A usucapião é um caminho legítimo para regularizar a propriedade de quem já exerce posse de boa fé e por tempo prolongado sobre um imóvel. Entender qual modalidade se aplica ao seu caso e reunir a documentação correta é essencial para que o processo, judicial ou extrajudicial, tenha bom andamento.",
+    "palavras_chave": ["usucapião", "direito imobiliário", "posse de imóvel", "regularização imóvel", "propriedade"]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "tabela-price-juros-cobrados-financiamento",
+  "area": "Consumidor",
+  "tag": "Consumidor",
+  "date": "2026-06-30",
+  "date_display": "30/06/2026",
+  "data": {
+    "titulo": "Tabela Price, Como Identificar Juros Cobrados a Mais",
+    "subtitulo": "Entenda como funciona esse sistema de amortização e quando os juros podem estar sendo cobrados de forma indevida",
+    "descricao_seo": "Saiba como identificar juros abusivos em financiamentos com Tabela Price e quais são seus direitos como consumidor nesses casos.",
+    "tempo_leitura": "5 min",
+    "introducao": "Quem já fez um financiamento de veículo ou imóvel provavelmente já ouviu falar da Tabela Price, mas poucos consumidores realmente entendem como ela funciona, e isso facilita que algumas instituições cobrem valores além do que seria devido.",
+    "secoes": [
+      {
+        "titulo": "Como funciona a Tabela Price",
+        "conteudo": "A Tabela Price é um sistema de amortização de dívidas no qual as parcelas mensais têm sempre o mesmo valor durante todo o financiamento, mas a composição interna de cada parcela muda ao longo do tempo. No início do contrato, a maior parte de cada parcela paga é destinada aos juros, enquanto uma parte menor amortiza o valor principal da dívida. Conforme o financiamento avança, essa proporção se inverte gradualmente, e mais do valor pago passa a abater o principal. Esse sistema, por si só, é legal e amplamente utilizado em financiamentos no Brasil, o problema não está na tabela em si, mas em como alguns contratos aplicam os juros dentro dela."
+      },
+      {
+        "titulo": "Onde costuma estar o problema",
+        "conteudo": "A principal controvérsia em torno da Tabela Price envolve a forma de capitalização dos juros, ou seja, se os juros estão incidindo apenas sobre o saldo devedor original, juros simples, ou se estão incidindo também sobre juros já vencidos e não pagos, criando o chamado anatocismo, ou juros sobre juros. Quando essa capitalização ocorre de forma indevida, sem previsão contratual clara ou de maneira não permitida pela legislação aplicável àquele tipo específico de contrato, isso pode representar cobrança excessiva, gerando direito do consumidor a uma revisão dos valores pagos e, eventualmente, à restituição de valores cobrados a mais."
+      },
+      {
+        "titulo": "Como identificar se há cobrança indevida",
+        "conteudo": "Identificar com precisão se há cobrança irregular exige uma análise técnica detalhada do contrato e da planilha de amortização, comparando a metodologia efetivamente aplicada com o que está previsto contratualmente e com o que a legislação permite para aquele tipo de operação financeira. Não é algo que dá para concluir apenas olhando o valor da parcela, é necessário um cálculo financeiro especializado, muitas vezes com apoio de perícia contábil, para apurar se realmente houve cobrança a maior, e em qual proporção. Por isso, antes de buscar qualquer ação judicial, o ideal é que um profissional avalie o contrato específico, pois cada caso tem suas particularidades."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você suspeita que seu financiamento, seja de veículo ou imóvel, pode estar com cobrança de juros acima do devido, o primeiro passo é reunir o contrato completo e o histórico de pagamentos realizados. Com esses documentos, é possível fazer uma análise inicial para identificar se há indícios de irregularidade que justifiquem aprofundar o caso. Use o botão de WhatsApp abaixo para enviar seus documentos e conversar com o Dr. Michel Rocha."
+      }
+    ],
+    "conclusao": "A Tabela Price não é ilegal por si só, mas a forma como os juros são aplicados dentro dela pode, em alguns casos, representar cobrança indevida. Conhecer esse direito e buscar análise especializada é o caminho para verificar se o seu contrato está correto.",
+    "palavras_chave": ["tabela price", "juros abusivos", "financiamento", "direito do consumidor", "capitalização de juros"]
+  }
+}

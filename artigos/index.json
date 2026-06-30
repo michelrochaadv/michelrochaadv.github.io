@@ -1,5 +1,49 @@
 [
   {
+    "slug": "usucapiao-tipos-requisitos-como-requerer",
+    "area": "Imobiliário",
+    "tag": "Imobiliário",
+    "date": "2026-06-30",
+    "date_display": "30/06/2026",
+    "titulo": "Usucapião, Quem Tem Direito e Como Requerer",
+    "subtitulo": "Entenda os principais tipos de usucapião e como a posse prolongada de um imóvel pode gerar direito à propriedade",
+    "descricao_seo": "Saiba o que é usucapião, os principais tipos existentes e como requerer esse direito na Justiça ou diretamente em cartório.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "tabela-price-juros-cobrados-financiamento",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-06-30",
+    "date_display": "30/06/2026",
+    "titulo": "Tabela Price, Como Identificar Juros Cobrados a Mais",
+    "subtitulo": "Entenda como funciona esse sistema de amortização e quando os juros podem estar sendo cobrados de forma indevida",
+    "descricao_seo": "Saiba como identificar juros abusivos em financiamentos com Tabela Price e quais são seus direitos como consumidor nesses casos.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "prisao-preventiva-requisitos-prazo",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-06-30",
+    "date_display": "30/06/2026",
+    "titulo": "Prisão Preventiva, Requisitos, Prazo e Quando Pode Ser Revogada",
+    "subtitulo": "Entenda os limites legais da prisão cautelar e os direitos de quem está preso provisoriamente",
+    "descricao_seo": "Saiba quando a prisão preventiva é legal, quais são seus requisitos e em que situações ela pode ser revogada pela Justiça.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "holding-familiar-vantagens-como-constituir",
+    "area": "Empresarial",
+    "tag": "Empresarial",
+    "date": "2026-06-30",
+    "date_display": "30/06/2026",
+    "titulo": "Holding Familiar, Vantagens e Como Constituir Uma",
+    "subtitulo": "Entenda como essa estrutura jurídica pode proteger patrimônio e facilitar a sucessão familiar",
+    "descricao_seo": "Saiba o que é holding familiar, suas vantagens para proteção patrimonial e planejamento sucessório, e como começar a estruturar uma.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "habeas-corpus-como-funciona",
     "area": "Penal",
     "tag": "Direito Penal",
@@ -8,6 +52,28 @@
     "titulo": "Habeas Corpus: Como Funciona e Quando Usar Esse Direito",
     "subtitulo": "Entenda o instrumento constitucional que protege qualquer pessoa contra prisão ilegal ou abusiva",
     "descricao_seo": "Saiba o que é habeas corpus, quando pode ser usado e como funciona na prática segundo o STJ e STF. Guia completo e atualizado.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "guarda-compartilhada-como-funciona-na-pratica",
+    "area": "Família",
+    "tag": "Família e Divórcio",
+    "date": "2026-06-30",
+    "date_display": "30/06/2026",
+    "titulo": "Guarda Compartilhada, Como Funciona na Prática",
+    "subtitulo": "Entenda os direitos, deveres e como evitar conflitos no convívio com os filhos após a separação",
+    "descricao_seo": "Saiba como funciona a guarda compartilhada, quais são os direitos dos pais e como organizar a rotina dos filhos após o divórcio.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "bpc-loas-quem-tem-direito-2026",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-06-30",
+    "date_display": "30/06/2026",
+    "titulo": "BPC LOAS, Saiba Se Você Tem Direito ao Benefício Assistencial",
+    "subtitulo": "Entenda os critérios de renda, idade e deficiência para receber o benefício de prestação continuada",
+    "descricao_seo": "Saiba quem tem direito ao BPC LOAS em 2026, critérios de renda familiar, idade e como funciona o pedido junto ao INSS.",
     "tempo_leitura": "5 min"
   },
   {
