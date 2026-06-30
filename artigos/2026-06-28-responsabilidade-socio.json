@@ -1,0 +1,34 @@
+{
+  "slug": "responsabilidade-socio-dividas-empresa",
+  "area": "Empresarial",
+  "tag": "Empresarial",
+  "date": "2026-06-28",
+  "date_display": "28/06/2026",
+  "data": {
+    "titulo": "Responsabilidade do Sócio por Dívidas da Empresa: O Que Saber",
+    "subtitulo": "Entenda quando o patrimônio pessoal do empresário pode ser atingido por dívidas do negócio",
+    "descricao_seo": "Saiba quando o sócio responde pessoalmente por dívidas da empresa, o que é desconsideração da personalidade jurídica e como se proteger.",
+    "tempo_leitura": "5 min",
+    "introducao": "Um dos maiores receios de quem empreende é misturar o patrimônio pessoal com o patrimônio da empresa quando as coisas não vão bem. A boa notícia é que existe, em regra, uma separação legal entre os dois — mas essa proteção não é absoluta, e entender seus limites é essencial para qualquer empresário.",
+    "secoes": [
+      {
+        "titulo": "A regra geral: autonomia patrimonial",
+        "conteudo": "No Brasil, empresas constituídas como sociedades limitadas (LTDA) ou sociedades anônimas possuem personalidade jurídica própria, distinta da pessoa dos sócios. Isso significa que, em condições normais, as dívidas contraídas pela empresa devem ser pagas com o patrimônio da própria empresa, e não com os bens pessoais dos sócios — casa, carro, contas bancárias pessoais permanecem protegidos. Esse princípio é conhecido como autonomia patrimonial e é um dos pilares do direito societário, criado justamente para incentivar o empreendedorismo, permitindo que as pessoas assumam riscos comerciais sem colocar toda sua vida pessoal em jogo a cada decisão de negócio."
+      },
+      {
+        "titulo": "Quando essa proteção pode ser quebrada",
+        "conteudo": "Existe um instituto jurídico chamado desconsideração da personalidade jurídica, previsto no artigo 50 do Código Civil, que permite ao juiz 'atravessar' a empresa e atingir o patrimônio pessoal dos sócios em situações específicas. Isso ocorre quando há comprovado desvio de finalidade — ou seja, a empresa foi usada para fins fraudulentos, escondendo bens, lesando credores ou simulando operações; ou quando há confusão patrimonial, situação em que sócio e empresa misturam contas, bens e despesas de forma que não se consegue mais distinguir o que é de cada um. O Superior Tribunal de Justiça tem entendimento consolidado de que a simples inadimplência ou dificuldade financeira da empresa não é suficiente para autorizar a desconsideração — é necessário provar má-fé ou abuso na utilização da pessoa jurídica."
+      },
+      {
+        "titulo": "Casos específicos de responsabilidade tributária e trabalhista",
+        "conteudo": "Em algumas áreas do direito, as regras de responsabilização são diferentes e mais rigorosas. Na Justiça do Trabalho, por exemplo, é comum que os sócios sejam incluídos diretamente em execuções trabalhistas quando a empresa não tem bens suficientes para pagar dívidas com ex-funcionários, sob o entendimento de que o trabalhador, parte mais vulnerável da relação, não pode ficar sem receber o que lhe é devido. No âmbito tributário, a Lei de Execução Fiscal permite a responsabilização do sócio-administrador quando há comprovada prática de atos com excesso de poder ou infração à lei, ao contrato social ou ao estatuto da empresa — não bastando apenas o cargo de sócio, mas a comprovação de conduta irregular na gestão."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "A melhor forma de se proteger é manter a empresa sempre com contabilidade organizada, contas bancárias separadas e decisões documentadas formalmente, evitando qualquer aparência de confusão entre o patrimônio pessoal e o empresarial. Se você está enfrentando uma cobrança que ameaça atingir seus bens pessoais, ou precisa estruturar melhor sua empresa para reduzir riscos futuros, é fundamental buscar orientação jurídica especializada antes que o problema se agrave. Fale com o Dr. Michel Rocha pelo WhatsApp (71) 98175-8097 para uma análise do seu caso."
+      }
+    ],
+    "conclusao": "A separação entre patrimônio pessoal e empresarial é uma das maiores vantagens de se constituir formalmente uma empresa — mas essa proteção exige cuidado e organização constantes. Conhecer os limites dessa autonomia patrimonial e agir preventivamente é o que garante segurança jurídica de verdade para o empresário.",
+    "palavras_chave": ["responsabilidade do sócio", "desconsideração personalidade jurídica", "direito empresarial", "dívidas empresa", "patrimônio pessoal"]
+  }
+}
