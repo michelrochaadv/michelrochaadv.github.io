@@ -1,0 +1,51 @@
+COMO INSTALAR A AUTOMAÇÃO NO SEU REPOSITÓRIO
+================================================
+
+Você já tem o repositório: michelrochaadv.github.io
+Você já cadastrou o secret: ANTHROPIC_API_KEY
+
+PASSO A PASSO:
+
+1. Acesse seu repositório no GitHub
+2. Clique em "Add file" → "Upload files"
+3. Arraste TODOS estes arquivos e pastas para o GitHub:
+
+   - generate_article.py
+   - build_site.py
+   - style.css
+   - requirements.txt
+   - logo.png
+   - .github/workflows/daily-article.yml  (mantenha essa pasta exata)
+
+   IMPORTANTE: ao arrastar a pasta ".github", o GitHub vai reconhecer
+   a subpasta "workflows" automaticamente. Se der erro, crie manualmente:
+   clique em "Create new file" e digite o caminho:
+   .github/workflows/daily-article.yml
+   e cole o conteúdo do arquivo.
+
+4. Clique em "Commit changes"
+
+5. Para TESTAR AGORA (sem esperar até 8h de amanhã):
+   - Vá na aba "Actions" do repositório
+   - Clique em "Gerar Artigo Diário" no menu lateral
+   - Clique no botão "Run workflow" → "Run workflow"
+   - Aguarde 1-2 minutos e atualize a página
+   - Se aparecer um ✓ verde, funcionou!
+   - Vá na pasta "artigos" do repositório — vai ter um novo arquivo .json
+   - Vá na pasta "artigo" — vai ter uma nova página .html
+
+6. O artigo gerado vai estar em:
+   https://michelrochaadv.github.io/artigo/[nome-do-artigo].html
+
+A PARTIR DE AGORA:
+Todo dia às 8h da manhã (horário de Brasília), o robô vai gerar
+um artigo novo automaticamente, sem você precisar fazer nada.
+
+Os temas rotam entre: Penal, Previdenciário, Empresarial,
+Consumidor, Família e Imobiliário — na mesma ordem de prioridade
+que você definiu.
+
+PRÓXIMO PASSO (que farei a seguir):
+Conectar os artigos novos automaticamente na página inicial
+(index.html), para que apareçam nas seções corretas sem
+você precisar editar nada manualmente.
