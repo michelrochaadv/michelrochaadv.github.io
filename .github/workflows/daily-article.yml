@@ -1,0 +1,41 @@
+name: Gerar Artigo Diário
+
+on:
+  schedule:
+    # Roda todo dia às 11h UTC = 08h horário de Brasília
+    - cron: '0 11 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install anthropic
+
+      - name: Gerar novo artigo
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate_article.py
+
+      - name: Construir páginas e sitemap
+        run: python build_site.py
+
+      - name: Commit e push das mudanças
+        run: |
+          git config --global user.name "Blog Bot"
+          git config --global user.email "bot@michelrochaadv.github.io"
+          git add artigos/ artigo/ sitemap.xml
+          git diff --staged --quiet || git commit -m "Artigo automático: $(date +'%d/%m/%Y')"
+          git push
