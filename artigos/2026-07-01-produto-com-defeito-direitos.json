@@ -1,0 +1,34 @@
+{
+  "slug": "produto-com-defeito-direitos-consumidor",
+  "area": "Consumidor",
+  "tag": "Consumidor",
+  "date": "2026-07-01",
+  "date_display": "01/07/2026",
+  "data": {
+    "titulo": "Produto com Defeito, Conheça Seus Direitos como Consumidor",
+    "subtitulo": "Saiba quais são os prazos para reclamar, o que o fornecedor é obrigado a fazer e quando você pode exigir devolução do dinheiro",
+    "descricao_seo": "Entenda seus direitos quando compra um produto com defeito, prazos para reclamar, troca, reparo e devolução garantidos pelo Código de Defesa do Consumidor.",
+    "tempo_leitura": "5 min",
+    "introducao": "Comprar um produto e descobrir que ele tem defeito é uma situação frustrante, mas o consumidor brasileiro tem direitos claros nesse caso, e saber quais são eles evita que você aceite soluções piores do que as que a lei garante.",
+    "secoes": [
+      {
+        "titulo": "Prazos para reclamar",
+        "conteudo": "A legislação de proteção ao consumidor estabelece prazos específicos para reclamação de defeitos em produtos, e eles variam conforme o tipo de produto e a natureza do defeito. Para produtos não duráveis, como alimentos e cosméticos, o prazo é de trinta dias a partir da constatação do defeito. Para produtos duráveis, como eletrodomésticos, eletrônicos e veículos, o prazo é de noventa dias. Esses prazos são chamados de prazo de garantia legal, existem independentemente de qualquer garantia contratual oferecida pelo fabricante ou pelo vendedor, e são contados a partir do momento em que o defeito é percebido. Quando o defeito é oculto, ou seja, não aparece logo na compra mas se manifesta depois de algum tempo de uso, os prazos começam a contar apenas a partir do momento em que o vício se torna aparente."
+      },
+      {
+        "titulo": "O que o fornecedor é obrigado a fazer",
+        "conteudo": "Quando o consumidor reclama de defeito dentro do prazo legal, o fornecedor tem até trinta dias para solucionar o problema, seja por reparo, substituição de peças ou outro meio adequado. Se o problema não for resolvido nesse prazo, o consumidor pode exigir, à sua escolha, a substituição do produto por outro da mesma espécie e em perfeitas condições, a restituição imediata do valor pago, com correção monetária, ou o abatimento proporcional no preço, nos casos em que o consumidor optar por ficar com o produto mesmo com o defeito. Essa escolha é do consumidor, não do fornecedor, e o vendedor não pode impor qual das alternativas será adotada."
+      },
+      {
+        "titulo": "Garantia contratual e garantia legal",
+        "conteudo": "Muitos consumidores ficam confusos sobre a diferença entre a garantia legal e a garantia contratual, aquela oferecida pelo fabricante no manual ou no certificado de garantia. As duas existem de forma independente, a garantia contratual é um benefício adicional que o fabricante oferece além dos direitos legais, e seu prazo corre em separado. Isso significa que, quando a garantia contratual expira, os direitos da garantia legal continuam existindo, desde que o prazo específico de cada tipo de produto ainda não tenha se encerrado. Portanto, mesmo que a garantia da loja ou do fabricante já tenha acabado, pode ser que o consumidor ainda tenha direito a reclamar com base na garantia legal."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você comprou um produto com defeito e o fornecedor está se recusando a resolver dentro do prazo legal, ou está tentando impor condições que vão contra seus direitos, é possível buscar solução tanto nos órgãos de defesa do consumidor quanto pela via judicial. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre o seu caso."
+      }
+    ],
+    "conclusao": "A legislação brasileira de proteção ao consumidor oferece garantias sólidas para quem compra produtos com defeito. Conhecer esses direitos, especialmente os prazos e as opções disponíveis, é o que permite ao consumidor exigir o que é seu sem aceitar menos do que a lei garante.",
+    "palavras_chave": ["produto com defeito", "direito do consumidor", "garantia", "troca de produto", "CDC"]
+  }
+}
