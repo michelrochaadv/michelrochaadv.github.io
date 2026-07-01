@@ -1,0 +1,34 @@
+{
+  "slug": "recuperacao-judicial-como-funciona-empresa",
+  "area": "Empresarial",
+  "tag": "Empresarial",
+  "date": "2026-07-01",
+  "date_display": "01/07/2026",
+  "data": {
+    "titulo": "Recuperação Judicial, Como Funciona e Quando Pedir",
+    "subtitulo": "Entenda o que é a recuperação judicial, quem pode pedir e como ela protege a empresa em crise",
+    "descricao_seo": "Saiba como funciona a recuperação judicial para empresas em crise, quem tem direito, o processo e as consequências para credores e devedores.",
+    "tempo_leitura": "5 min",
+    "introducao": "Quando uma empresa passa por dificuldades financeiras sérias, a recuperação judicial pode ser o caminho para reorganizar as dívidas e evitar o encerramento do negócio. Entender como esse processo funciona é essencial para tomar a decisão certa no momento certo.",
+    "secoes": [
+      {
+        "titulo": "O que é a recuperação judicial",
+        "conteudo": "A recuperação judicial é um procedimento legal que permite à empresa em crise financeira apresentar um plano de pagamento negociado com seus credores, sob supervisão do Judiciário, com o objetivo de viabilizar a continuidade do negócio, a manutenção dos empregos e o pagamento das dívidas de forma organizada ao longo do tempo. Diferente da falência, que representa o encerramento da empresa e a liquidação de seus bens, a recuperação judicial parte do pressuposto de que a empresa tem viabilidade econômica e que vale mais como negócio em funcionamento do que como conjunto de bens a serem vendidos separadamente. Por isso, o processo oferece um período de proteção contra execuções, durante o qual a empresa tem tempo para reorganizar suas finanças."
+      },
+      {
+        "titulo": "Quem pode pedir e quando",
+        "conteudo": "Podem requerer recuperação judicial as empresas que exercem atividade econômica há pelo menos dois anos, que não sejam instituições financeiras, cooperativas de crédito, consórcios ou entidades de previdência complementar, e que não tenham sido declaradas falidas ou concedidas recuperação judicial nos últimos cinco anos. O momento ideal para pedir é quando a crise ainda é reversível, ou seja, antes que a situação piore a ponto de inviabilizar qualquer plano de recuperação. Esperar demais pode reduzir as chances de aprovação do plano pelos credores e de cumprimento efetivo das obrigações assumidas."
+      },
+      {
+        "titulo": "Como funciona o processo na prática",
+        "conteudo": "Após o pedido ser deferido pelo juiz, a empresa passa a contar com um período de proteção, durante o qual as execuções contra ela ficam suspensas temporariamente. Nesse período, a empresa precisa apresentar um plano de recuperação detalhando como pretende pagar suas dívidas, quais medidas de reestruturação serão adotadas, e demonstrar a viabilidade econômica do negócio. Esse plano é submetido à aprovação dos credores em assembleia e, se aprovado, passa a ter força de lei entre as partes. Um administrador judicial é nomeado pelo juiz para fiscalizar o cumprimento do plano ao longo de todo o processo."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se sua empresa está enfrentando dificuldades financeiras sérias e você está avaliando as opções disponíveis, é fundamental buscar orientação jurídica antes de tomar qualquer decisão, pois o timing e a estratégia certa fazem diferença significativa no resultado. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre a situação da sua empresa."
+      }
+    ],
+    "conclusao": "A recuperação judicial é uma ferramenta importante para empresas viáveis que enfrentam crises financeiras temporárias. Usada no momento certo e com estratégia adequada, pode ser a diferença entre salvar o negócio e perder tudo o que foi construído.",
+    "palavras_chave": ["recuperação judicial", "empresa em crise", "direito empresarial", "falência", "plano de recuperação"]
+  }
+}
