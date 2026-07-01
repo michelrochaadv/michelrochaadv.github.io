@@ -1,5 +1,71 @@
 [
   {
+    "slug": "recuperacao-judicial-como-funciona-empresa",
+    "area": "Empresarial",
+    "tag": "Empresarial",
+    "date": "2026-07-01",
+    "date_display": "01/07/2026",
+    "titulo": "Recuperação Judicial, Como Funciona e Quando Pedir",
+    "subtitulo": "Entenda o que é a recuperação judicial, quem pode pedir e como ela protege a empresa em crise",
+    "descricao_seo": "Saiba como funciona a recuperação judicial para empresas em crise, quem tem direito, o processo e as consequências para credores e devedores.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "produto-com-defeito-direitos-consumidor",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-01",
+    "date_display": "01/07/2026",
+    "titulo": "Produto com Defeito, Conheça Seus Direitos como Consumidor",
+    "subtitulo": "Saiba quais são os prazos para reclamar, o que o fornecedor é obrigado a fazer e quando você pode exigir devolução do dinheiro",
+    "descricao_seo": "Entenda seus direitos quando compra um produto com defeito, prazos para reclamar, troca, reparo e devolução garantidos pelo Código de Defesa do Consumidor.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "pensao-alimenticia-como-calcular-requerer",
+    "area": "Família",
+    "tag": "Família e Divórcio",
+    "date": "2026-07-01",
+    "date_display": "01/07/2026",
+    "titulo": "Pensão Alimentícia, Como Calcular e Como Requerer",
+    "subtitulo": "Entenda os critérios que definem o valor da pensão, como pedir na Justiça e o que fazer quando o pagamento não ocorre",
+    "descricao_seo": "Saiba como funciona a pensão alimentícia, como o valor é calculado, como requerer e o que fazer em caso de inadimplência.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "crimes-contra-honra-calúnia-difamação-injúria",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-01",
+    "date_display": "01/07/2026",
+    "titulo": "Crimes Contra a Honra, Calúnia, Difamação e Injúria",
+    "subtitulo": "Entenda as diferenças entre esses crimes, as penas previstas e como agir quando você é vítima",
+    "descricao_seo": "Saiba a diferença entre calúnia, difamação e injúria, quais são as penas e como proceder quando você é vítima de crime contra a honra.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "contrato-aluguel-direitos-inquilino-proprietario",
+    "area": "Imobiliário",
+    "tag": "Imobiliário",
+    "date": "2026-07-01",
+    "date_display": "01/07/2026",
+    "titulo": "Contrato de Aluguel, Direitos do Inquilino e do Proprietário",
+    "subtitulo": "Entenda o que a lei garante para ambos os lados na relação locatícia e como resolver conflitos comuns",
+    "descricao_seo": "Saiba quais são os direitos e deveres do inquilino e do proprietário no contrato de aluguel, reajustes, despejo e reparos no imóvel.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "auxilio-doenca-inss-como-requerer-2026",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-01",
+    "date_display": "01/07/2026",
+    "titulo": "Auxílio Doença INSS, Como Requerer e Evitar Negativas",
+    "subtitulo": "Entenda os requisitos, documentos necessários e como agir quando o benefício é negado pelo INSS",
+    "descricao_seo": "Saiba como requerer o auxílio doença no INSS em 2026, quais documentos são necessários e como recorrer em caso de negativa.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "usucapiao-tipos-requisitos-como-requerer",
     "area": "Imobiliário",
     "tag": "Imobiliário",
