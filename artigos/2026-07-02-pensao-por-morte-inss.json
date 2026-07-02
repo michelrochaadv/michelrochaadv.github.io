@@ -1,0 +1,34 @@
+{
+  "slug": "pensao-por-morte-inss-quem-tem-direito",
+  "area": "Previdenciário",
+  "tag": "Previdenciário",
+  "date": "2026-07-02",
+  "date_display": "02/07/2026",
+  "data": {
+    "titulo": "Pensão por Morte INSS, Quem Tem Direito e Como Requerer",
+    "subtitulo": "Entenda os requisitos para receber a pensão por morte do INSS e como o valor é calculado para cada dependente",
+    "descricao_seo": "Saiba quem tem direito à pensão por morte pelo INSS, como requerer o benefício, prazo para pedido e como o valor é calculado em 2026.",
+    "tempo_leitura": "5 min",
+    "introducao": "A perda de um familiar que era o provedor da família traz um impacto financeiro enorme, além do sofrimento emocional. A pensão por morte do INSS existe justamente para amenizar esse impacto, mas muitas famílias perdem o benefício por não saber como solicitá-lo corretamente ou no prazo certo.",
+    "secoes": [
+      {
+        "titulo": "Quem tem direito à pensão por morte",
+        "conteudo": "A pensão por morte é devida aos dependentes do segurado do INSS que faleceu, seja ele aposentado ou ainda na ativa. Os dependentes são divididos em classes pela legislação previdenciária, sendo que a existência de dependentes de uma classe exclui o direito das classes seguintes. Na primeira classe, com prioridade absoluta, estão o cônjuge ou companheiro, os filhos menores de 21 anos ou inválidos, e os filhos com deficiência intelectual ou mental. Na segunda classe, estão os pais do falecido, e na terceira, os irmãos não emancipados menores de 21 anos ou inválidos. O cônjuge divorciado que recebia pensão alimentícia também tem direito, assim como o companheiro em união estável devidamente comprovada."
+      },
+      {
+        "titulo": "Prazo para requerer e carência",
+        "conteudo": "Um ponto crítico que muitas famílias desconhecem é que o prazo para requerer a pensão por morte impacta diretamente a data de início do pagamento. Quando o pedido é feito dentro de 90 dias do falecimento para dependentes maiores de 16 anos, o benefício é pago desde a data do óbito. Após esse prazo, o benefício passa a ser calculado apenas a partir da data do requerimento, o que pode representar uma perda financeira significativa dependendo do tempo decorrido. Em relação à carência, a pensão por morte em regra não exige contribuições mínimas, mas existem situações específicas em que um período mínimo de contribuição pode ser exigido, sendo importante verificar cada caso individualmente."
+      },
+      {
+        "titulo": "Como o valor é calculado",
+        "conteudo": "O valor da pensão por morte corresponde a um percentual do benefício que o segurado recebia ou que teria direito a receber caso estivesse aposentado por incapacidade permanente na data do falecimento. Esse percentual é calculado com base no número de dependentes e pode variar conforme as regras aplicáveis ao caso. Quanto mais dependentes houver, maior tende a ser o percentual total pago pelo INSS, até o limite máximo estabelecido. Quando o dependente perde a condição de beneficiário, por exemplo, quando um filho completa 21 anos, a quota correspondente é redistribuída entre os demais dependentes que ainda mantêm o direito."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você perdeu um familiar segurado do INSS recentemente, não deixe passar o prazo de 90 dias para requerer a pensão, pois cada dia de atraso pode representar perda de valores que não serão pagos retroativamente. Se o pedido já foi feito e foi negado, também existe possibilidade de recurso. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre o seu caso."
+      }
+    ],
+    "conclusao": "A pensão por morte é um direito previdenciário importante para proteger as famílias em um momento de grande vulnerabilidade. Agir dentro dos prazos e com orientação adequada garante que o benefício seja recebido desde a data correta e no valor justo.",
+    "palavras_chave": ["pensão por morte", "INSS", "benefício previdenciário", "dependentes", "previdência social"]
+  }
+}
