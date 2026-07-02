@@ -1,0 +1,34 @@
+{
+  "slug": "cancelamento-contrato-fornecedor-direitos",
+  "area": "Consumidor",
+  "tag": "Consumidor",
+  "date": "2026-07-02",
+  "date_display": "02/07/2026",
+  "data": {
+    "titulo": "Cancelamento de Contrato pelo Fornecedor, Seus Direitos",
+    "subtitulo": "Saiba o que você pode exigir quando uma empresa cancela seu serviço unilateralmente ou não cumpre o que foi contratado",
+    "descricao_seo": "Entenda seus direitos quando um fornecedor cancela contrato unilateralmente, cobra multas abusivas ou não entrega o serviço prometido.",
+    "tempo_leitura": "4 min",
+    "introducao": "Ter um serviço cancelado sem aviso, receber cobranças de multa por encerramento de contrato, ou descobrir que o que foi entregue não corresponde ao que foi prometido são situações que afetam milhares de consumidores. A legislação de proteção ao consumidor oferece respostas concretas para cada um desses casos.",
+    "secoes": [
+      {
+        "titulo": "Cancelamento unilateral pelo fornecedor",
+        "conteudo": "Quando um fornecedor cancela um serviço de forma unilateral, sem justificativa adequada e sem aviso prévio razoável, isso pode caracterizar descumprimento contratual e gerar direito do consumidor a indenização pelos danos causados. Isso é especialmente relevante em serviços essenciais ou em contratos de longo prazo onde o consumidor organizou sua vida ou seu negócio em função daquela relação contratual. A simples interrupção abrupta de um serviço contratado, ainda que por alegação de inadimplência, precisa seguir procedimentos específicos, e em alguns casos a empresa não pode simplesmente cortar o serviço sem antes notificar adequadamente o consumidor."
+      },
+      {
+        "titulo": "Multas por cancelamento antecipado",
+        "conteudo": "É comum que contratos de telefonia, internet, TV por assinatura e academias, por exemplo, prevejam multas quando o consumidor deseja encerrar o contrato antes do prazo de fidelização. Essas multas são válidas em determinadas situações, mas precisam ser proporcionais ao período restante do contrato e não podem ser cobradas quando o cancelamento ocorre por falha do próprio fornecedor no cumprimento do contrato. Se o consumidor cancela porque o serviço não foi prestado conforme contratado, a empresa não tem direito de cobrar multa de fidelização, e qualquer cobrança nesse sentido pode ser contestada judicialmente."
+      },
+      {
+        "titulo": "Serviço diferente do prometido",
+        "conteudo": "A publicidade e as informações prestadas no momento da venda fazem parte do contrato, e se o que foi entregue não corresponde ao que foi prometido, o consumidor tem direito à reparação. Isso vale tanto para características do produto quanto para condições do serviço, prazo de entrega, qualidade técnica e qualquer outra informação que tenha influenciado a decisão de compra. Nesses casos, o consumidor pode exigir o cumprimento forçado do que foi prometido, aceitar um produto ou serviço equivalente, ou optar pela rescisão do contrato com devolução integral dos valores pagos, sem qualquer penalidade."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você está enfrentando qualquer dessas situações com um fornecedor de serviços, o caminho começa pela documentação, guardar contratos, conversas, prints de publicidade e comprovantes de pagamento. Com esses documentos, é possível avaliar com precisão quais direitos foram violados e qual a melhor forma de buscar reparação. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha."
+      }
+    ],
+    "conclusao": "O cancelamento abusivo de contratos e o descumprimento do que foi prometido pelo fornecedor são violações ao Código de Defesa do Consumidor que geram direito concreto a reparação. Documentar bem a situação e buscar orientação jurídica são os primeiros passos para garantir esses direitos.",
+    "palavras_chave": ["cancelamento contrato", "direito do consumidor", "multa fidelização", "descumprimento contrato", "CDC"]
+  }
+}
