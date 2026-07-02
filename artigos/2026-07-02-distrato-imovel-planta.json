@@ -1,0 +1,34 @@
+{
+  "slug": "distrato-imovel-na-planta-direitos-comprador",
+  "area": "Imobiliário",
+  "tag": "Imobiliário",
+  "date": "2026-07-02",
+  "date_display": "02/07/2026",
+  "data": {
+    "titulo": "Distrato de Imóvel na Planta, Direitos do Comprador",
+    "subtitulo": "Saiba o que você pode exigir ao desistir ou quando a construtora descumpre o contrato de compra de imóvel na planta",
+    "descricao_seo": "Entenda os direitos do comprador no distrato de imóvel na planta, percentual de devolução, atraso na entrega e como agir contra a construtora.",
+    "tempo_leitura": "5 min",
+    "introducao": "Comprar um imóvel na planta envolve uma série de riscos que o comprador nem sempre tem clareza sobre como enfrentar. Seja por desistência própria ou por descumprimento da construtora, o distrato tem regras específicas que protegem o comprador.",
+    "secoes": [
+      {
+        "titulo": "Distrato por iniciativa do comprador",
+        "conteudo": "Quando o comprador decide desistir do imóvel na planta, a legislação que regula os contratos de incorporação imobiliária estabelece regras para a devolução dos valores pagos. Em contratos de imóveis em incorporações submetidas ao regime do patrimônio de afetação, a construtora pode reter um percentual do valor pago como compensação pela desistência, além de eventual comissão de corretagem. O saldo restante deve ser devolvido em parcela única em prazo determinado. Nos demais casos, as regras de retenção podem ser diferentes. É fundamental verificar o tipo de contrato e o enquadramento do empreendimento antes de calcular o valor a receber na rescisão."
+      },
+      {
+        "titulo": "Quando a construtora atrasa a entrega",
+        "conteudo": "O atraso na entrega do imóvel é uma das situações mais comuns e que mais geram conflitos judiciais no mercado imobiliário. A legislação e a jurisprudência dos tribunais superiores reconhecem que o comprador tem direito a indenização pelo período em que ficou privado do uso do imóvel que pagou. Os tribunais têm reconhecido como forma de indenização pelo período de atraso o pagamento de aluguel mensal correspondente ao imóvel adquirido, calculado como percentual sobre o valor do contrato, além da correção monetária dos valores pagos pelo período de atraso. Em casos de atraso significativo, o comprador também pode optar por rescindir o contrato com devolução integral dos valores pagos, corrigidos monetariamente, sem qualquer retenção, já que o descumprimento foi da construtora."
+      },
+      {
+        "titulo": "Vícios na construção após a entrega",
+        "conteudo": "Mesmo após receber as chaves, o comprador tem proteção legal contra vícios de construção que se manifestem posteriormente. Problemas estruturais graves, como fissuras, infiltrações de origem construtiva e defeitos em instalações elétricas e hidráulicas que não sejam resultado de mau uso, geram responsabilidade da construtora pelo prazo estabelecido em lei para cada tipo de vício. O comprador deve comunicar formalmente à construtora quando identificar esses problemas, preferencialmente por escrito, preservando o histórico da comunicação caso seja necessário buscar reparação judicial."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você está enfrentando problemas com uma construtora, seja por atraso na entrega, vícios na construção ou dificuldades no distrato, é importante buscar orientação jurídica antes de assinar qualquer termo ou aceitar qualquer proposta de acordo que a empresa apresente. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha."
+      }
+    ],
+    "conclusao": "O comprador de imóvel na planta tem direitos bem definidos tanto no caso de distrato quanto em situações de atraso ou vícios de construção. Conhecer esses direitos antes de negociar com a construtora é fundamental para não aceitar menos do que a lei garante.",
+    "palavras_chave": ["distrato imóvel", "imóvel na planta", "atraso construtora", "direito imobiliário", "rescisão contrato imóvel"]
+  }
+}
