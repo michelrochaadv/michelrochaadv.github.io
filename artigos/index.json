@@ -1,5 +1,71 @@
 [
   {
+    "slug": "pensao-por-morte-inss-quem-tem-direito",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-02",
+    "date_display": "02/07/2026",
+    "titulo": "Pensão por Morte INSS, Quem Tem Direito e Como Requerer",
+    "subtitulo": "Entenda os requisitos para receber a pensão por morte do INSS e como o valor é calculado para cada dependente",
+    "descricao_seo": "Saiba quem tem direito à pensão por morte pelo INSS, como requerer o benefício, prazo para pedido e como o valor é calculado em 2026.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "flagrante-delito-direitos-preso",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-02",
+    "date_display": "02/07/2026",
+    "titulo": "Flagrante Delito, Direitos de Quem é Preso em Flagrante",
+    "subtitulo": "Entenda o que é a prisão em flagrante, quando ela é legal e quais são os direitos garantidos ao preso",
+    "descricao_seo": "Saiba o que é prisão em flagrante, quando é legal, quais são os direitos do preso e o que fazer nas primeiras horas após a prisão.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "distrato-imovel-na-planta-direitos-comprador",
+    "area": "Imobiliário",
+    "tag": "Imobiliário",
+    "date": "2026-07-02",
+    "date_display": "02/07/2026",
+    "titulo": "Distrato de Imóvel na Planta, Direitos do Comprador",
+    "subtitulo": "Saiba o que você pode exigir ao desistir ou quando a construtora descumpre o contrato de compra de imóvel na planta",
+    "descricao_seo": "Entenda os direitos do comprador no distrato de imóvel na planta, percentual de devolução, atraso na entrega e como agir contra a construtora.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "contrato-social-alteracao-como-fazer",
+    "area": "Empresarial",
+    "tag": "Empresarial",
+    "date": "2026-07-02",
+    "date_display": "02/07/2026",
+    "titulo": "Alteração de Contrato Social, Como Fazer e Quando é Necessário",
+    "subtitulo": "Entenda em quais situações o contrato social precisa ser alterado e como fazer esse processo corretamente",
+    "descricao_seo": "Saiba quando e como alterar o contrato social de uma empresa, quais mudanças exigem registro e os cuidados necessários nesse processo.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "cancelamento-contrato-fornecedor-direitos",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-02",
+    "date_display": "02/07/2026",
+    "titulo": "Cancelamento de Contrato pelo Fornecedor, Seus Direitos",
+    "subtitulo": "Saiba o que você pode exigir quando uma empresa cancela seu serviço unilateralmente ou não cumpre o que foi contratado",
+    "descricao_seo": "Entenda seus direitos quando um fornecedor cancela contrato unilateralmente, cobra multas abusivas ou não entrega o serviço prometido.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "alienacao-parental-como-identificar-agir",
+    "area": "Família",
+    "tag": "Família e Divórcio",
+    "date": "2026-07-02",
+    "date_display": "02/07/2026",
+    "titulo": "Alienação Parental, Como Identificar e o Que Fazer",
+    "subtitulo": "Entenda o que caracteriza a alienação parental, como ela afeta os filhos e quais medidas a Justiça pode adotar",
+    "descricao_seo": "Saiba o que é alienação parental, como identificar os sinais, o que a lei prevê e quais medidas judiciais estão disponíveis para proteger os filhos.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "recuperacao-judicial-como-funciona-empresa",
     "area": "Empresarial",
     "tag": "Empresarial",
