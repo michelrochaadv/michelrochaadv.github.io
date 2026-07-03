@@ -1,5 +1,71 @@
 [
   {
+    "slug": "penhora-salario-quando-possivel-limites",
+    "area": "Empresarial",
+    "tag": "Empresarial",
+    "date": "2026-07-03",
+    "date_display": "03/07/2026",
+    "titulo": "Penhora de Salário, Quando é Possível e Quais São os Limites",
+    "subtitulo": "Entenda em quais situações o salário pode ser penhorado, quais são os limites legais e como se defender",
+    "descricao_seo": "Saiba quando o salário pode ser penhorado por dívidas, quais são os limites permitidos pela lei e como o devedor pode se proteger.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "legitima-defesa-direito-penal-quando-aplica",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-03",
+    "date_display": "03/07/2026",
+    "titulo": "Legítima Defesa, Quando Ela é Reconhecida no Direito Penal",
+    "subtitulo": "Entenda os requisitos para que a legítima defesa seja reconhecida e o que acontece quando ela é invocada de forma equivocada",
+    "descricao_seo": "Saiba quando a legítima defesa é reconhecida no direito penal brasileiro, quais são seus requisitos e como ela funciona na prática.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "inventario-judicial-extrajudicial-como-funciona",
+    "area": "Família",
+    "tag": "Família e Divórcio",
+    "date": "2026-07-03",
+    "date_display": "03/07/2026",
+    "titulo": "Inventário, Como Funciona e Qual a Diferença Entre Judicial e Extrajudicial",
+    "subtitulo": "Entenda o processo de inventário, quando é possível fazer em cartório e como evitar conflitos entre herdeiros",
+    "descricao_seo": "Saiba como funciona o inventário de bens após falecimento, diferença entre inventário judicial e extrajudicial, prazos e custos envolvidos.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "fraude-cartao-credito-direitos-consumidor",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-03",
+    "date_display": "03/07/2026",
+    "titulo": "Fraude no Cartão de Crédito, Seus Direitos e Como Agir",
+    "subtitulo": "Saiba o que fazer quando seu cartão é clonado ou usado sem autorização e quais são as obrigações do banco nesse caso",
+    "descricao_seo": "Saiba quais são seus direitos quando sofre fraude no cartão de crédito, como contestar cobranças e o que o banco é obrigado a fazer.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "condominio-inadimplencia-cobranca-taxa",
+    "area": "Imobiliário",
+    "tag": "Imobiliário",
+    "date": "2026-07-03",
+    "date_display": "03/07/2026",
+    "titulo": "Condomínio e Inadimplência, Como Funciona a Cobrança da Taxa",
+    "subtitulo": "Entenda os direitos e deveres de condôminos e síndicos em relação à taxa condominial e o que acontece quando ela não é paga",
+    "descricao_seo": "Saiba como funciona a cobrança de taxa de condomínio, o que pode acontecer com o inadimplente e quais são os direitos do condômino.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "aposentadoria-especial-atividade-insalubre",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-03",
+    "date_display": "03/07/2026",
+    "titulo": "Aposentadoria Especial, Quem Trabalha em Condições Insalubres",
+    "subtitulo": "Entenda como funciona a aposentadoria especial para quem trabalha exposto a agentes nocivos à saúde e quais os requisitos",
+    "descricao_seo": "Saiba quem tem direito à aposentadoria especial por atividade insalubre, quais agentes nocivos são reconhecidos e como requerer junto ao INSS.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "pensao-por-morte-inss-quem-tem-direito",
     "area": "Previdenciário",
     "tag": "Previdenciário",
