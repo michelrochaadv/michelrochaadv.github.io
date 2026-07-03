@@ -1,0 +1,34 @@
+{
+  "slug": "fraude-cartao-credito-direitos-consumidor",
+  "area": "Consumidor",
+  "tag": "Consumidor",
+  "date": "2026-07-03",
+  "date_display": "03/07/2026",
+  "data": {
+    "titulo": "Fraude no Cartão de Crédito, Seus Direitos e Como Agir",
+    "subtitulo": "Saiba o que fazer quando seu cartão é clonado ou usado sem autorização e quais são as obrigações do banco nesse caso",
+    "descricao_seo": "Saiba quais são seus direitos quando sofre fraude no cartão de crédito, como contestar cobranças e o que o banco é obrigado a fazer.",
+    "tempo_leitura": "4 min",
+    "introducao": "As fraudes com cartão de crédito e débito são cada vez mais sofisticadas, e muitos consumidores só descobrem que foram vítimas quando recebem a fatura com cobranças que nunca fizeram. Saber agir rapidamente e conhecer seus direitos faz toda a diferença no resultado.",
+    "secoes": [
+      {
+        "titulo": "O que fazer nas primeiras horas",
+        "conteudo": "Ao identificar uma cobrança suspeita ou não reconhecida no cartão, a primeira medida é entrar em contato com o banco ou operadora do cartão imediatamente, solicitando o bloqueio do cartão e o registro formal da contestação das cobranças não reconhecidas. Esse contato deve ser feito pelos canais oficiais da instituição, como o aplicativo, o site ou a central de atendimento, e é importante guardar o número do protocolo gerado. Quanto mais rápido for o contato, menores são os riscos de novas cobranças indevidas e maior é a chance de recuperar os valores já debitados."
+      },
+      {
+        "titulo": "Responsabilidade do banco pela fraude",
+        "conteudo": "Os bancos e operadoras de cartão respondem objetivamente pelas fraudes que ocorrem em seus sistemas, ou seja, não precisam ter agido com culpa para serem responsabilizados. Isso porque a relação entre o banco e o cliente é uma relação de consumo, e o fornecedor de serviços financeiros tem o dever de garantir a segurança das transações realizadas em seu sistema. Quando uma fraude ocorre mesmo sem qualquer descuido do consumidor, o banco tem obrigação de estornar os valores debitados indevidamente e de investigar a origem da fraude. A recusa em estornar valores de transações claramente fraudulentas, sem justificativa adequada, é uma violação dos direitos do consumidor que pode ser questionada tanto administrativamente quanto judicialmente."
+      },
+      {
+        "titulo": "Quando o banco nega o estorno",
+        "conteudo": "Se o banco nega o estorno alegando que a transação foi autenticada corretamente ou que houve negligência do consumidor, é possível contestar essa decisão por vias administrativas, como o Banco Central e os órgãos de defesa do consumidor, ou pela via judicial. Nesses casos, a produção de prova de que o consumidor não realizou a transação, combinada com análise do histórico de uso do cartão e das circunstâncias da fraude, frequentemente favorece o consumidor. Quando o banco insiste na negativa e o consumidor prova que a fraude ocorreu sem descuido de sua parte, é possível buscar além do estorno uma indenização pelo dano moral causado pela situação."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você foi vítima de fraude no cartão e o banco está se recusando a estornar os valores ou está dificultando a solução do problema, busque orientação jurídica para entender quais são as melhores formas de pressionar a instituição financeira. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha."
+      }
+    ],
+    "conclusao": "A fraude no cartão de crédito é uma situação que exige ação rápida e conhecimento dos seus direitos. O banco tem responsabilidade pela segurança do sistema e não pode simplesmente repassar ao consumidor o prejuízo causado por falhas em seus próprios mecanismos de segurança.",
+    "palavras_chave": ["fraude cartão de crédito", "clonagem cartão", "direito do consumidor", "estorno", "banco responsabilidade"]
+  }
+}
