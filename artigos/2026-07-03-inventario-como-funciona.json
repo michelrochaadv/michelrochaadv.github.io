@@ -1,0 +1,34 @@
+{
+  "slug": "inventario-judicial-extrajudicial-como-funciona",
+  "area": "Família",
+  "tag": "Família e Divórcio",
+  "date": "2026-07-03",
+  "date_display": "03/07/2026",
+  "data": {
+    "titulo": "Inventário, Como Funciona e Qual a Diferença Entre Judicial e Extrajudicial",
+    "subtitulo": "Entenda o processo de inventário, quando é possível fazer em cartório e como evitar conflitos entre herdeiros",
+    "descricao_seo": "Saiba como funciona o inventário de bens após falecimento, diferença entre inventário judicial e extrajudicial, prazos e custos envolvidos.",
+    "tempo_leitura": "5 min",
+    "introducao": "O falecimento de um familiar traz, além do luto, a necessidade de lidar com questões práticas como a partilha dos bens deixados. O inventário é o procedimento legal para isso, e entender como ele funciona ajuda a tornar esse processo menos desgastante.",
+    "secoes": [
+      {
+        "titulo": "O que é o inventário e quando é obrigatório",
+        "conteudo": "O inventário é o procedimento jurídico pelo qual os bens, direitos e dívidas de uma pessoa falecida são levantados, avaliados e transferidos formalmente aos seus herdeiros. Ele é obrigatório sempre que a pessoa falecida deixou bens a serem transferidos, como imóveis, veículos, contas bancárias, investimentos ou participações societárias. Sem o inventário, os herdeiros não conseguem transferir a titularidade desses bens para seus nomes, o que impede a venda, o uso formal ou qualquer outra disposição sobre o patrimônio herdado. A legislação estabelece um prazo para a abertura do inventário após o falecimento, e o descumprimento desse prazo pode gerar multas sobre o imposto de transmissão devido."
+      },
+      {
+        "titulo": "Inventário extrajudicial, quando é possível",
+        "conteudo": "O inventário extrajudicial, feito em cartório de notas, é uma opção mais rápida e menos custosa que o processo judicial, mas só pode ser utilizado quando algumas condições estão presentes. Todos os herdeiros precisam ser maiores e capazes, ou seja, não pode haver herdeiros menores de idade ou incapazes. Além disso, todos os herdeiros precisam estar de acordo com a partilha proposta, sem qualquer conflito ou disputa sobre os bens. A presença de um advogado é obrigatória mesmo no inventário extrajudicial, e ele pode ser o mesmo profissional representando todos os herdeiros, desde que não haja conflito de interesses entre eles."
+      },
+      {
+        "titulo": "Inventário judicial, quando é necessário",
+        "conteudo": "Quando há herdeiros menores de idade, incapazes, ou quando existe conflito entre os herdeiros sobre a partilha dos bens, o inventário precisa necessariamente ser feito pela via judicial. O processo judicial é mais demorado e costuma ter custos maiores, mas oferece ao juiz a possibilidade de intervir nos conflitos e impor uma solução quando os herdeiros não conseguem chegar a um acordo. Em situações de grande complexidade patrimonial ou de disputas sérias entre herdeiros, o acompanhamento jurídico especializado é ainda mais importante para proteger os direitos de cada parte ao longo de todo o processo."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você perdeu um familiar e precisa iniciar o processo de inventário, ou se está enfrentando conflitos com outros herdeiros sobre a partilha dos bens, buscar orientação jurídica desde o início ajuda a escolher o caminho mais adequado e a evitar erros que atrasem o processo. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha."
+      }
+    ],
+    "conclusao": "O inventário é um processo que pode ser simples e rápido quando feito em cartório, ou mais complexo quando exige intervenção judicial. Em todos os casos, ter orientação jurídica adequada garante que os direitos de todos os herdeiros sejam respeitados e que o processo corra da forma mais tranquila possível.",
+    "palavras_chave": ["inventário", "partilha de bens", "herdeiros", "direito de família", "inventário extrajudicial"]
+  }
+}
