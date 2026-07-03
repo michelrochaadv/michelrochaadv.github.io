@@ -1,0 +1,34 @@
+{
+  "slug": "legitima-defesa-direito-penal-quando-aplica",
+  "area": "Penal",
+  "tag": "Direito Penal",
+  "date": "2026-07-03",
+  "date_display": "03/07/2026",
+  "data": {
+    "titulo": "Legítima Defesa, Quando Ela é Reconhecida no Direito Penal",
+    "subtitulo": "Entenda os requisitos para que a legítima defesa seja reconhecida e o que acontece quando ela é invocada de forma equivocada",
+    "descricao_seo": "Saiba quando a legítima defesa é reconhecida no direito penal brasileiro, quais são seus requisitos e como ela funciona na prática.",
+    "tempo_leitura": "5 min",
+    "introducao": "A legítima defesa é um dos institutos mais conhecidos do direito penal, mas também um dos mais mal compreendidos. Não basta alegar que agiu em defesa própria para ser absolvido, existem requisitos específicos que precisam estar presentes para que a excludente seja reconhecida.",
+    "secoes": [
+      {
+        "titulo": "O que a lei exige para reconhecer a legítima defesa",
+        "conteudo": "Para que a legítima defesa seja reconhecida, é necessário que alguns requisitos estejam presentes de forma simultânea. O primeiro é a existência de uma agressão injusta, ou seja, uma agressão que não seja autorizada pelo direito e que coloque em risco um bem jurídico do agredido ou de terceiro. Essa agressão precisa ser atual ou iminente, o que significa que já está acontecendo ou prestes a acontecer. Não é possível alegar legítima defesa contra uma agressão que já terminou ou que ainda é apenas uma possibilidade distante no futuro. Além disso, a reação do agredido precisa ser moderada, utilizando apenas os meios necessários para repelir a agressão, e deve ser direcionada contra o próprio agressor, não contra terceiros inocentes. Quando a reação é excessiva em relação à agressão sofrida, configura o chamado excesso de legítima defesa, que pode afastar a excludente ou reduzir a pena."
+      },
+      {
+        "titulo": "Legítima defesa real e putativa",
+        "conteudo": "Existe uma distinção importante entre a legítima defesa real e a putativa. Na legítima defesa real, todos os requisitos estão de fato presentes, a agressão existe objetivamente e a reação é proporcional. Já na legítima defesa putativa, a pessoa age acreditando que está sendo agredida, mas na realidade não há agressão, ou a situação não configura os requisitos legais. Um exemplo clássico é alguém que interpreta um gesto inofensivo de outra pessoa como uma ameaça e reage de forma violenta. Essa distinção tem implicações diferentes no tratamento jurídico e pode resultar em condenação por crime culposo em vez de dolo, dependendo da análise das circunstâncias do caso."
+      },
+      {
+        "titulo": "Como a legítima defesa é avaliada no processo",
+        "conteudo": "A avaliação da legítima defesa no processo penal envolve análise cuidadosa de todas as circunstâncias do caso, incluindo o contexto em que a situação ocorreu, as características físicas dos envolvidos, os instrumentos utilizados, e os relatos de testemunhas. Provas periciais como laudos de lesão corporal e laudos de local de crime são fundamentais para demonstrar a dinâmica dos fatos. A defesa técnica tem papel essencial nesse momento, pois a forma como os fatos são apresentados ao juiz influencia diretamente o reconhecimento ou não da excludente."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você ou alguém da sua família está envolvido em uma situação em que a legítima defesa pode ser invocada, é fundamental contar com orientação jurídica especializada desde o início, ainda na fase policial, para que os fatos sejam devidamente documentados e a tese defensiva seja bem construída. Use o botão de WhatsApp abaixo para falar com o Dr. Michel Rocha."
+      }
+    ],
+    "conclusao": "A legítima defesa é uma excludente de ilicitude reconhecida pelo direito penal, mas sua aplicação depende da presença de requisitos específicos que precisam ser demonstrados com precisão no processo. Ter orientação jurídica adequada desde o início é o que garante que essa tese seja apresentada de forma tecnicamente correta.",
+    "palavras_chave": ["legítima defesa", "direito penal", "excludente de ilicitude", "processo penal", "defesa criminal"]
+  }
+}
