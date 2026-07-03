@@ -1,0 +1,34 @@
+{
+  "slug": "aposentadoria-especial-atividade-insalubre",
+  "area": "Previdenciário",
+  "tag": "Previdenciário",
+  "date": "2026-07-03",
+  "date_display": "03/07/2026",
+  "data": {
+    "titulo": "Aposentadoria Especial, Quem Trabalha em Condições Insalubres",
+    "subtitulo": "Entenda como funciona a aposentadoria especial para quem trabalha exposto a agentes nocivos à saúde e quais os requisitos",
+    "descricao_seo": "Saiba quem tem direito à aposentadoria especial por atividade insalubre, quais agentes nocivos são reconhecidos e como requerer junto ao INSS.",
+    "tempo_leitura": "5 min",
+    "introducao": "Trabalhadores que passam anos expostos a agentes químicos, físicos ou biológicos nocivos à saúde têm direito a se aposentar antes, justamente porque o desgaste causado por essas condições é maior. Mas muitos não sabem que têm esse direito ou não sabem como comprová-lo.",
+    "secoes": [
+      {
+        "titulo": "O que é a aposentadoria especial",
+        "conteudo": "A aposentadoria especial é uma modalidade previdenciária destinada a trabalhadores que exercem atividades em condições que prejudicam a saúde ou a integridade física de forma habitual e permanente. Para ter direito, o trabalhador precisa comprovar que exerceu essas atividades por um período mínimo de 15, 20 ou 25 anos, dependendo do grau de nocividade dos agentes aos quais foi exposto. Os agentes reconhecidos como geradores de direito à aposentadoria especial incluem, entre outros, ruído acima de determinados limites, exposição a agentes químicos como benzeno, amianto e outros compostos tóxicos, calor excessivo, radiação ionizante e agentes biológicos presentes em ambientes como hospitais e laboratórios."
+      },
+      {
+        "titulo": "Como comprovar a atividade especial",
+        "conteudo": "A comprovação da atividade especial é feita por meio de documentos específicos exigidos pelo INSS. O principal deles é o Perfil Profissiográfico Previdenciário, conhecido como PPP, que deve ser emitido pelo empregador e descreve as condições de trabalho, os agentes nocivos presentes no ambiente e os equipamentos de proteção utilizados. Para períodos anteriores à obrigatoriedade do PPP, eram utilizados laudos técnicos de condições ambientais de trabalho. Um ponto importante é que o uso de equipamento de proteção individual pelo trabalhador não elimina, em muitos casos, o direito à aposentadoria especial, especialmente para agentes como o ruído, cuja neutralização por EPI é tecnicamente questionada."
+      },
+      {
+        "titulo": "Conversão do tempo especial em comum",
+        "conteudo": "Mesmo quem não atingiu o tempo mínimo para a aposentadoria especial pode se beneficiar do período trabalhado em condições especiais. A legislação previdenciária permite que o tempo de atividade especial seja convertido em tempo comum, com um fator multiplicador que varia conforme o período mínimo exigido para a especial. Isso significa que anos trabalhados em condições insalubres valem mais tempo para fins de aposentadoria comum, o que pode antecipar significativamente a data em que o trabalhador pode se aposentar, mesmo que não tenha completado os anos necessários para a modalidade especial."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você trabalhou ou trabalha em condições de exposição a agentes nocivos e não sabe se tem direito à aposentadoria especial, o primeiro passo é verificar se os documentos que comprovam essa exposição estão disponíveis junto ao seu empregador ou em registros anteriores. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre o seu histórico profissional."
+      }
+    ],
+    "conclusao": "A aposentadoria especial é um direito importante para trabalhadores que sacrificam a saúde em suas atividades profissionais. Conhecer os requisitos e a forma correta de comprovar a atividade especial é fundamental para não perder esse benefício por falta de documentação adequada.",
+    "palavras_chave": ["aposentadoria especial", "atividade insalubre", "INSS", "agentes nocivos", "previdência social"]
+  }
+}
