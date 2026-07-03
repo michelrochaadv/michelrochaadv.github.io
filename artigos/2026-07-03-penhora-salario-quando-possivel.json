@@ -1,0 +1,34 @@
+{
+  "slug": "penhora-salario-quando-possivel-limites",
+  "area": "Empresarial",
+  "tag": "Empresarial",
+  "date": "2026-07-03",
+  "date_display": "03/07/2026",
+  "data": {
+    "titulo": "Penhora de Salário, Quando é Possível e Quais São os Limites",
+    "subtitulo": "Entenda em quais situações o salário pode ser penhorado, quais são os limites legais e como se defender",
+    "descricao_seo": "Saiba quando o salário pode ser penhorado por dívidas, quais são os limites permitidos pela lei e como o devedor pode se proteger.",
+    "tempo_leitura": "4 min",
+    "introducao": "A penhora de salário é um tema que gera muita dúvida, pois a regra geral é que salários são impenhoráveis, mas existem exceções importantes que muitas pessoas desconhecem e que podem impactar diretamente o sustento do devedor e de sua família.",
+    "secoes": [
+      {
+        "titulo": "A regra geral de impenhorabilidade",
+        "conteudo": "A legislação processual civil brasileira estabelece que os salários, vencimentos, proventos de aposentadoria e outras remunerações de natureza alimentar são, em regra, impenhoráveis. Isso significa que um credor comum, seja um banco, uma financeira ou um fornecedor, não pode simplesmente solicitar ao juiz que bloqueie o salário do devedor para pagamento de dívidas. Essa proteção existe porque o salário é considerado verba de natureza alimentar, essencial para o sustento do trabalhador e de sua família. A impenhorabilidade abrange não apenas o valor depositado em conta corrente quando proveniente de salário, mas também outros valores de mesma natureza que o devedor receba regularmente."
+      },
+      {
+        "titulo": "Quando o salário pode ser penhorado",
+        "conteudo": "Apesar da regra de impenhorabilidade, existem exceções expressamente previstas. A principal é a dívida de natureza alimentar, como pensão alimentícia devida a filhos ou ex-cônjuge, caso em que a penhora pode atingir até um percentual do salário líquido do devedor. Outra exceção importante, que tem sido reconhecida pelos tribunais em casos específicos, é quando o salário do devedor supera determinado patamar e a penhora não compromete o sustento básico da família, situação em que parte do excedente pode ser penhorada para pagamento de dívidas comuns. Cada caso exige análise individual das circunstâncias, do valor do salário e da natureza da dívida."
+      },
+      {
+        "titulo": "Como o devedor pode se defender",
+        "conteudo": "Quando ocorre um bloqueio indevido de valores de natureza salarial, o devedor pode apresentar ao juiz responsável pela execução uma impugnação demonstrando a origem salarial dos valores bloqueados, por meio de holerites, extratos bancários identificando a origem dos depósitos, e documentação que comprove o caráter alimentar da verba. Quando o bloqueio é reconhecido como indevido, o juiz determina a liberação imediata dos valores. É importante agir com rapidez nesses casos, pois a demora pode causar dificuldades financeiras imediatas para o devedor e sua família."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você teve o salário ou valores de natureza salarial bloqueados em execução judicial e acredita que o bloqueio é indevido, o caminho é buscar orientação jurídica imediata para apresentar a impugnação adequada. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre o seu caso."
+      }
+    ],
+    "conclusao": "O salário tem proteção legal forte contra penhoras, mas existem exceções que exigem atenção. Saber quando essa proteção se aplica e como agir rapidamente quando ocorre um bloqueio indevido é fundamental para proteger o sustento da família.",
+    "palavras_chave": ["penhora de salário", "impenhorabilidade", "execução judicial", "dívidas", "direito processual"]
+  }
+}
