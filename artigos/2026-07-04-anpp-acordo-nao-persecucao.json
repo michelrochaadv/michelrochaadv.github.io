@@ -1,0 +1,34 @@
+{
+  "slug": "anpp-acordo-nao-persecucao-penal",
+  "area": "Penal",
+  "tag": "Direito Penal",
+  "date": "2026-07-04",
+  "date_display": "04/07/2026",
+  "data": {
+    "titulo": "ANPP, O Acordo que Pode Encerrar um Processo Criminal Sem Condenação",
+    "subtitulo": "Entenda como funciona o Acordo de Não Persecução Penal, quem pode ter acesso e o que é exigido em troca",
+    "descricao_seo": "Saiba o que é o ANPP, Acordo de Não Persecução Penal, quem tem direito, como funciona e como pode encerrar um processo criminal sem condenação.",
+    "tempo_leitura": "5 min",
+    "introducao": "Desde sua introdução no sistema processual penal brasileiro, o Acordo de Não Persecução Penal se tornou uma das ferramentas mais relevantes para quem responde a processos criminais de menor potencial ofensivo. Quando bem utilizado, permite encerrar a situação sem condenação e sem ficha criminal.",
+    "secoes": [
+      {
+        "titulo": "O que é o ANPP",
+        "conteudo": "O Acordo de Não Persecução Penal é um instrumento de negociação entre o Ministério Público e o investigado ou réu, pelo qual o processo criminal pode ser suspenso e encerrado sem condenação, desde que o acordado cumpra determinadas condições estabelecidas no acordo. Na prática, funciona como uma alternativa à continuidade do processo penal, beneficiando tanto o sistema de Justiça, que reduz o volume de processos, quanto o acusado, que evita o risco de condenação e seus efeitos na vida pessoal e profissional. O acordo é firmado antes do oferecimento da denúncia pelo Ministério Público e precisa ser homologado pelo juiz, que verifica se as condições são legais e se o acordado está celebrando o acordo de forma livre e consciente."
+      },
+      {
+        "titulo": "Quem pode ter acesso ao ANPP",
+        "conteudo": "Para que o ANPP seja possível, precisam estar presentes alguns requisitos. O crime precisa ter pena mínima inferior a quatro anos e não ter sido cometido com violência ou grave ameaça à pessoa. O investigado não pode ser reincidente em crime doloso nem ter celebrado acordo de não persecução, transação penal ou suspensão condicional do processo nos últimos cinco anos. Além disso, o acordo precisa ser necessário e suficiente para a reprovação e prevenção do crime, o que significa que o Ministério Público avalia se o caso concreto comporta essa solução alternativa. A confissão formal e circunstanciada da prática do crime é uma exigência essencial para que o acordo seja celebrado."
+      },
+      {
+        "titulo": "O que o acordado precisa cumprir",
+        "conteudo": "As condições impostas no ANPP variam conforme o caso concreto e são negociadas entre o Ministério Público e a defesa. As mais comuns incluem reparação do dano causado à vítima, prestação de serviços à comunidade por determinado período, pagamento de prestação pecuniária a entidade pública ou de interesse social, renúncia voluntária a bens e direitos relacionados ao crime, e cumprimento de outras condições que o Ministério Público entenda adequadas. O descumprimento injustificado de qualquer das condições pode resultar na rescisão do acordo e no prosseguimento do processo penal normalmente."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você está sendo investigado ou já responde a um processo criminal e acredita que o ANPP pode ser uma opção para o seu caso, é fundamental ter orientação jurídica especializada para avaliar se os requisitos estão presentes e para negociar as condições do acordo de forma favorável. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha."
+      }
+    ],
+    "conclusao": "O ANPP representa uma evolução importante no sistema de Justiça Criminal brasileiro, oferecendo uma saída negociada que beneficia o acusado sem comprometer a resposta penal ao ato praticado. Saber quando e como utilizá-lo pode fazer uma diferença enorme na vida de quem enfrenta um processo criminal.",
+    "palavras_chave": ["ANPP", "acordo não persecução penal", "processo criminal", "direito penal", "acordo criminal"]
+  }
+}
