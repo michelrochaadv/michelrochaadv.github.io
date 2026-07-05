@@ -1,0 +1,34 @@
+{
+  "slug": "dissolucao-societaria-como-funciona",
+  "area": "Empresarial",
+  "tag": "Empresarial",
+  "date": "2026-07-04",
+  "date_display": "04/07/2026",
+  "data": {
+    "titulo": "Dissolução Societária, Como Encerrar uma Sociedade Corretamente",
+    "subtitulo": "Entenda as formas de encerrar uma sociedade empresarial, os direitos dos sócios e como evitar problemas futuros",
+    "descricao_seo": "Saiba como funciona a dissolução societária, quais são as formas de encerrar uma sociedade, os direitos dos sócios e os riscos de fazer errado.",
+    "tempo_leitura": "5 min",
+    "introducao": "Encerrar uma sociedade empresarial parece simples, mas envolve uma série de obrigações legais que, quando ignoradas, podem gerar responsabilidades futuras para os sócios, mesmo depois do fechamento formal da empresa.",
+    "secoes": [
+      {
+        "titulo": "Formas de dissolução societária",
+        "conteudo": "A dissolução de uma sociedade pode ocorrer de diversas formas. A mais comum é a dissolução consensual, quando todos os sócios concordam com o encerramento e chegam a um acordo sobre a partilha dos ativos e o pagamento dos passivos. Existe também a dissolução judicial, necessária quando há conflito entre os sócios sobre as condições do encerramento, quando um sócio quer sair e os demais não concordam com as condições, ou quando ocorrem situações específicas previstas no contrato social ou na lei. Há ainda casos em que a dissolução é automática, como quando o prazo determinado da sociedade se encerra sem renovação, ou quando ocorre a morte de sócio em sociedades com restrições de transferência de quotas."
+      },
+      {
+        "titulo": "O processo de liquidação",
+        "conteudo": "Após a decisão de dissolver a sociedade, inicia-se a fase de liquidação, na qual os ativos da empresa são realizados, ou seja, convertidos em dinheiro, e com esse recurso são pagos todos os credores da sociedade. Somente após o pagamento de todas as dívidas é que o saldo remanescente pode ser distribuído entre os sócios na proporção de suas participações. Um liquidante é nomeado para conduzir esse processo, que pode ser um dos próprios sócios ou um profissional externo. É fundamental que a liquidação seja conduzida corretamente, pois distribui o patrimônio entre os sócios antes de quitar as dívidas pode gerar responsabilidade pessoal dos sócios pelas obrigações não pagas."
+      },
+      {
+        "titulo": "Dissolução parcial, a saída de um sócio",
+        "conteudo": "Nem sempre o encerramento da sociedade é a única saída quando há conflito entre sócios. A dissolução parcial, que é a retirada de um ou mais sócios mantendo a empresa em funcionamento, é uma alternativa importante. Nesse caso, o sócio que sai tem direito a receber o valor de suas quotas com base no patrimônio real da empresa, calculado por meio de balanço de determinação. Quando os sócios não chegam a um acordo sobre o valor a ser pago ao sócio retirante, o caminho é a ação judicial de dissolução parcial, na qual o juiz determina a apuração do valor das quotas por perícia contábil."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você está pensando em encerrar uma sociedade ou retirar-se de uma, é fundamental buscar orientação jurídica antes de tomar qualquer medida, para garantir que o processo seja feito de forma correta e que seus direitos sejam preservados. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha."
+      }
+    ],
+    "conclusao": "A dissolução societária é um processo que exige atenção jurídica cuidadosa para proteger os interesses de todos os envolvidos e evitar responsabilidades futuras. Fazer corretamente desde o início é sempre mais barato e menos desgastante do que remediar problemas causados por um encerramento mal conduzido.",
+    "palavras_chave": ["dissolução societária", "encerrar empresa", "direito empresarial", "sócios", "liquidação empresa"]
+  }
+}
