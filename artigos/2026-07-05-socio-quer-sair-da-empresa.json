@@ -1,0 +1,34 @@
+{
+  "slug": "socio-quer-sair-da-empresa-direitos",
+  "area": "Empresarial",
+  "tag": "Empresarial",
+  "date": "2026-07-05",
+  "date_display": "05/07/2026",
+  "data": {
+    "titulo": "Sócio Quer Sair da Empresa, Quais São Seus Direitos",
+    "subtitulo": "Entenda o que o sócio retirante tem direito a receber, como é calculado o valor das quotas e o que fazer quando os sócios não chegam a um acordo",
+    "descricao_seo": "Saiba quais são os direitos do sócio que quer sair da empresa, como calcular o valor das quotas e o que fazer quando há conflito entre sócios.",
+    "tempo_leitura": "4 min",
+    "introducao": "Conflitos societários são mais comuns do que parecem e podem paralisar um negócio inteiro quando não são resolvidos corretamente. Saber quais são seus direitos como sócio retirante é o primeiro passo para sair da sociedade sem prejuízo.",
+    "secoes": [
+      {
+        "titulo": "O direito de retirada do sócio",
+        "conteudo": "Todo sócio tem o direito de se retirar da sociedade, mas as condições e os efeitos dessa saída dependem do que está previsto no contrato social e do tipo de sociedade. Em sociedades por prazo indeterminado, o sócio pode se retirar notificando os demais com antecedência razoável. Em sociedades por prazo determinado, a retirada antecipada exige justa causa ou concordância dos demais sócios. Independentemente das condições da saída, o sócio retirante tem direito a receber o valor correspondente às suas quotas, calculado com base no patrimônio real da empresa na data da retirada, não apenas pelo valor nominal registrado no contrato social."
+      },
+      {
+        "titulo": "Como é calculado o valor das quotas",
+        "conteudo": "O cálculo do valor a ser pago ao sócio retirante é feito com base em um balanço de determinação, que é um levantamento contábil específico que reflete o valor real do patrimônio da empresa naquele momento, considerando ativos, passivos, fundo de comércio e perspectivas do negócio. Esse cálculo frequentemente resulta em valor muito diferente do capital social registrado no contrato, especialmente em empresas com anos de operação e patrimônio acumulado. Quando os sócios não chegam a um acordo sobre o valor, o caminho é a ação judicial de dissolução parcial, na qual um perito contábil nomeado pelo juiz realiza o cálculo de forma independente."
+      },
+      {
+        "titulo": "Quando o conflito chega à Justiça",
+        "conteudo": "A ação de dissolução parcial de sociedade é o instrumento judicial adequado quando os sócios não conseguem resolver a saída de forma amigável. Nessa ação, o juiz determina a apuração dos haveres do sócio retirante por perícia contábil e fixa o prazo e as condições de pagamento. É possível também pedir tutela de urgência para garantir que os ativos da empresa não sejam dilapidados durante o processo. O procedimento tem previsão legal específica e é um dos mais comuns nas varas empresariais, com jurisprudência consolidada nos tribunais sobre os principais pontos de conflito."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você quer se retirar de uma sociedade e os demais sócios estão dificultando a saída ou oferecendo valores abaixo do justo, não aceite sem antes ter uma avaliação jurídica do que realmente tem direito a receber. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha."
+      }
+    ],
+    "conclusao": "O sócio que deseja sair da empresa tem direitos claros e não precisa aceitar condições desfavoráveis por falta de orientação. Conhecer o valor real das suas quotas e buscar os meios legais adequados garante uma saída justa e sem prejuízo.",
+    "palavras_chave": ["sócio sair empresa", "dissolução parcial sociedade", "direito empresarial", "quotas sociedade", "conflito societário"]
+  }
+}
