@@ -1,5 +1,71 @@
 [
   {
+    "slug": "socio-quer-sair-da-empresa-direitos",
+    "area": "Empresarial",
+    "tag": "Empresarial",
+    "date": "2026-07-05",
+    "date_display": "05/07/2026",
+    "titulo": "Sócio Quer Sair da Empresa, Quais São Seus Direitos",
+    "subtitulo": "Entenda o que o sócio retirante tem direito a receber, como é calculado o valor das quotas e o que fazer quando os sócios não chegam a um acordo",
+    "descricao_seo": "Saiba quais são os direitos do sócio que quer sair da empresa, como calcular o valor das quotas e o que fazer quando há conflito entre sócios.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "preso-em-flagrante-o-que-fazer-agora",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-05",
+    "date_display": "05/07/2026",
+    "titulo": "Familiar Preso em Flagrante, O Que Fazer Agora",
+    "subtitulo": "Guia prático para as primeiras horas após a prisão em flagrante de um familiar ou amigo",
+    "descricao_seo": "Familiar preso em flagrante em Salvador ou Bahia? Saiba o que fazer nas primeiras horas, quais direitos garantir e como contratar um advogado criminal urgente.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "inss-negou-beneficio-o-que-fazer",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-05",
+    "date_display": "05/07/2026",
+    "titulo": "INSS Negou Seu Benefício, O Que Fazer Agora",
+    "subtitulo": "Entenda por que o INSS nega benefícios, quais recursos estão disponíveis e como reverter a decisão pela via judicial",
+    "descricao_seo": "INSS negou aposentadoria, auxílio doença ou BPC? Saiba o que fazer, como recorrer e quando acionar a Justiça para garantir seu benefício.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "divorcio-litigioso-como-funciona",
+    "area": "Família",
+    "tag": "Família e Divórcio",
+    "date": "2026-07-05",
+    "date_display": "05/07/2026",
+    "titulo": "Divórcio Litigioso, Como Funciona Quando Não Há Acordo",
+    "subtitulo": "Entenda o processo de divórcio quando o casal não chega a um acordo sobre bens, guarda ou pensão e o que esperar de cada etapa",
+    "descricao_seo": "Saiba como funciona o divórcio litigioso quando não há acordo, quais são as etapas do processo, quanto tempo leva e como proteger seus direitos.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "comprei-imovel-com-divida-o-que-fazer",
+    "area": "Imobiliário",
+    "tag": "Imobiliário",
+    "date": "2026-07-05",
+    "date_display": "05/07/2026",
+    "titulo": "Comprei um Imóvel com Dívida, O Que Fazer Agora",
+    "subtitulo": "Saiba o que acontece quando o imóvel comprado tinha dívidas ocultas e quais são seus direitos contra o vendedor",
+    "descricao_seo": "Comprou imóvel com dívida de IPTU, condomínio ou hipoteca escondida? Saiba seus direitos, como agir contra o vendedor e como se proteger.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "banco-cobrou-indevido-o-que-fazer",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-05",
+    "date_display": "05/07/2026",
+    "titulo": "Banco Cobrou Valor Indevido, O Que Fazer Para Recuperar",
+    "subtitulo": "Saiba como agir quando o banco faz cobranças irregulares, desconta valores sem autorização ou aplica tarifas abusivas",
+    "descricao_seo": "Banco cobrou valor indevido, descontou sem autorização ou aplicou tarifa abusiva? Saiba como recuperar o dinheiro e seus direitos contra o banco.",
+    "tempo_leitura": "4 min"
+  },
+  {
     "slug": "uniao-estavel-direitos-deveres",
     "area": "Família",
     "tag": "Família e Divórcio",
@@ -8,6 +74,17 @@
     "titulo": "União Estável, Direitos, Deveres e Como Reconhecer",
     "subtitulo": "Entenda o que caracteriza a união estável, quais direitos ela garante e como regularizar a situação juridicamente",
     "descricao_seo": "Saiba o que é união estável, como é reconhecida pela lei, quais são os direitos do casal e como regularizar a situação no cartório ou na Justiça.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "revisao-vida-toda-inss-como-funciona",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-04",
+    "date_display": "04/07/2026",
+    "titulo": "Revisão da Vida Toda, Como Funciona e Quem Pode Pedir",
+    "subtitulo": "Entenda essa tese previdenciária que pode aumentar o valor da aposentadoria de quem contribuiu antes de 1994",
+    "descricao_seo": "Saiba o que é a Revisão da Vida Toda do INSS, quem tem direito, como funciona o cálculo e como solicitar a revisão da aposentadoria.",
     "tempo_leitura": "5 min"
   },
   {
