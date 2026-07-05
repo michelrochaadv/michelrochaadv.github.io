@@ -1,0 +1,34 @@
+{
+  "slug": "juros-abusivos-emprestimo-como-contestar",
+  "area": "Consumidor",
+  "tag": "Consumidor",
+  "date": "2026-07-04",
+  "date_display": "04/07/2026",
+  "data": {
+    "titulo": "Juros Abusivos em Empréstimo, Como Identificar e Contestar",
+    "subtitulo": "Saiba quando os juros cobrados em empréstimos e financiamentos são abusivos e como o consumidor pode contestar essas cobranças",
+    "descricao_seo": "Entenda como identificar juros abusivos em empréstimos e financiamentos, quando é possível contestar e quais são os direitos do consumidor.",
+    "tempo_leitura": "5 min",
+    "introducao": "O Brasil tem uma das maiores taxas de juros do mundo para crédito pessoal e cartão de crédito. Mas nem toda cobrança elevada é necessariamente ilegal. Saber distinguir o que é abusivo do que é apenas caro é o primeiro passo para agir.",
+    "secoes": [
+      {
+        "titulo": "O que torna um juro abusivo",
+        "conteudo": "A definição de juro abusivo no direito do consumidor não está vinculada a um percentual fixo acima do qual a cobrança é automaticamente ilegal. O conceito é mais amplo e envolve a análise das circunstâncias do contrato, do tipo de operação financeira e do equilíbrio da relação contratual. Na prática, os tribunais brasileiros têm considerado abusivos os juros que se distanciam significativamente da taxa média de mercado praticada para operações similares, especialmente quando essa distância é desproporcional e não tem justificativa plausível nas condições do contrato. Contratos que combinam juros elevados com outras cobranças como seguros obrigatórios, tarifas e comissões que encarecem ainda mais o crédito têm maior probabilidade de conter elementos abusivos contestáveis."
+      },
+      {
+        "titulo": "Crédito consignado e suas particularidades",
+        "conteudo": "O crédito consignado, muito comum entre aposentados, pensionistas e servidores públicos, merece atenção especial. Por ser descontado diretamente da folha de pagamento ou do benefício previdenciário, tem taxas menores que o crédito pessoal comum, mas ainda assim existem casos de contratos com cobranças irregulares, como a contratação de seguros sem o conhecimento do beneficiário, taxas efetivas superiores às contratadas, e até contratos firmados por golpistas usando dados de terceiros. Qualquer dessas situações pode ser contestada judicialmente, com direito à revisão do contrato e à restituição de valores pagos a mais."
+      },
+      {
+        "titulo": "Como identificar e o que fazer",
+        "conteudo": "O primeiro passo para avaliar se há abusividade é solicitar ao banco ou financeira o extrato completo do contrato, com a Custo Efetivo Total, conhecido como CET, que representa o custo real do crédito incluindo todas as tarifas e encargos. Esse documento é obrigatório e deve ser fornecido pela instituição financeira. Com o CET em mãos, é possível comparar com as taxas médias divulgadas pelo Banco Central para operações similares. Quando a diferença é expressiva e sem justificativa plausível, há indícios de abusividade que podem ser levados à Justiça para revisão contratual e restituição dos valores pagos a mais."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você tem um empréstimo ou financiamento e suspeita que os juros cobrados estão acima do razoável, o caminho começa pela análise do contrato e do extrato de pagamentos. Guarde todos os documentos relacionados ao contrato e use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre o seu caso."
+      }
+    ],
+    "conclusao": "Identificar juros abusivos exige análise técnica do contrato e comparação com os parâmetros de mercado. Quando a abusividade é confirmada, a revisão judicial pode resultar em redução das parcelas futuras e restituição de valores já pagos a mais.",
+    "palavras_chave": ["juros abusivos", "empréstimo", "financiamento", "direito do consumidor", "revisão contratual"]
+  }
+}
