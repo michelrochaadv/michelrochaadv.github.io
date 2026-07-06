@@ -1,0 +1,34 @@
+{
+  "slug": "perdi-prazo-recurso-o-que-fazer",
+  "area": "Penal",
+  "tag": "Direito Penal",
+  "date": "2026-07-06",
+  "date_display": "06/07/2026",
+  "data": {
+    "titulo": "Fui Condenado e Perdi o Prazo de Recurso, Ainda Tenho Saída",
+    "subtitulo": "Entenda o que fazer quando o prazo recursal passou e quais instrumentos jurídicos ainda estão disponíveis após a condenação",
+    "descricao_seo": "Condenado criminalmente e perdeu o prazo de recurso? Saiba quais instrumentos jurídicos ainda estão disponíveis e como buscar revisão da sentença.",
+    "tempo_leitura": "4 min",
+    "introducao": "Uma condenação criminal com prazo de recurso perdido não significa necessariamente o fim das possibilidades jurídicas. Existem instrumentos específicos para situações em que a defesa falhou ou em que surgiram fatos novos após o trânsito em julgado.",
+    "secoes": [
+      {
+        "titulo": "Revisão criminal",
+        "conteudo": "A revisão criminal é uma ação que pode ser proposta a qualquer tempo, mesmo após o trânsito em julgado da condenação, quando há fundamento específico para questionar a sentença. Os casos mais comuns são quando surge prova nova que não existia ou não foi conhecida durante o processo e que seria capaz de absolver o condenado, quando a sentença foi baseada em depoimento falso de testemunha posteriormente condenada por falso testemunho, ou quando a decisão contraria expressamente texto de lei. A revisão é julgada pelo tribunal superior ao que proferiu a condenação e pode resultar em absolvição, redução da pena ou novo julgamento."
+      },
+      {
+        "titulo": "Habeas corpus mesmo após condenação",
+        "conteudo": "O habeas corpus pode ser impetrado mesmo após o trânsito em julgado da condenação em situações específicas que envolvam ilegalidade flagrante na execução da pena. Quando a pena está sendo cumprida de forma mais grave do que a sentença determina, quando há erro no cálculo da pena que resulta em cumprimento maior do que o devido, ou quando surgiram direitos durante a execução que estão sendo negados ilegalmente, o habeas corpus é o instrumento adequado para corrigir essas situações mesmo depois da condenação definitiva."
+      },
+      {
+        "titulo": "Responsabilidade do advogado que perdeu o prazo",
+        "conteudo": "Quando o prazo recursal foi perdido por negligência do advogado que atuava no caso, além dos instrumentos jurídicos disponíveis para tentar reverter a condenação, existe também a possibilidade de responsabilizar civilmente o profissional pelo dano causado. A perda de uma chance recursal por falha do advogado é reconhecida pelos tribunais como hipótese de responsabilidade civil, gerando obrigação de indenizar o cliente pelos prejuízos causados pela omissão."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você ou um familiar foi condenado e o prazo de recurso passou sem que a defesa fosse apresentada ou sem resultado satisfatório, ainda existem possibilidades jurídicas a serem exploradas. Use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre o seu caso com urgência."
+      }
+    ],
+    "conclusao": "Uma condenação com prazo perdido não é necessariamente definitiva. A revisão criminal e outros instrumentos processuais podem abrir caminho para uma segunda chance, especialmente quando surgem elementos novos ou quando houve falha na defesa anterior.",
+    "palavras_chave": ["condenado perdeu prazo recurso", "revisão criminal", "habeas corpus após condenação", "advogado criminal", "processo penal"]
+  }
+}
