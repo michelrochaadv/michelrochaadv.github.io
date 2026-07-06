@@ -1,5 +1,71 @@
 [
   {
+    "slug": "preso-preventivo-ha-muito-tempo-o-que-fazer",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-06",
+    "date_display": "06/07/2026",
+    "titulo": "Preso Preventivamente Há Muito Tempo Sem Julgamento",
+    "subtitulo": "Entenda quando a prisão preventiva prolongada é ilegal e quais instrumentos jurídicos podem garantir a liberdade",
+    "descricao_seo": "Familiar preso preventivamente há meses sem julgamento? Saiba quando a prisão é ilegal e como pedir liberdade pelo habeas corpus.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "perdi-prazo-recurso-o-que-fazer",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-06",
+    "date_display": "06/07/2026",
+    "titulo": "Fui Condenado e Perdi o Prazo de Recurso, Ainda Tenho Saída",
+    "subtitulo": "Entenda o que fazer quando o prazo recursal passou e quais instrumentos jurídicos ainda estão disponíveis após a condenação",
+    "descricao_seo": "Condenado criminalmente e perdeu o prazo de recurso? Saiba quais instrumentos jurídicos ainda estão disponíveis e como buscar revisão da sentença.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "nome-sujo-sem-dever-como-limpar",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-06",
+    "date_display": "06/07/2026",
+    "titulo": "Nome Sujo Sem Dever, Como Limpar e Ser Indenizado",
+    "subtitulo": "Saiba o que fazer quando seu nome está no SPC ou Serasa por uma dívida que não existe ou já foi paga",
+    "descricao_seo": "Nome sujo sem dever no SPC ou Serasa? Saiba como limpar, quem é responsável e como receber indenização por negativação indevida.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "fui-demitido-sem-justa-causa-direitos",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-06",
+    "date_display": "06/07/2026",
+    "titulo": "Fui Demitido Sem Justa Causa, Quais São Meus Direitos",
+    "subtitulo": "Entenda o que você tem direito a receber na demissão sem justa causa e como identificar quando a empresa não pagou corretamente",
+    "descricao_seo": "Demitido sem justa causa? Saiba quais verbas rescisórias você tem direito, como calcular e o que fazer quando a empresa não paga corretamente.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "empresa-nao-cumpriu-contrato-o-que-fazer",
+    "area": "Empresarial",
+    "tag": "Empresarial",
+    "date": "2026-07-06",
+    "date_display": "06/07/2026",
+    "titulo": "Empresa Não Cumpriu o Contrato, O Que Fazer Para Ser Indenizado",
+    "subtitulo": "Saiba quais são seus direitos quando a outra parte descumpre um contrato empresarial e como buscar reparação",
+    "descricao_seo": "Empresa não cumpriu contrato? Saiba quais são seus direitos, como calcular prejuízos e como buscar indenização pela via judicial ou extrajudicial.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "aposentadoria-rural-como-comprovar-atividade",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-06",
+    "date_display": "06/07/2026",
+    "titulo": "Aposentadoria Rural, Como Comprovar a Atividade e Conseguir o Benefício",
+    "subtitulo": "Entenda quais documentos comprovam o trabalho rural para o INSS e como agir quando a documentação é escassa",
+    "descricao_seo": "Saiba como comprovar atividade rural para aposentadoria no INSS, quais documentos são aceitos e como conseguir o benefício mesmo sem carteira assinada.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "socio-quer-sair-da-empresa-direitos",
     "area": "Empresarial",
     "tag": "Empresarial",
