@@ -1,0 +1,34 @@
+{
+  "slug": "fui-demitido-sem-justa-causa-direitos",
+  "area": "Consumidor",
+  "tag": "Consumidor",
+  "date": "2026-07-06",
+  "date_display": "06/07/2026",
+  "data": {
+    "titulo": "Fui Demitido Sem Justa Causa, Quais São Meus Direitos",
+    "subtitulo": "Entenda o que você tem direito a receber na demissão sem justa causa e como identificar quando a empresa não pagou corretamente",
+    "descricao_seo": "Demitido sem justa causa? Saiba quais verbas rescisórias você tem direito, como calcular e o que fazer quando a empresa não paga corretamente.",
+    "tempo_leitura": "5 min",
+    "introducao": "A demissão sem justa causa é uma das situações mais comuns na vida do trabalhador brasileiro, mas poucos sabem exatamente o que têm direito a receber. Conhecer cada verba rescisória é fundamental para não aceitar um acerto incompleto.",
+    "secoes": [
+      {
+        "titulo": "O que você tem direito a receber",
+        "conteudo": "Na demissão sem justa causa, o trabalhador tem direito a um conjunto de verbas rescisórias que precisam ser pagas dentro do prazo legal. Entre elas estão o saldo de salário dos dias trabalhados no mês da demissão, as férias vencidas e proporcionais acrescidas de um terço, o décimo terceiro salário proporcional aos meses trabalhados no ano, o aviso prévio, que pode ser trabalhado ou indenizado, e a multa de quarenta por cento sobre o saldo do FGTS. Além disso, o trabalhador tem direito ao saque do FGTS e, dependendo do tempo de trabalho e das condições, ao seguro desemprego. O não pagamento de qualquer dessas verbas no prazo correto gera multa adicional para a empresa."
+      },
+      {
+        "titulo": "Como identificar se o acerto está errado",
+        "conteudo": "Muitos trabalhadores assinam o termo de rescisão sem conferir se os valores estão corretos. Os erros mais comuns incluem férias calculadas sem o adicional de um terço, décimo terceiro calculado sobre salário base sem incluir outras verbas habituais como comissões e horas extras, aviso prévio indenizado calculado em valor menor do que o devido, FGTS depositado em valor menor ao longo do contrato, e multa do FGTS calculada sobre saldo incorreto. Guardar todos os contracheques, extratos do FGTS e documentos do contrato é essencial para fazer essa conferência."
+      },
+      {
+        "titulo": "Prazo para contestar e buscar direitos",
+        "conteudo": "O prazo para reclamar direitos trabalhistas na Justiça do Trabalho é de dois anos a partir da data da demissão, com possibilidade de cobrar os últimos cinco anos do contrato. Isso significa que, mesmo que a demissão tenha ocorrido há algum tempo, ainda pode ser possível buscar verbas que não foram pagas corretamente. A ação trabalhista pode ser ajuizada pelo próprio trabalhador ou com assistência de advogado, e o sindicato da categoria também pode oferecer suporte nesses casos."
+      },
+      {
+        "titulo": "O que fazer agora",
+        "conteudo": "Se você foi demitido recentemente ou há algum tempo e tem dúvidas sobre se recebeu tudo que tinha direito, reúna os documentos do contrato e use o botão de WhatsApp abaixo para conversar com o Dr. Michel Rocha sobre o seu caso."
+      }
+    ],
+    "conclusao": "A demissão sem justa causa garante ao trabalhador um conjunto de direitos que precisam ser pagos corretamente e no prazo. Conferir cada verba antes de assinar o termo de rescisão e buscar orientação quando houver dúvida é o caminho para não deixar dinheiro na mesa.",
+    "palavras_chave": ["demitido sem justa causa", "verbas rescisórias", "direitos trabalhistas", "FGTS", "advogado trabalhista"]
+  }
+}
