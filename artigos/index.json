@@ -1,5 +1,71 @@
 [
   {
+    "slug": "recebi-intimacao-policial-o-que-significa",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-10",
+    "date_display": "10/07/2026",
+    "titulo": "Recebi uma Intimação Policial, O Que Significa e O Que Fazer",
+    "subtitulo": "Entenda o que é uma intimação policial, quais são as consequências de ignorá-la e por que buscar orientação jurídica antes de qualquer resposta",
+    "descricao_seo": "Recebeu intimação policial em Salvador ou Bahia? Saiba o que significa, se é obrigado a comparecer e o que fazer para proteger seus direitos.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "fui-indiciado-em-inquerito-policial-o-que-fazer",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-10",
+    "date_display": "10/07/2026",
+    "titulo": "Fui Indiciado em Inquérito Policial, O Que Isso Significa",
+    "subtitulo": "Entenda o que é o indiciamento, o que acontece depois e por que agir antes do oferecimento da denúncia é fundamental",
+    "descricao_seo": "Foi indiciado em inquérito policial em Salvador ou Bahia? Saiba o que significa, o que vem depois e como um advogado pode agir antes da denúncia.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "fui-chamado-para-depor-na-delegacia-o-que-fazer",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-10",
+    "date_display": "10/07/2026",
+    "titulo": "Fui Chamado Para Depor na Delegacia, O Que Fazer",
+    "subtitulo": "Entenda a diferença entre ser testemunha e ser investigado, seus direitos antes de qualquer depoimento e por que ir sozinho é arriscado",
+    "descricao_seo": "Chamado para depor na delegacia em Salvador? Saiba a diferença entre testemunha e investigado, seus direitos e por que ir acompanhado de advogado é fundamental.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "familiar-preso-como-visitar-e-ajudar",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-10",
+    "date_display": "10/07/2026",
+    "titulo": "Familiar Preso, Como Visitar e O Que Fazer Para Ajudar",
+    "subtitulo": "Guia prático para familiares de presos sobre visitas, direitos durante a detenção e como contribuir para a defesa",
+    "descricao_seo": "Familiar preso em Salvador ou Bahia? Saiba como funciona a visita, quais são os direitos do preso e como a família pode contribuir para a defesa.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "busca-e-apreensao-na-minha-casa-o-que-fazer",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-10",
+    "date_display": "10/07/2026",
+    "titulo": "Fizeram Busca e Apreensão na Minha Casa, O Que Fazer",
+    "subtitulo": "Entenda seus direitos durante uma busca e apreensão, o que a polícia pode e não pode fazer e como agir para proteger seus direitos",
+    "descricao_seo": "Polícia fez busca e apreensão na sua casa em Salvador ou Bahia? Saiba seus direitos, o que verificar no mandado e como um advogado pode agir imediatamente.",
+    "tempo_leitura": "4 min"
+  },
+  {
+    "slug": "audiencia-de-custodia-o-que-e-como-funciona",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-10",
+    "date_display": "10/07/2026",
+    "titulo": "Audiência de Custódia, O Que É e Como Pode Definir a Liberdade",
+    "subtitulo": "Entenda o que acontece nas primeiras 24 horas após uma prisão e por que essa audiência é o momento mais crítico do processo",
+    "descricao_seo": "O que é audiência de custódia, como funciona, o que o juiz decide e por que ter advogado especializado nesse momento é fundamental para buscar a liberdade.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "servidor-publico-endividado-consignado-o-que-fazer",
     "area": "Consumidor",
     "tag": "Consumidor",
