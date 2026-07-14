@@ -4,6 +4,7 @@ from datetime import datetime
 
 GITHUB_USERNAME = "michelrochaadv"
 WA_NUMBER = "5571981758097"
+ADSENSE = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7466469886799127" crossorigin="anonymous"></script>'
 WA_MSG_DEFAULT = "Olá, Dr. Michel! Vim pelo blog e gostaria de falar com um advogado."
 
 def wa_link(msg=None):
@@ -40,6 +41,7 @@ def build_article_page(article: dict) -> str:
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{ADSENSE}
 <title>{d['titulo']} | Michel Rocha Advocacia</title>
 <meta name="description" content="{d['descricao_seo']}">
 <meta name="keywords" content="{kw_str}">
@@ -167,6 +169,12 @@ def build_sitemap():
             index = json.load(f)
         for a in index:
             urls.append(f"https://{GITHUB_USERNAME}.github.io/artigo/{a['slug']}.html")
+
+    for folder in ("categoria", "cidade"):
+        if os.path.isdir(folder):
+            for fname in sorted(os.listdir(folder)):
+                if fname.endswith(".html"):
+                    urls.append(f"https://{GITHUB_USERNAME}.github.io/{folder}/{fname}")
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
