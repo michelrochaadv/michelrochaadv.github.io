@@ -170,7 +170,7 @@ def build_sitemap():
         for a in index:
             urls.append(f"https://{GITHUB_USERNAME}.github.io/artigo/{a['slug']}.html")
 
-    for folder in ("categoria", "cidade"):
+    for folder in ("categoria", "cidade", "criminalista"):
         if os.path.isdir(folder):
             for fname in sorted(os.listdir(folder)):
                 if fname.endswith(".html"):
