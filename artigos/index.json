@@ -1,5 +1,71 @@
 [
   {
+    "slug": "voo-cancelado-sem-aviso-indenizacao",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-14",
+    "date_display": "14/07/2026",
+    "titulo": "Voo Cancelado Sem Aviso, Quando Cabe Indenização",
+    "subtitulo": "Entenda os direitos do passageiro diante do cancelamento de voo e o que a companhia aérea é obrigada a oferecer",
+    "descricao_seo": "Voo cancelado sem aviso? Conheça seus direitos como passageiro, o que a companhia aérea deve oferecer e quando cabe indenização por danos morais.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "tornozeleira-eletronica-regras-e-riscos",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-14",
+    "date_display": "14/07/2026",
+    "titulo": "Tornozeleira Eletrônica, Regras, Violações e Riscos",
+    "subtitulo": "Entenda como funciona a monitoração eletrônica, o que pode levar de volta à prisão e por que a defesa técnica é decisiva",
+    "descricao_seo": "Tornozeleira eletrônica: regras de uso, o que acontece em caso de violação e como a defesa pode agir para preservar a liberdade do monitorado.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "plano-de-saude-negou-internacao-uti",
+    "area": "Consumidor",
+    "tag": "Plano de Saúde",
+    "date": "2026-07-14",
+    "date_display": "14/07/2026",
+    "titulo": "Plano de Saúde Negou Internação na UTI, Como Agir Agora",
+    "subtitulo": "Entenda por que a negativa de UTI em situação grave pode ser abusiva e como funciona a ação judicial de urgência",
+    "descricao_seo": "Plano de saúde negou UTI? Saiba quando a negativa é abusiva, como funciona a liminar de urgência e por que cada hora conta nesses casos.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "pensao-alimenticia-atrasada-como-cobrar",
+    "area": "Família",
+    "tag": "Família",
+    "date": "2026-07-14",
+    "date_display": "14/07/2026",
+    "titulo": "Pensão Alimentícia Atrasada, Como Cobrar e Quais os Riscos",
+    "subtitulo": "Entenda os caminhos legais para cobrar pensão em atraso, incluindo penhora, negativação e a prisão do devedor",
+    "descricao_seo": "Pensão alimentícia atrasada? Conheça os meios de cobrança, quando cabe prisão do devedor e por que a estratégia certa acelera o recebimento.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "inss-negou-auxilio-por-incapacidade",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-14",
+    "date_display": "14/07/2026",
+    "titulo": "INSS Negou Auxílio por Incapacidade, O Que Fazer Agora",
+    "subtitulo": "Entenda por que tantos pedidos são negados na perícia e quais caminhos existem para reverter a decisão do INSS",
+    "descricao_seo": "INSS negou seu auxílio-doença? Saiba por que a perícia indefere tantos pedidos, como recorrer e quando a via judicial é o melhor caminho.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "conta-de-luz-alta-cobranca-indevida",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-14",
+    "date_display": "14/07/2026",
+    "titulo": "Conta de Luz Muito Alta, Cobrança Indevida e Seus Direitos",
+    "subtitulo": "Entenda o que pode estar por trás de uma conta de energia fora do padrão e como contestar cobranças indevidas na Bahia",
+    "descricao_seo": "Conta de luz veio absurda? Saiba como contestar cobrança indevida de energia, o que fazer diante de ameaça de corte e quando cabe indenização.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "plano-de-saude-negou-exame-como-contestar",
     "area": "Consumidor",
     "tag": "Plano de Saúde",
