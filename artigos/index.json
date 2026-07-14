@@ -1,5 +1,71 @@
 [
   {
+    "slug": "preso-em-flagrante-abordagem-policial",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-15",
+    "date_display": "15/07/2026",
+    "titulo": "Preso em Flagrante em Abordagem Policial, E Agora?",
+    "subtitulo": "Entenda o que acontece nas primeiras horas após a prisão e por que a defesa imediata na custódia é decisiva",
+    "descricao_seo": "Familiar preso em flagrante numa abordagem policial? Saiba o que acontece nas primeiras 24 horas e por que a atuação imediata do advogado é decisiva.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "plano-de-saude-negou-home-care",
+    "area": "Consumidor",
+    "tag": "Plano de Saúde",
+    "date": "2026-07-15",
+    "date_display": "15/07/2026",
+    "titulo": "Plano de Saúde Negou Home Care, Saiba Como Reverter",
+    "subtitulo": "Entenda quando a negativa de atendimento domiciliar é abusiva e como garantir o tratamento indicado pelo médico",
+    "descricao_seo": "Plano de saúde negou home care? Saiba quando a recusa de atendimento domiciliar é abusiva e como a via judicial pode garantir o tratamento em casa.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "imovel-na-planta-obra-atrasada-direitos",
+    "area": "Imobiliário",
+    "tag": "Imobiliário",
+    "date": "2026-07-15",
+    "date_display": "15/07/2026",
+    "titulo": "Imóvel na Planta com Obra Atrasada, Conheça Seus Direitos",
+    "subtitulo": "Entenda o que fazer quando a construtora atrasa a entrega, as indenizações possíveis e quando cabe rescindir",
+    "descricao_seo": "Construtora atrasou a entrega do seu imóvel na planta? Saiba quais indenizações são possíveis, como funciona a multa e quando cabe rescindir o contrato.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "conta-de-agua-errada-cobranca-indevida",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-15",
+    "date_display": "15/07/2026",
+    "titulo": "Conta de Água Errada, Como Contestar Cobrança Indevida",
+    "subtitulo": "Entenda o que fazer quando a conta de água vem fora da realidade e seus direitos diante da ameaça de corte",
+    "descricao_seo": "Conta de água veio absurda? Saiba como contestar cobrança indevida, o que fazer diante de vazamento oculto e quando o corte de água é ilegal.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "bpc-loas-negado-o-que-fazer",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-15",
+    "date_display": "15/07/2026",
+    "titulo": "BPC LOAS Negado, O Que Fazer Para Reverter a Decisão",
+    "subtitulo": "Entenda por que o benefício ao idoso e à pessoa com deficiência é tão negado e como reverter a decisão",
+    "descricao_seo": "BPC LOAS negado pelo INSS? Entenda os motivos mais comuns da negativa, como funciona a análise de renda e deficiência e como reverter a decisão.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "bagagem-extraviada-direitos-e-indenizacao",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-15",
+    "date_display": "15/07/2026",
+    "titulo": "Bagagem Extraviada, Seus Direitos e Como Ser Indenizado",
+    "subtitulo": "Entenda o que a companhia aérea deve fazer quando sua mala some, os prazos que correm e quando cabe indenização",
+    "descricao_seo": "Bagagem extraviada pela companhia aérea? Conheça seus direitos, os prazos para reclamar e quando cabe indenização por danos materiais e morais.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "voo-cancelado-sem-aviso-indenizacao",
     "area": "Consumidor",
     "tag": "Consumidor",
