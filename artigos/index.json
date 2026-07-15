@@ -1,5 +1,71 @@
 [
   {
+    "slug": "progressao-de-regime-quando-o-preso-tem-direito",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-16",
+    "date_display": "16/07/2026",
+    "titulo": "Progressão de Regime, Quando o Preso Tem Direito",
+    "subtitulo": "Entenda os requisitos da progressão, por que o benefício demora e como a defesa pode acelerar a análise do pedido",
+    "descricao_seo": "Progressão de regime: entenda os requisitos, por que o pedido demora tanto e como a atuação do advogado na execução penal faz diferença.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "plano-de-saude-negou-tratamento-de-cancer",
+    "area": "Consumidor",
+    "tag": "Plano de Saúde",
+    "date": "2026-07-16",
+    "date_display": "16/07/2026",
+    "titulo": "Plano de Saúde Negou Tratamento de Câncer, Como Agir",
+    "subtitulo": "Entenda por que negativas em oncologia costumam ser abusivas e como a Justiça pode garantir o tratamento com urgência",
+    "descricao_seo": "Plano de saúde negou quimioterapia, radioterapia ou medicamento oncológico? Saiba por que a negativa costuma ser abusiva e como agir com urgência.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "inss-cortou-beneficio-apos-revisao-o-que-fazer",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-16",
+    "date_display": "16/07/2026",
+    "titulo": "INSS Cortou Seu Benefício Após Revisão, O Que Fazer",
+    "subtitulo": "Entenda por que benefícios são cortados no pente-fino, quais os seus direitos e como agir para restabelecer o pagamento",
+    "descricao_seo": "INSS cortou seu benefício após revisão ou pente-fino? Saiba por que isso acontece, quais os seus direitos e como buscar o restabelecimento.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "inquilino-nao-paga-aluguel-como-funciona-o-despejo",
+    "area": "Imobiliário",
+    "tag": "Imobiliário",
+    "date": "2026-07-16",
+    "date_display": "16/07/2026",
+    "titulo": "Inquilino Não Paga o Aluguel, Como Funciona o Despejo",
+    "subtitulo": "Entenda os caminhos legais do proprietário, os prazos da ação de despejo e como cobrar os aluguéis atrasados",
+    "descricao_seo": "Inquilino não paga o aluguel? Entenda como funciona a ação de despejo, a liminar de desocupação e a cobrança dos valores em atraso.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "ex-nao-deixa-ver-os-filhos-o-que-fazer",
+    "area": "Família",
+    "tag": "Família",
+    "date": "2026-07-16",
+    "date_display": "16/07/2026",
+    "titulo": "Ex Não Deixa Ver os Filhos, O Que Fazer Legalmente",
+    "subtitulo": "Entenda seus direitos de convivência, como regulamentar as visitas e o que fazer quando o outro genitor descumpre",
+    "descricao_seo": "Ex não deixa você ver os filhos? Conheça o direito de convivência, como regulamentar visitas na Justiça e as consequências do descumprimento.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "conta-da-empresa-bloqueada-pela-justica",
+    "area": "Empresarial",
+    "tag": "Empresarial",
+    "date": "2026-07-16",
+    "date_display": "16/07/2026",
+    "titulo": "Conta da Empresa Bloqueada pela Justiça, Como Agir",
+    "subtitulo": "Entenda por que ocorrem bloqueios judiciais, o que fazer nas primeiras horas e como proteger o caixa da empresa",
+    "descricao_seo": "Conta da empresa bloqueada pela Justiça? Entenda como funciona o bloqueio judicial, o que fazer de imediato e como liberar valores essenciais.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "preso-em-flagrante-abordagem-policial",
     "area": "Penal",
     "tag": "Direito Penal",
