@@ -30,7 +30,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
     <a href="../index.html" class="logo-area">
       <img src="../logo.png" class="logo-img" alt="Michel Rocha Advocacia">
     </a>
-    <nav>
+    <button class="menu-btn" aria-label="Menu" onclick="var n=document.querySelector('header nav');n.classList.toggle('open');this.textContent=n.classList.contains('open')?'\u2715':'\u2630'">☰</button><nav>
       <a href="../index.html#artigos">Artigos</a>
       <a href="../index.html#captacao">Contato</a>
       <a href="https://wa.me/5571981758097?text=Ol%C3%A1%2C%20Dr.%20Michel%21%20Vim%20pelo%20blog%20e%20gostaria%20de%20falar%20com%20um%20advogado." target="_blank" class="nav-cta">
