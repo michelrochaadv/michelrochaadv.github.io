@@ -27,7 +27,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
     <a href="../index.html" class="logo-area">
       <img src="../logo.png" class="logo-img" alt="Michel Rocha Advocacia">
     </a>
-    <nav>
+    <button class="menu-btn" aria-label="Menu" onclick="var n=document.querySelector('header nav');n.classList.toggle('open');this.textContent=n.classList.contains('open')?'\u2715':'\u2630'">☰</button><nav>
       <a href="../categoria/penal.html">Penal</a>
       <a href="../categoria/previdenciario.html">Previdenciário</a>
       <a href="../categoria/empresarial.html">Empresarial</a>
