@@ -163,25 +163,27 @@ def build_all_articles():
 def build_sitemap():
     """Gera sitemap.xml para SEO."""
     index_file = "artigos/index.json"
-    urls = [f"https://{GITHUB_USERNAME}.github.io/"]
+    from datetime import date
+    hoje = date.today().isoformat()
+    urls = [(f"https://{GITHUB_USERNAME}.github.io/", hoje)]
 
     if os.path.exists(index_file):
         with open(index_file, 'r', encoding='utf-8') as f:
             index = json.load(f)
         for a in index:
-            urls.append(f"https://{GITHUB_USERNAME}.github.io/artigo/{a['slug']}.html")
+            urls.append((f"https://{GITHUB_USERNAME}.github.io/artigo/{a['slug']}.html", a.get("date", hoje)))
 
-    urls.append(f"https://{GITHUB_USERNAME}.github.io/sobre.html")
+    urls.append((f"https://{GITHUB_USERNAME}.github.io/sobre.html", hoje))
     for folder in ("categoria", "cidade", "criminalista"):
         if os.path.isdir(folder):
             for fname in sorted(os.listdir(folder)):
                 if fname.endswith(".html"):
-                    urls.append(f"https://{GITHUB_USERNAME}.github.io/{folder}/{fname}")
+                    urls.append((f"https://{GITHUB_USERNAME}.github.io/{folder}/{fname}", hoje))
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for url in urls:
-        sitemap += f'  <url><loc>{url}</loc><changefreq>daily</changefreq><priority>0.8</priority></url>\n'
+    for url, lastmod in urls:
+        sitemap += f'  <url><loc>{url}</loc><lastmod>{lastmod}</lastmod><changefreq>daily</changefreq><priority>0.8</priority></url>\n'
     sitemap += '</urlset>'
 
     with open("sitemap.xml", 'w') as f:
