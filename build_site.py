@@ -85,7 +85,8 @@ def build_article_page(article: dict) -> str:
 
 <main class="article-main">
   <div class="article-container">
-    <div class="article-breadcrumb"><a href="../index.html">Início</a> › <span>{tag}</span></div>
+    <div class="article-breadcrumb"><a href="../index.html">Início</a>
+      <a href="../sobre.html">Quem Somos</a> › <span>{tag}</span></div>
     <div class="article-tag">{tag}</div>
     <h1 class="article-title">{d['titulo']}</h1>
     <p class="article-subtitle">{d['subtitulo']}</p>
