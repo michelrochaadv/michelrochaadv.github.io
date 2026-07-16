@@ -3,6 +3,14 @@
 import json, urllib.parse
 from datetime import date
 
+GA_TAG = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CP101P05NG"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-CP101P05NG');
+document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="wa.me"]'):null;if(a){gtag('event','whatsapp_click',{page_path:location.pathname});}});
+</script>
+"""
 BASE = "https://michelrochaadv.github.io"
 WA = "5571981758097"
 
@@ -148,7 +156,7 @@ def gerar():
 </head>
 <body>
 '''
-        open(f"categoria/{slug}.html", "w", encoding="utf-8").write(head + header + body + tail)
+        open(f"categoria/{slug}.html", "w", encoding="utf-8").write((head + header + body + tail).replace("</head>", GA_TAG + "</head>", 1))
         print(f"\u2713 categoria/{slug}.html \u2192 destaque + {len(resto)} no grid")
 
 if __name__ == "__main__":
