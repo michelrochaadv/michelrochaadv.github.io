@@ -13,7 +13,7 @@
     "secoes": [
       {
         "titulo": "O que você tem direito a receber",
-        "conteudo": "Na demissão sem justa causa, o trabalhador tem direito a um conjunto de verbas rescisórias que precisam ser pagas dentro do prazo legal. Entre elas estão o saldo de salário dos dias trabalhados no mês da demissão, as férias vencidas e proporcionais acrescidas de um terço, o décimo terceiro salário proporcional aos meses trabalhados no ano, o aviso prévio, que pode ser trabalhado ou indenizado, e a multa de quarenta por cento sobre o saldo do FGTS. Além disso, o trabalhador tem direito ao saque do FGTS e, dependendo do tempo de trabalho e das condições, ao seguro desemprego. O não pagamento de qualquer dessas verbas no prazo correto gera multa adicional para a empresa."
+        "conteudo": "Na demissão sem justa causa, o trabalhador tem direito a um conjunto de verbas rescisórias que precisam ser pagas dentro do prazo legal, envolvendo o saldo dos dias trabalhados, férias, décimo terceiro, aviso prévio e a multa sobre o FGTS, além do saque do fundo e, conforme o caso, do seguro desemprego.\nO ponto que quase ninguém confere é se esses valores foram calculados corretamente. Erros de cálculo são extremamente comuns, médias de horas extras e comissões fora da base, adicionais esquecidos, frações de férias e de décimo terceiro erradas, e o trabalhador que assina a rescisão sem conferência técnica raramente percebe o que deixou de receber. O não pagamento no prazo correto também gera multa adicional para a empresa, outro direito frequentemente ignorado. A conferência da rescisão por um advogado trabalhista é rápida e costuma revelar diferenças relevantes."
       },
       {
         "titulo": "Como identificar se o acerto está errado",
@@ -29,6 +29,12 @@
       }
     ],
     "conclusao": "A demissão sem justa causa garante ao trabalhador um conjunto de direitos que precisam ser pagos corretamente e no prazo. Conferir cada verba antes de assinar o termo de rescisão e buscar orientação quando houver dúvida é o caminho para não deixar dinheiro na mesa.",
-    "palavras_chave": ["demitido sem justa causa", "verbas rescisórias", "direitos trabalhistas", "FGTS", "advogado trabalhista"]
+    "palavras_chave": [
+      "demitido sem justa causa",
+      "verbas rescisórias",
+      "direitos trabalhistas",
+      "FGTS",
+      "advogado trabalhista"
+    ]
   }
 }
