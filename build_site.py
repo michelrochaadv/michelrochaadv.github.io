@@ -70,6 +70,7 @@ def build_article_page(article: dict) -> str:
     <a href="../index.html" class="logo-area">
       <img src="../logo.png" class="logo-img" alt="Michel Rocha Advocacia">
     </a>
+    <button class="menu-btn" aria-label="Menu" onclick="var n=document.querySelector('header nav');n.classList.toggle('open');this.textContent=n.classList.contains('open')?'\u2715':'\u2630'">☰</button>
     <nav>
       <a href="../index.html#artigos">Artigos</a>
       <a href="../index.html#captacao">Contato</a>
