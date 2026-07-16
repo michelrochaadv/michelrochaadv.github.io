@@ -4,6 +4,14 @@ from datetime import datetime
 
 GITHUB_USERNAME = "michelrochaadv"
 WA_NUMBER = "5571981758097"
+GA_TAG = """<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CP101P05NG"></script>
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-CP101P05NG');
+document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="wa.me"]'):null;if(a){gtag('event','whatsapp_click',{page_path:location.pathname});}});
+</script>
+"""
 ADSENSE = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7466469886799127" crossorigin="anonymous"></script>'
 WA_MSG_DEFAULT = "Olá, Dr. Michel! Vim pelo blog e gostaria de falar com um advogado."
 
@@ -42,6 +50,7 @@ def build_article_page(article: dict) -> str:
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 {ADSENSE}
+{GA_TAG}
 <title>{d['titulo']} | Michel Rocha Advocacia</title>
 <meta name="description" content="{d['descricao_seo']}">
 <meta name="keywords" content="{kw_str}">
