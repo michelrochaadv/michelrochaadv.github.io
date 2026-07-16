@@ -17,7 +17,7 @@
       },
       {
         "titulo": "Documentos aceitos pelo INSS para comprovar o trabalho rural",
-        "conteudo": "O INSS aceita uma variedade de documentos para comprovar a atividade rural, e nem sempre é necessário ter todos eles. Entre os mais comuns estão o contrato de arrendamento ou parceria rural, notas fiscais de venda de produção agrícola, declaração do sindicato rural ou do produtor rural empregador, certidão de casamento que mencione a profissão de lavrador, cadastro de imóvel rural no nome da família, recibos de pagamento de ITR, e fichas de sócio em cooperativas. Além desses documentos, testemunhos de vizinhos, ex-patrões e membros da comunidade também têm valor probatório quando apresentados em juízo."
+        "conteudo": "A lei exige o chamado início de prova material: documentos da época que indiquem o vínculo com o campo, complementados por prova testemunhal. Existem dezenas de tipos de documentos aceitos, de registros civis antigos que mencionem a profissão a papéis ligados à terra e à produção, e raramente o trabalhador tem todos, o que é normal e não impede o benefício.\nO que decide esses casos não é a quantidade de papéis, e sim a estratégia: saber quais documentos servem para cada período, como organizá-los cronologicamente para cobrir o tempo exigido e como suprir as lacunas com outras provas admitidas. É exatamente nessa seleção e montagem que a maioria dos pedidos feitos sem orientação fracassa: documentos válidos apresentados fora de ordem, períodos descobertos e provas que o INSS recusa administrativamente mas que teriam força na Justiça. Antes de protocolar qualquer pedido, vale submeter o conjunto de documentos disponível à análise de um advogado, pois um requerimento mal instruído gera negativa e dificulta os passos seguintes."
       },
       {
         "titulo": "Quando o INSS nega e o que fazer",
@@ -29,6 +29,12 @@
       }
     ],
     "conclusao": "A aposentadoria rural é um direito de quem dedicou anos ao trabalho no campo, mesmo sem contribuição formal ao INSS. Com a documentação correta ou pela via judicial, é possível comprovar essa atividade e garantir o benefício.",
-    "palavras_chave": ["aposentadoria rural", "trabalhador rural INSS", "comprovar atividade rural", "aposentadoria por idade rural", "advogado previdenciário"]
+    "palavras_chave": [
+      "aposentadoria rural",
+      "trabalhador rural INSS",
+      "comprovar atividade rural",
+      "aposentadoria por idade rural",
+      "advogado previdenciário"
+    ]
   }
 }
