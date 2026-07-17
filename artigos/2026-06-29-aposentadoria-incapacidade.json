@@ -21,7 +21,7 @@
       },
       {
         "titulo": "Documentos necessários para o pedido",
-        "conteudo": "Para dar entrada no pedido, é fundamental reunir: laudos médicos detalhados, exames complementares como ressonâncias, tomografias e exames de sangue relevantes, relatórios de internações se houver, receituários e histórico de tratamentos. Quanto mais completa e organizada for a documentação médica, maior a chance de a perícia reconhecer corretamente a incapacidade. Também é importante levar comprovantes de toda a vida contributiva, especialmente se houver períodos de trabalho rural, informal ou como autônomo, que muitas vezes não aparecem automaticamente no sistema do INSS e precisam ser comprovados por outros meios, como declarações, contratos ou testemunhas."
+        "conteudo": "A prova médica é o coração do pedido de aposentadoria por incapacidade, e ela vai muito além de um atestado: envolve a documentação da doença, do tratamento e, principalmente, do impacto concreto da condição na capacidade de trabalhar, que é o que a perícia avalia. Do lado contributivo, o histórico do segurado precisa estar íntegro no sistema, e períodos rurais, informais ou como autônomo frequentemente exigem comprovação adicional.\nO detalhe que decide esses casos não é a quantidade de papéis, e sim a seleção e a articulação deles: documentos certos para demonstrar o período certo, laudos redigidos de forma que a perícia e o Judiciário reconheçam, e lacunas supridas antes que virem motivo de indeferimento. Pedidos protocolados com documentação desorganizada geram negativas que depois custam meses para reverter, por isso a análise técnica do conjunto, antes de dar entrada, é o investimento com melhor retorno de todo o processo."
       },
       {
         "titulo": "O que fazer agora",
@@ -29,6 +29,12 @@
       }
     ],
     "conclusao": "A aposentadoria por incapacidade existe justamente para proteger quem, por motivos de saúde, não pode mais sustentar a própria vida pelo trabalho. Não deixe que erros burocráticos do INSS impeçam você de receber o que é seu por direito, buscar orientação jurídica correta faz toda a diferença no resultado final.",
-    "palavras_chave": ["aposentadoria por incapacidade", "INSS", "previdenciário", "benefício", "perícia médica"]
+    "palavras_chave": [
+      "aposentadoria por incapacidade",
+      "INSS",
+      "previdenciário",
+      "benefício",
+      "perícia médica"
+    ]
   }
 }
