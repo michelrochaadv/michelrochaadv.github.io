@@ -1,5 +1,71 @@
 [
   {
+    "slug": "voo-atrasado-direitos-e-indenizacao",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-17",
+    "date_display": "17/07/2026",
+    "titulo": "Voo Atrasado, Seus Direitos e Quando Cabe Indenização",
+    "subtitulo": "Entenda o que a companhia aérea deve oferecer conforme o tempo de atraso e quando o transtorno gera direito à reparação",
+    "descricao_seo": "Voo atrasado? Conheça seus direitos conforme o tempo de espera, a assistência devida pela companhia aérea e quando cabe indenização.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "plano-de-saude-negou-cirurgia-bariatrica",
+    "area": "Consumidor",
+    "tag": "Plano de Saúde",
+    "date": "2026-07-17",
+    "date_display": "17/07/2026",
+    "titulo": "Plano de Saúde Negou Cirurgia Bariátrica, Como Reverter",
+    "subtitulo": "Entenda quando a negativa da bariátrica é abusiva, o que pesa na decisão judicial e como garantir a cirurgia indicada",
+    "descricao_seo": "Plano de saúde negou a cirurgia bariátrica? Saiba quando a recusa é abusiva, o que os tribunais analisam e como buscar a autorização na Justiça.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "pedido-parado-no-inss-ha-meses-o-que-fazer",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-17",
+    "date_display": "17/07/2026",
+    "titulo": "Pedido Parado no INSS Há Meses, O Que Fazer Agora",
+    "subtitulo": "Entenda os prazos que o INSS deve cumprir, por que a análise atrasa e como destravar seu benefício, inclusive na Justiça",
+    "descricao_seo": "Pedido em análise no INSS há meses? Saiba quais prazos o INSS deve cumprir, como cobrar a análise e quando a Justiça pode destravar seu benefício.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "intimado-a-pagar-pensao-sob-pena-de-prisao",
+    "area": "Família",
+    "tag": "Família",
+    "date": "2026-07-17",
+    "date_display": "17/07/2026",
+    "titulo": "Intimado a Pagar Pensão Sob Pena de Prisão, Como Agir",
+    "subtitulo": "Entenda o que significa a intimação, os caminhos de quem não consegue pagar e como evitar a prisão dentro do prazo",
+    "descricao_seo": "Recebeu intimação para pagar pensão em 3 dias sob pena de prisão? Entenda seus direitos, o que o juiz aceita como justificativa e como agir rápido.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "internet-lenta-ou-caindo-direitos-do-consumidor",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-17",
+    "date_display": "17/07/2026",
+    "titulo": "Internet Lenta ou Caindo Direto, Quais os Seus Direitos",
+    "subtitulo": "Entenda o que fazer quando a operadora entrega menos do que vende, cobra pelo que não funciona ou impõe multa",
+    "descricao_seo": "Internet lenta, caindo ou fora do contratado? Conheça seus direitos contra a operadora, do abatimento na fatura ao cancelamento sem multa.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "fianca-como-funciona-e-quando-e-negada",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-17",
+    "date_display": "17/07/2026",
+    "titulo": "Fiança, Como Funciona e O Que Fazer Quando É Negada",
+    "subtitulo": "Entenda quando a fiança é cabível, quem define o valor e o que fazer quando ela é negada ou fora do alcance",
+    "descricao_seo": "Fiança: entenda quando é cabível, quem arbitra o valor, o que fazer quando é negada e como a defesa pode buscar a liberdade sem pagamento.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "progressao-de-regime-quando-o-preso-tem-direito",
     "area": "Penal",
     "tag": "Direito Penal",
