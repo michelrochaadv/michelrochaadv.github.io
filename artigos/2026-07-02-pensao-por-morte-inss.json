@@ -17,7 +17,7 @@
       },
       {
         "titulo": "Prazo para requerer e carência",
-        "conteudo": "Um ponto crítico que muitas famílias desconhecem é que o prazo para requerer a pensão por morte impacta diretamente a data de início do pagamento. Quando o pedido é feito dentro de 90 dias do falecimento para dependentes maiores de 16 anos, o benefício é pago desde a data do óbito. Após esse prazo, o benefício passa a ser calculado apenas a partir da data do requerimento, o que pode representar uma perda financeira significativa dependendo do tempo decorrido. Em relação à carência, a pensão por morte em regra não exige contribuições mínimas, mas existem situações específicas em que um período mínimo de contribuição pode ser exigido, sendo importante verificar cada caso individualmente."
+        "conteudo": "Um ponto crítico que muitas famílias desconhecem é que o momento do requerimento impacta diretamente a data de início do pagamento: pedidos feitos logo após o falecimento garantem o benefício desde o óbito, enquanto a demora pode fazer a família perder meses de valores de forma definitiva. Por isso, diante da perda, o requerimento da pensão deve entrar na lista de providências imediatas, por mais difícil que o momento seja.\nQuanto aos requisitos, a pensão por morte em regra não exige um número mínimo de contribuições do falecido, mas existem situações específicas em que exigências adicionais se aplicam, e é justamente nesses detalhes, a condição de segurado do falecido na data do óbito, a comprovação da dependência e as regras que definem a duração do benefício, que os pedidos são negados ou concedidos por tempo menor que o devido. A análise técnica prévia evita surpresas num momento em que a família menos tem estrutura para lidar com elas."
       },
       {
         "titulo": "Como o valor é calculado",
@@ -29,6 +29,12 @@
       }
     ],
     "conclusao": "A pensão por morte é um direito previdenciário importante para proteger as famílias em um momento de grande vulnerabilidade. Agir dentro dos prazos e com orientação adequada garante que o benefício seja recebido desde a data correta e no valor justo.",
-    "palavras_chave": ["pensão por morte", "INSS", "benefício previdenciário", "dependentes", "previdência social"]
+    "palavras_chave": [
+      "pensão por morte",
+      "INSS",
+      "benefício previdenciário",
+      "dependentes",
+      "previdência social"
+    ]
   }
 }
