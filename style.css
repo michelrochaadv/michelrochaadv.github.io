@@ -86,3 +86,17 @@ header nav.open{position:absolute;top:100%;left:0;right:0;background:#0f0f0f;bor
 header nav.open a{display:block!important;padding:13px 0;border-bottom:1px solid rgba(255,255,255,0.06);font-size:14px;color:var(--cream);text-decoration:none}
 header nav.open a.nav-cta{border:none;margin-top:10px;text-align:center}
 }
+
+/* responsivo páginas internas (empilha grades inline no mobile) */
+@media(max-width:900px){
+div[style*="grid-template-columns:2fr 1fr"],
+div[style*="grid-template-columns:1.7fr 1fr"],
+div[style*="grid-template-columns:1fr 1.6fr"],
+div[style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr!important}
+div[style*="position:sticky"]{position:static!important}
+h1[style*="font-size:2.8rem"],h1[style*="font-size:3rem"]{font-size:1.9rem!important}
+div[style*="padding:4rem 2rem"]{padding:2.5rem 1.25rem!important}
+div[style*="padding:2rem 2.5rem"]{padding:1.5rem 1.25rem!important}
+div[style*="padding:2.5rem"]{padding:1.5rem 1.25rem!important}
+div[style*="font-size:1.9rem"]{font-size:1.5rem!important}
+}
