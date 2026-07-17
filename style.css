@@ -99,4 +99,6 @@ div[style*="padding:4rem 2rem"]{padding:2.5rem 1.25rem!important}
 div[style*="padding:2rem 2.5rem"]{padding:1.5rem 1.25rem!important}
 div[style*="padding:2.5rem"]{padding:1.5rem 1.25rem!important}
 div[style*="font-size:1.9rem"]{font-size:1.5rem!important}
+.grid3[style*="gap:1rem"]{grid-template-columns:1fr!important}
+a[style*="background:var(--card)"]{overflow-wrap:anywhere}
 }
