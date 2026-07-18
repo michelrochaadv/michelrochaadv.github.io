@@ -335,7 +335,7 @@ var store = {
 var scripts = store.get("prompter_scripts",[]);
 var settings = store.get("prompter_settings",{speed:55,font:34,dim:45,res:"1080"});
 if(!settings.res) settings.res="1080";
-var RES_MAP={ "720":{w:1280,h:720,bps:6e6}, "1080":{w:1920,h:1080,bps:14e6}, "2160":{w:3840,h:2160,bps:38e6} };
+var RES_MAP={ "720":{w:1280,h:720,bps:5e6}, "1080":{w:1920,h:1080,bps:10e6}, "2160":{w:3840,h:2160,bps:20e6} };
 var currentId = null;
 var editingId = null;
 
@@ -472,7 +472,7 @@ function requestCamera(force){
   if(mediaStream){ mediaStream.getTracks().forEach(function(t){t.stop();}); mediaStream=null; }
   var r=RES_MAP[settings.res]||RES_MAP["1080"];
   navigator.mediaDevices.getUserMedia({
-    video:{facingMode:"user",width:{ideal:r.w},height:{ideal:r.h},frameRate:{ideal:30}},
+    video:{facingMode:"user",width:{ideal:r.w},height:{ideal:r.h},frameRate:{ideal:30,max:30}},
     audio:true
   }).then(function(stream){
     mediaStream=stream;
@@ -644,8 +644,15 @@ $("recBtn").addEventListener("click",function(){
   recorder.ondataavailable=function(e){ if(e.data && e.data.size) chunks.push(e.data); };
   recorder.onstop=onRecorded;
   countdownThen(function(){
-    recorder.start();
+    recorder.start(1000);
     recStart=Date.now();
+    var vt0=mediaStream.getVideoTracks()[0];
+    if(vt0){ vt0.onended=function(){
+      if(recorder && recorder.state!=="inactive"){
+        stopRecording();
+        toast("A câmera falhou durante a gravação. O vídeo foi salvo até este ponto.",4500);
+      }
+    }; }
     $("recBtn").classList.add("recording");
     $("recBadge").style.display="flex";
     resetScrollSoft();
@@ -659,6 +666,8 @@ function resetScrollSoft(){
   if(offset>=max) resetScroll();
 }
 function stopRecording(){
+  var vtx=mediaStream && mediaStream.getVideoTracks()[0];
+  if(vtx) vtx.onended=null;
   try{ recorder.stop(); }catch(e){}
   $("recBtn").classList.remove("recording");
   $("recBadge").style.display="none";
@@ -689,12 +698,19 @@ function onRecorded(){
     }
   };
   $("discardBtn").onclick=function(){
+    var v=$("resultVideo"); try{v.pause();}catch(e){}
+    v.removeAttribute("src"); try{v.load();}catch(e){}
     URL.revokeObjectURL(url);
     $("resultModal").style.display="none";
   };
 }
 document.getElementById("resultModal").addEventListener("click",function(e){
-  if(e.target===this) this.style.display="none";
+  if(e.target===this){
+    var v=document.getElementById("resultVideo");
+    try{v.pause();}catch(err){}
+    v.removeAttribute("src"); try{v.load();}catch(err){}
+    this.style.display="none";
+  }
 });
 
 /* ---------- init ---------- */
