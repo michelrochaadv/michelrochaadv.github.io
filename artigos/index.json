@@ -1,5 +1,71 @@
 [
   {
+    "slug": "plano-limitou-sessoes-de-terapia-e-agora",
+    "area": "Consumidor",
+    "tag": "Plano de Saúde",
+    "date": "2026-07-19",
+    "date_display": "19/07/2026",
+    "titulo": "Plano Limitou as Sessões de Terapia? Conheça a Regra",
+    "subtitulo": "Entenda por que limites de psicoterapia, fono e fisioterapia caíram e o que fazer quando o plano ainda restringe",
+    "descricao_seo": "Plano de saúde limitou sessões de psicólogo, fono ou fisioterapia? Entenda por que limites numéricos caíram e como garantir o tratamento completo.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "plano-de-saude-negou-reembolso-o-que-fazer",
+    "area": "Consumidor",
+    "tag": "Plano de Saúde",
+    "date": "2026-07-19",
+    "date_display": "19/07/2026",
+    "titulo": "Plano de Saúde Negou o Reembolso, Saiba Como Agir",
+    "subtitulo": "Entenda quando o reembolso é devido, por que os planos negam ou pagam valores irrisórios e como buscar a diferença",
+    "descricao_seo": "Plano de saúde negou o reembolso ou pagou valor irrisório? Entenda quando o reembolso é devido e como buscar o que falta, inclusive na Justiça.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "onde-esta-meu-familiar-preso-como-localizar",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-19",
+    "date_display": "19/07/2026",
+    "titulo": "Onde Está Meu Familiar Preso? Como Localizar e Visitar",
+    "subtitulo": "Entenda como descobrir para onde a pessoa presa foi levada, como funciona a visita e por que a defesa deve começar já",
+    "descricao_seo": "Familiar preso e você não sabe onde ele está? Saiba como localizar a pessoa presa, como funciona a visita e por que a defesa não pode esperar.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "comprei-imovel-com-defeitos-escondidos",
+    "area": "Imobiliário",
+    "tag": "Imobiliário",
+    "date": "2026-07-19",
+    "date_display": "19/07/2026",
+    "titulo": "Comprei um Imóvel com Defeitos Escondidos, E Agora?",
+    "subtitulo": "Infiltrações, problemas estruturais e vícios que só aparecem depois: entenda seus direitos contra vendedor e construtora",
+    "descricao_seo": "Comprou imóvel e descobriu infiltrações, rachaduras ou defeitos escondidos? Conheça seus direitos, os prazos e de quem cobrar a reparação.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "como-o-juiz-decide-a-guarda-dos-filhos",
+    "area": "Família",
+    "tag": "Família",
+    "date": "2026-07-19",
+    "date_display": "19/07/2026",
+    "titulo": "Como o Juiz Decide a Guarda dos Filhos no Divórcio",
+    "subtitulo": "Entenda o que pesa de verdade na decisão sobre guarda, os mitos que atrapalham e os erros que custam caro na disputa",
+    "descricao_seo": "Como o juiz decide a guarda dos filhos? Entenda o que pesa na decisão, a regra da guarda compartilhada e os erros que enfraquecem seu caso.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "atividade-insalubre-aposentadoria-especial",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-19",
+    "date_display": "19/07/2026",
+    "titulo": "Atividade Insalubre e Aposentadoria Especial, Entenda",
+    "subtitulo": "Trabalhou exposto a ruído, agentes químicos ou biológicos? Entenda como o tempo especial encurta a aposentadoria",
+    "descricao_seo": "Trabalhou em atividade insalubre? Entenda a aposentadoria especial, como comprovar a exposição e por que o INSS nega tantos pedidos.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "posso-ser-preso-por-divida-entenda",
     "area": "Penal",
     "tag": "Direito Penal",
