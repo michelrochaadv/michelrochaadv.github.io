@@ -130,6 +130,7 @@ def gerar():
 <link rel="canonical" href="{BASE}/previdenciario/{slug}.html">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../style.css">
+<link rel="icon" type="image/png" href="../favicon.png">
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@type":"LegalService","name":"Michel Rocha Advocacia e Consultoria","url":"{BASE}","telephone":"+{WA}","areaServed":"{nome}, BA","description":"{desc}"}}
 </script>
