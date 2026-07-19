@@ -60,6 +60,7 @@ def build_article_page(article: dict) -> str:
 <meta property="og:site_name" content="Michel Rocha Advocacia e Consultoria">
 <link rel="canonical" href="https://{GITHUB_USERNAME}.github.io/artigo/{article['slug']}.html">
 <link rel="stylesheet" href="../style.css">
+<link rel="icon" type="image/png" href="../favicon.png">
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@type":"Article","headline":"{d['titulo']}","author":{{"@type":"Person","name":"Michel Rocha","jobTitle":"Advogado"}},"publisher":{{"@type":"Organization","name":"Michel Rocha Advocacia e Consultoria"}},"datePublished":"{article['date']}","description":"{d['descricao_seo']}"}}
 </script>
@@ -68,7 +69,11 @@ def build_article_page(article: dict) -> str:
 <header>
   <div class="header-inner">
     <a href="../index.html" class="logo-area">
-      <img src="../logo.png" class="logo-img" alt="Michel Rocha Advocacia">
+      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia">
+      <div class="logo-textblock">
+        <div class="logo-name">Michel Rocha</div>
+        <div class="logo-sub">Advocacia e Consultoria</div>
+      </div>
     </a>
     <button class="menu-btn" aria-label="Menu" onclick="var n=document.querySelector('header nav');n.classList.toggle('open');this.textContent=n.classList.contains('open')?'\u2715':'\u2630'">☰</button>
     <nav>
@@ -137,7 +142,7 @@ def build_article_page(article: dict) -> str:
 
 <footer>
   <div class="foot-inner">
-    <div class="foot-brand">Michel Rocha · Advocacia e Consultoria</div>
+    <img src="../logo-mark.png" class="foot-mark" alt="">\n    <div class="foot-brand">Michel Rocha · Advocacia e Consultoria</div>
     <div class="foot-info">Atuação nacional · BA · CE · RJ · SP · MG · SC · PA · GO · RS · PE</div>
     <div class="foot-links">
       <a href="../index.html">Início</a>
