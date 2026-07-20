@@ -1,5 +1,71 @@
 [
   {
+    "slug": "remicao-de-pena-por-trabalho-e-estudo",
+    "area": "Penal",
+    "tag": "Direito Penal",
+    "date": "2026-07-20",
+    "date_display": "20/07/2026",
+    "titulo": "Remição de Pena por Trabalho e Estudo, Como Funciona",
+    "subtitulo": "Entenda como dias de trabalho e estudo reduzem a pena, por que a remição se perde e como garantir cada dia conquistado",
+    "descricao_seo": "Remição de pena: entenda como trabalho, estudo e leitura reduzem o tempo de prisão, por que dias se perdem e como a defesa garante o desconto.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "plano-de-saude-coletivo-cancelado-pela-operadora",
+    "area": "Consumidor",
+    "tag": "Plano de Saúde",
+    "date": "2026-07-20",
+    "date_display": "20/07/2026",
+    "titulo": "Plano de Saúde Coletivo Cancelado pela Operadora, E Agora?",
+    "subtitulo": "Entenda os limites da rescisão unilateral, a proteção de quem está em tratamento e as alternativas ao cancelamento",
+    "descricao_seo": "Operadora cancelou seu plano de saúde coletivo? Entenda os limites da rescisão unilateral, a proteção a quem está em tratamento e como reagir.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "energia-cortada-religacao-prazos-e-direitos",
+    "area": "Consumidor",
+    "tag": "Consumidor",
+    "date": "2026-07-20",
+    "date_display": "20/07/2026",
+    "titulo": "Cortaram Sua Energia? Prazos de Religação e Direitos",
+    "subtitulo": "Entenda quando o corte é permitido, os prazos que a distribuidora tem para religar e o que fazer quando ela descumpre",
+    "descricao_seo": "Energia cortada? Saiba quando o corte é permitido, os prazos de religação após o pagamento e seus direitos quando a distribuidora descumpre.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "empresa-recebeu-reclamacao-trabalhista-o-que-fazer",
+    "area": "Empresarial",
+    "tag": "Empresarial",
+    "date": "2026-07-20",
+    "date_display": "20/07/2026",
+    "titulo": "Sua Empresa Recebeu uma Reclamação Trabalhista, E Agora?",
+    "subtitulo": "Entenda os prazos que começam a correr, os erros que multiplicam a condenação e como a defesa técnica reduz o risco",
+    "descricao_seo": "Empresa notificada de reclamação trabalhista? Entenda os prazos, os erros que multiplicam condenações e como estruturar a defesa e o acordo.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "divorcio-quem-fica-com-a-casa-partilha-de-bens",
+    "area": "Família",
+    "tag": "Família",
+    "date": "2026-07-20",
+    "date_display": "20/07/2026",
+    "titulo": "Divórcio, Quem Fica com a Casa e Como Se Divide o Resto",
+    "subtitulo": "Entenda como o regime de bens define a partilha, os erros que custam patrimônio e o que fazer com a casa financiada",
+    "descricao_seo": "Divórcio: quem fica com a casa? Entenda como o regime de bens define a partilha, o destino do imóvel financiado e os erros que custam caro.",
+    "tempo_leitura": "5 min"
+  },
+  {
+    "slug": "auxilio-acidente-o-beneficio-que-poucos-conhecem",
+    "area": "Previdenciário",
+    "tag": "Previdenciário",
+    "date": "2026-07-20",
+    "date_display": "20/07/2026",
+    "titulo": "Auxílio-Acidente, o Benefício Que Poucos Sabem Que Têm",
+    "subtitulo": "Sofreu acidente e ficou com sequela? Você pode ter direito a um benefício mensal mesmo continuando a trabalhar",
+    "descricao_seo": "Auxílio-acidente: o benefício pago a quem ficou com sequela após acidente, mesmo trabalhando. Veja quem tem direito e os atrasados possíveis.",
+    "tempo_leitura": "5 min"
+  },
+  {
     "slug": "plano-limitou-sessoes-de-terapia-e-agora",
     "area": "Consumidor",
     "tag": "Plano de Saúde",
