@@ -12,7 +12,6 @@ gtag('js',new Date());gtag('config','G-CP101P05NG');
 document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="wa.me"]'):null;if(a){gtag('event','whatsapp_click',{page_path:location.pathname});}});
 </script>
 """
-ADSENSE = '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7466469886799127" crossorigin="anonymous"></script>'
 WA_MSG_DEFAULT = "Olá, Dr. Michel! Vim pelo blog e gostaria de falar com um advogado."
 
 def wa_link(msg=None):
@@ -49,7 +48,6 @@ def build_article_page(article: dict) -> str:
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-{ADSENSE}
 {GA_TAG}
 <title>{d['titulo']} | Michel Rocha Advocacia</title>
 <meta name="description" content="{d['descricao_seo']}">
