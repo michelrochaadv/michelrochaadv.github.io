@@ -134,7 +134,6 @@ def gerar():
 <script type="application/ld+json">
 {{"@context":"https://schema.org","@type":"LegalService","name":"Michel Rocha Advocacia e Consultoria","url":"{BASE}","telephone":"+{WA}","areaServed":"{nome}, BA","description":"{desc}"}}
 </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7466469886799127" crossorigin="anonymous"></script>
 {ga_block}
 </head>
 <body>
