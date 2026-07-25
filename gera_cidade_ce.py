@@ -2,7 +2,7 @@
 """Gera páginas /cidade/{slug}.html para as cidades do Ceará, no mesmo padrão das páginas da Bahia."""
 import urllib.parse
 
-BASE = "https://michelrochaadv.github.io"
+BASE = "https://michelrocha.adv.br"
 WA = "5571981758097"
 
 CIDADES_CE = [
