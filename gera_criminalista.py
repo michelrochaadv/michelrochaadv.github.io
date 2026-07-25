@@ -10,7 +10,7 @@ gtag('js',new Date());gtag('config','G-CP101P05NG');
 document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e.target.closest('a[href*="wa.me"]'):null;if(a){gtag('event','whatsapp_click',{page_path:location.pathname});}});
 </script>
 """
-BASE = "https://michelrochaadv.github.io"
+BASE = "https://michelrocha.adv.br"
 WA = "5571981758097"
 
 CIDADES = [
