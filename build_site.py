@@ -3,6 +3,7 @@ import os
 from datetime import datetime
 
 GITHUB_USERNAME = "michelrochaadv"
+BASE = "https://michelrocha.adv.br"
 WA_NUMBER = "5571981758097"
 GA_TAG = """<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CP101P05NG"></script>
@@ -56,7 +57,7 @@ def build_article_page(article: dict) -> str:
 <meta property="og:description" content="{d['descricao_seo']}">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Michel Rocha Advocacia e Consultoria">
-<link rel="canonical" href="https://{GITHUB_USERNAME}.github.io/artigo/{article['slug']}.html">
+<link rel="canonical" href="{BASE}/artigo/{article['slug']}.html">
 <link rel="stylesheet" href="../style.css">
 <link rel="icon" type="image/png" href="../favicon.png">
 <script type="application/ld+json">
@@ -179,20 +180,20 @@ def build_sitemap():
     index_file = "artigos/index.json"
     from datetime import date
     hoje = date.today().isoformat()
-    urls = [(f"https://{GITHUB_USERNAME}.github.io/", hoje)]
+    urls = [(f"{BASE}/", hoje)]
 
     if os.path.exists(index_file):
         with open(index_file, 'r', encoding='utf-8') as f:
             index = json.load(f)
         for a in index:
-            urls.append((f"https://{GITHUB_USERNAME}.github.io/artigo/{a['slug']}.html", a.get("date", hoje)))
+            urls.append((f"{BASE}/artigo/{a['slug']}.html", a.get("date", hoje)))
 
-    urls.append((f"https://{GITHUB_USERNAME}.github.io/sobre.html", hoje))
+    urls.append((f"{BASE}/sobre.html", hoje))
     for folder in ("categoria", "cidade", "criminalista", "previdenciario"):
         if os.path.isdir(folder):
             for fname in sorted(os.listdir(folder)):
                 if fname.endswith(".html"):
-                    urls.append((f"https://{GITHUB_USERNAME}.github.io/{folder}/{fname}", hoje))
+                    urls.append((f"{BASE}/{folder}/{fname}", hoje))
 
     sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
