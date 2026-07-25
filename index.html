@@ -217,7 +217,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
     <p class="hero-desc">Conteúdo jurídico atualizado diariamente. Para cidadãos, famílias e empresas que precisam de clareza, e de quem atue com excelência.</p>
     <div class="estados">
       <span class="estado-badge dest" onclick="toggleCidades('ba')" style="cursor:pointer" title="Ver cidades na Bahia">BA ▾</span>
-      <span class="estado-badge dest">CE</span>
+      <span class="estado-badge dest" onclick="toggleCidades('ce')" style="cursor:pointer" title="Ver cidades no Ceará">CE ▾</span>
       <span class="estado-badge">SP</span>
       <span class="estado-badge">RJ</span>
       <span class="estado-badge">MG</span>
@@ -244,6 +244,13 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       <a href="cidade/santo-antonio-de-jesus.html" style="font-size:10px;letter-spacing:1px;color:var(--cream);text-decoration:none;padding:5px 12px;border:1px solid rgba(201,168,76,0.3);transition:all 0.2s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.3)'">Santo Antônio de Jesus</a>
       <a href="cidade/camacari.html" style="font-size:10px;letter-spacing:1px;color:var(--cream);text-decoration:none;padding:5px 12px;border:1px solid rgba(201,168,76,0.3);transition:all 0.2s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.3)'">Camaçari</a>
       <a href="cidade/simoes-filho.html" style="font-size:10px;letter-spacing:1px;color:var(--cream);text-decoration:none;padding:5px 12px;border:1px solid rgba(201,168,76,0.3);transition:all 0.2s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.3)'">Simões Filho</a>
+    </div>
+    <div id="cidades-ce" style="display:none;flex-wrap:wrap;gap:8px;margin-top:10px;padding:12px 16px;background:var(--dark);border:1px solid rgba(201,168,76,0.2);border-radius:0">
+      <span style="font-size:9px;letter-spacing:2px;color:var(--gold);text-transform:uppercase;width:100%;margin-bottom:6px">Cidades no Ceará</span>
+      <a href="cidade/fortaleza.html" style="font-size:10px;letter-spacing:1px;color:var(--cream);text-decoration:none;padding:5px 12px;border:1px solid rgba(201,168,76,0.3);transition:all 0.2s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.3)'">Fortaleza</a>
+      <a href="cidade/caucaia.html" style="font-size:10px;letter-spacing:1px;color:var(--cream);text-decoration:none;padding:5px 12px;border:1px solid rgba(201,168,76,0.3);transition:all 0.2s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.3)'">Caucaia</a>
+      <a href="cidade/juazeiro-do-norte.html" style="font-size:10px;letter-spacing:1px;color:var(--cream);text-decoration:none;padding:5px 12px;border:1px solid rgba(201,168,76,0.3);transition:all 0.2s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.3)'">Juazeiro do Norte</a>
+      <a href="cidade/maracanau.html" style="font-size:10px;letter-spacing:1px;color:var(--cream);text-decoration:none;padding:5px 12px;border:1px solid rgba(201,168,76,0.3);transition:all 0.2s" onmouseover="this.style.borderColor='var(--gold)'" onmouseout="this.style.borderColor='rgba(201,168,76,0.3)'">Maracanaú</a>
     </div>
     <div class="hero-btns">
       <button class="btn-gold" onclick="document.getElementById('artigos').scrollIntoView({behavior:'smooth'})">Ver artigos</button>
