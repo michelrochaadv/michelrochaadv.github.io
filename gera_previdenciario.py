@@ -21,7 +21,13 @@ CIDADES = [
     ("santo-antonio-de-jesus", "Santo Antônio de Jesus", "centro do recôncavo sul, com comércio forte e grande número de contribuintes individuais"),
     ("camacari", "Camaçari", "sede do polo industrial baiano, com muitos casos de aposentadoria especial e benefícios por incapacidade"),
     ("simoes-filho", "Simões Filho", "município industrial da região metropolitana, com trabalhadores expostos a atividades que geram direitos especiais"),
+    ("fortaleza", "Fortaleza", "capital do Ceará, onde se concentram as agências do INSS e a Justiça Federal da região metropolitana"),
+    ("caucaia", "Caucaia", "segundo município mais populoso do Ceará, com grande volume de segurados urbanos na região metropolitana de Fortaleza"),
+    ("juazeiro-do-norte", "Juazeiro do Norte", "polo do Cariri cearense, com milhares de segurados urbanos e rurais atendidos pelas agências do INSS da região"),
+    ("maracanau", "Maracanaú", "polo industrial cearense, com muitos casos de aposentadoria especial e benefícios por incapacidade"),
 ]
+
+UF = {"fortaleza": "CE", "caucaia": "CE", "juazeiro-do-norte": "CE", "maracanau": "CE"}
 
 P1 = [
 "Quando o INSS nega um benefício, corta um pagamento ou deixa um pedido parado por meses, a vida de quem depende daquela renda entra em suspenso. Em {c}, milhares de segurados enfrentam essa realidade, e a diferença entre aceitar a negativa e reverter a decisão costuma estar na condução técnica do caso, do entendimento do motivo real da recusa à construção da prova correta.",
@@ -58,7 +64,7 @@ ARTIGOS = [
 
 DESCS = [
 "Advogado previdenciário em {nome}. Benefícios do INSS negados, cortes indevidos, aposentadorias e BPC. Atendimento à distância pelo WhatsApp.",
-"Advogado previdenciário em {nome}, BA. INSS negou ou cortou seu benefício? Atuação completa, sem necessidade de deslocamento.",
+"Advogado previdenciário em {nome}, {uf}. INSS negou ou cortou seu benefício? Atuação completa, sem necessidade de deslocamento.",
 "INSS negou seu benefício em {nome}? Advogado previdenciário com atuação em aposentadorias, auxílios, BPC e revisões. Fale pelo WhatsApp.",
 ]
 
@@ -75,7 +81,8 @@ def gerar():
     H2 = lambda t: f'<h2 style="font-family:var(--serif);font-size:1.8rem;color:var(--cream);font-weight:300;margin:2.5rem 0 1rem">{t}</h2>'
 
     for i, (slug, nome, descr) in enumerate(CIDADES):
-        desc = DESCS[i % 3].format(nome=nome)
+        uf = UF.get(slug, "BA")
+        desc = DESCS[i % 3].format(nome=nome, uf=uf)
         wa_msg = urllib.parse.quote(f"Olá, Dr. Michel! Preciso de um advogado previdenciário em {nome}.")
         intro = (f"Atuação completa em benefícios do INSS para segurados de {nome}, {descr}, "
                  f"com atendimento à distância pelo WhatsApp e pelos sistemas eletrônicos, sem necessidade de deslocamento.")
@@ -132,7 +139,7 @@ def gerar():
 <link rel="stylesheet" href="../style.css">
 <link rel="icon" type="image/png" href="../favicon.png">
 <script type="application/ld+json">
-{{"@context":"https://schema.org","@type":"LegalService","name":"Michel Rocha Advocacia e Consultoria","url":"{BASE}","telephone":"+{WA}","areaServed":"{nome}, BA","description":"{desc}"}}
+{{"@context":"https://schema.org","@type":"LegalService","name":"Michel Rocha Advocacia e Consultoria","url":"{BASE}","telephone":"+{WA}","areaServed":"{nome}, {uf}","description":"{desc}"}}
 </script>
 {ga_block}
 </head>
