@@ -28,7 +28,13 @@ CIDADES = [
     ("santo-antonio-de-jesus", "Santo Antônio de Jesus", "centro comercial do recôncavo sul, com demanda constante por defesa criminal de qualidade"),
     ("camacari", "Camaçari", "sede do polo industrial e um dos municípios mais populosos da região metropolitana de Salvador"),
     ("simoes-filho", "Simões Filho", "município industrial da região metropolitana de Salvador, com atendimento criminal ágil e acessível"),
+    ("fortaleza", "Fortaleza", "capital cearense e maior centro jurídico do estado, onde se concentram as varas criminais, o Tribunal de Justiça e as principais unidades prisionais da região metropolitana"),
+    ("caucaia", "Caucaia", "segundo município mais populoso do Ceará, na região metropolitana de Fortaleza, com demanda criminal intensa e proximidade dos fóruns da capital"),
+    ("juazeiro-do-norte", "Juazeiro do Norte", "principal polo do Cariri cearense, com comarca de grande movimento na área criminal e forte demanda por defesa técnica"),
+    ("maracanau", "Maracanaú", "polo industrial da região metropolitana de Fortaleza, com demanda constante por defesa criminal ágil"),
 ]
+
+UF = {"fortaleza": "CE", "caucaia": "CE", "juazeiro-do-norte": "CE", "maracanau": "CE"}
 
 P1 = [
 "Quando alguém é preso em {c}, a família entra em contagem regressiva sem saber. As primeiras 24 horas após uma prisão em flagrante concentram as decisões mais importantes de todo o processo: a lavratura do auto na delegacia, a comunicação ao juiz e a audiência de custódia, na qual se decide se a pessoa responderá ao processo presa ou em liberdade. Nesse intervalo curto, a presença de um advogado criminalista faz diferença real.",
@@ -74,7 +80,7 @@ HEAD = '''<!DOCTYPE html>
 <link rel="stylesheet" href="../style.css">
 <link rel="icon" type="image/png" href="../favicon.png">
 <script type="application/ld+json">
-{{"@context":"https://schema.org","@type":"LegalService","name":"Michel Rocha Advocacia e Consultoria","url":"{base}","telephone":"+{wa}","areaServed":"{nome}, BA","description":"{desc}"}}
+{{"@context":"https://schema.org","@type":"LegalService","name":"Michel Rocha Advocacia e Consultoria","url":"{base}","telephone":"+{wa}","areaServed":"{nome}, {uf}","description":"{desc}"}}
 </script>
 </head>
 <body>
@@ -82,7 +88,7 @@ HEAD = '''<!DOCTYPE html>
 
 DESCS = [
 "Advogado criminalista em {nome}. Atendimento urgente em flagrantes, audiências de custódia e defesa criminal. Fale agora pelo WhatsApp.",
-"Advogado criminalista em {nome}, BA. Defesa em flagrantes, custódias, habeas corpus e execução penal. Atendimento urgente pelo WhatsApp.",
+"Advogado criminalista em {nome}, {uf}. Defesa em flagrantes, custódias, habeas corpus e execução penal. Atendimento urgente pelo WhatsApp.",
 "Familiar preso em {nome}? Advogado criminalista com atendimento urgente em flagrantes, audiências de custódia e defesa criminal.",
 ]
 
@@ -104,7 +110,8 @@ P = lambda t: f'<p style="font-size:14px;color:var(--text);line-height:1.9;margi
 H2 = lambda t: f'<h2 style="font-family:var(--serif);font-size:1.8rem;color:var(--cream);font-weight:300;margin:2.5rem 0 1rem">{t}</h2>'
 
 for i, (slug, nome, descr) in enumerate(CIDADES):
-    desc = DESCS[i % 3].format(nome=nome)
+    uf = UF.get(slug, "BA")
+    desc = DESCS[i % 3].format(nome=nome, uf=uf)
     wa_msg = urllib.parse.quote(f"Olá, Dr. Michel! Preciso de um advogado criminalista em {nome}, é urgente.")
     intro = (f"{nome}, {descr}, conta com a atuação criminal do escritório Michel Rocha Advocacia e Consultoria, "
              f"com atendimento urgente pelo WhatsApp para casos de prisão em flagrante, audiências de custódia e defesa em processos criminais.")
@@ -163,7 +170,7 @@ for i, (slug, nome, descr) in enumerate(CIDADES):
 </div>
 
 '''
-    html = (HEAD.format(nome=nome, desc=desc, base=BASE, slug=slug, wa=WA) + header + body + tail).replace("</head>", GA_TAG + "</head>", 1)
+    html = (HEAD.format(nome=nome, desc=desc, base=BASE, slug=slug, wa=WA, uf=uf) + header + body + tail).replace("</head>", GA_TAG + "</head>", 1)
     with open(f"criminalista/{slug}.html", "w", encoding="utf-8") as f:
         f.write(html)
     print(f"✓ criminalista/{slug}.html")
