@@ -2,7 +2,7 @@
 """Gera páginas /previdenciario/{cidade}.html com conteúdo variado por cidade."""
 import os, urllib.parse
 
-BASE = "https://michelrochaadv.github.io"
+BASE = "https://michelrocha.adv.br"
 WA = "5571981758097"
 GA_TAG = ""  # preenchido no fim a partir de uma página existente
 
