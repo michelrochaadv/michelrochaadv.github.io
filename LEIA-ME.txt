@@ -1,7 +1,7 @@
 COMO INSTALAR A AUTOMAÇÃO NO SEU REPOSITÓRIO
 ================================================
 
-Você já tem o repositório: michelrochaadv.github.io
+Você já tem o repositório: michelrocha.adv.br (antigo michelrochaadv.github.io, com redirecionamento)
 Você já cadastrou o secret: ANTHROPIC_API_KEY
 
 PASSO A PASSO:
@@ -35,7 +35,7 @@ PASSO A PASSO:
    - Vá na pasta "artigo" — vai ter uma nova página .html
 
 6. O artigo gerado vai estar em:
-   https://michelrochaadv.github.io/artigo/[nome-do-artigo].html
+   https://michelrocha.adv.br/artigo/[nome-do-artigo].html
 
 A PARTIR DE AGORA:
 Todo dia às 8h da manhã (horário de Brasília), o robô vai gerar
