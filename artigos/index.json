@@ -1,5 +1,71 @@
 [
  {
+  "slug": "antecedentes-criminais-quando-e-como-podem-ser-limpos",
+  "area": "Penal",
+  "tag": "Penal",
+  "date": "2026-07-25",
+  "date_display": "25/07/2026",
+  "titulo": "Antecedentes Criminais, Quando e Como Podem Ser Limpos",
+  "subtitulo": "Entenda o que são os antecedentes, quanto tempo um processo pesa na sua vida e quando o registro pode deixar de aparecer",
+  "descricao_seo": "Antecedentes criminais: entenda o que aparece na certidão, por quanto tempo e quando o registro pode ser retirado com apoio de um advogado.",
+  "tempo_leitura": "5 min"
+ },
+ {
+  "slug": "portabilidade-de-carencias-no-plano-de-saude-como-funciona",
+  "area": "Consumidor",
+  "tag": "Plano de Saúde",
+  "date": "2026-07-25",
+  "date_display": "25/07/2026",
+  "titulo": "Portabilidade de Carências no Plano de Saúde, Como Funciona",
+  "subtitulo": "Saiba como trocar de plano de saúde sem cumprir novas carências e o que fazer quando a operadora dificulta a mudança",
+  "descricao_seo": "Portabilidade de carências: saiba como mudar de plano de saúde sem esperar novos prazos e o que fazer quando a operadora nega ou dificulta.",
+  "tempo_leitura": "5 min"
+ },
+ {
+  "slug": "milhas-expiraram-sem-aviso-conheca-os-seus-direitos",
+  "area": "Consumidor",
+  "tag": "Direito Aéreo",
+  "date": "2026-07-25",
+  "date_display": "25/07/2026",
+  "titulo": "Milhas Expiraram Sem Aviso? Conheça os Seus Direitos",
+  "subtitulo": "Entenda quando a perda de milhas e pontos pode ser questionada e o que fazer para recuperar o que você acumulou",
+  "descricao_seo": "Milhas expiradas sem aviso? Saiba quando a perda de milhas e pontos pode ser contestada e como buscar a recuperação do que foi acumulado.",
+  "tempo_leitura": "5 min"
+ },
+ {
+  "slug": "pericia-medica-do-inss-como-funciona-e-o-que-fazer",
+  "area": "Previdenciário",
+  "tag": "Previdenciário",
+  "date": "2026-07-25",
+  "date_display": "25/07/2026",
+  "titulo": "Perícia Médica do INSS, Como Funciona e O Que Fazer Se Negar",
+  "subtitulo": "Entenda como é a perícia do INSS, por que tantos benefícios são negados e os caminhos após um resultado injusto",
+  "descricao_seo": "Perícia do INSS negou seu benefício? Entenda como a avaliação funciona, por que erros são comuns e como reverter um resultado injusto.",
+  "tempo_leitura": "5 min"
+ },
+ {
+  "slug": "registro-de-marca-por-que-sua-empresa-precisa-dele",
+  "area": "Empresarial",
+  "tag": "Empresarial",
+  "date": "2026-07-25",
+  "date_display": "25/07/2026",
+  "titulo": "Registro de Marca, Por Que Sua Empresa Precisa Dele",
+  "subtitulo": "Entenda o que o registro de marca protege, os riscos de operar sem ele e o que fazer se alguém estiver usando o seu nome",
+  "descricao_seo": "Registro de marca: entenda o que ele protege, os riscos de não registrar e o que fazer quando outra empresa usa o nome do seu negócio.",
+  "tempo_leitura": "5 min"
+ },
+ {
+  "slug": "imovel-alugado-a-venda-quais-os-direitos-do-inquilino",
+  "area": "Imobiliário",
+  "tag": "Imobiliário",
+  "date": "2026-07-25",
+  "date_display": "25/07/2026",
+  "titulo": "Imóvel Alugado à Venda, Quais os Direitos do Inquilino",
+  "subtitulo": "Entenda a preferência na compra, as regras das visitas e quando o novo dono pode ou não pedir o imóvel",
+  "descricao_seo": "Proprietário vai vender o imóvel alugado? Conheça o direito de preferência do inquilino, as regras de visita e quando o novo dono pode pedir o imóvel.",
+  "tempo_leitura": "5 min"
+ },
+ {
   "slug": "interrogatorio-do-reu-como-funciona-e-seus-direitos",
   "area": "Penal",
   "tag": "Penal",
