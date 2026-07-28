@@ -2,9 +2,9 @@
 """Atualiza páginas de categoria (todos os artigos) e index.html (Publicados Hoje + carrosséis)."""
 import json, re
 
-DATE = "2026-07-27"
-DATE_DISPLAY = "27/07/2026"
-DATE_SHORT = "27 jul 2026"
+DATE = "2026-07-28"
+DATE_DISPLAY = "28/07/2026"
+DATE_SHORT = "28 jul 2026"
 
 AREAS = {
     "penal": "Penal",
