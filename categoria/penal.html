@@ -23,7 +23,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 <header>
   <div class="header-inner">
     <a href="../index.html" class="logo-area">
-      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia">
+      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia" width="225" height="210">
       <div class="logo-textblock">
         <div class="logo-name">Michel Rocha</div>
         <div class="logo-sub">Advocacia e Consultoria</div>
@@ -43,7 +43,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </a>
     </nav>
   </div>
-</header>
+</header><main>
 <div style="max-width:1080px;margin:0 auto;padding:4rem 2rem">
 
   <div style="display:grid;grid-template-columns:1.7fr 1fr;gap:2.5rem;align-items:start;margin-bottom:3.5rem">
@@ -54,7 +54,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </div>
       <h1 style="font-family:var(--serif);font-size:3rem;color:var(--cream);font-weight:300;line-height:1.1;margin-bottom:1rem">Direito Penal</h1>
       <p style="font-size:14px;color:var(--muted);line-height:1.9;max-width:620px;margin-bottom:1rem">Defesa criminal em todas as fases: flagrantes, audiências de custódia, execução penal e Tribunal do Júri. Atendimento urgente a familiares de pessoas presas.</p>
-      <div style="font-size:12px;color:var(--muted)">34 artigos publicados &nbsp;·&nbsp; Atualizado em 12/08/2026</div>
+      <div style="font-size:12px;color:var(--muted)">34 artigos publicados &nbsp;·&nbsp; Atualizado em 13/08/2026</div>
     </div>
     <div style="padding-top:2.2rem">
       <a href="https://wa.me/5571981758097?text=Ol%C3%A1%2C%20Dr.%20Michel%21%20Preciso%20de%20um%20advogado%20criminalista%2C%20%C3%A9%20urgente." target="_blank" class="btn-whatsapp" style="display:flex;justify-content:center;gap:10px;width:100%">Falar com um Criminalista</a>
@@ -74,248 +74,278 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem">
-    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Todos os Artigos</div>
-    <span style="font-size:12px;color:var(--muted)">34 artigos</span>
+    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Mais Artigos</div>
+    <span style="font-size:12px;color:var(--muted)">34 artigos ao todo</span>
   </div>
-  <div class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/preso-por-trafico-o-que-fazer-nas-primeiras-horas.html'" style="cursor:pointer">
+  <div class="cat-tabs">
+    <button class="cat-tab-btn active" id="tab-btn-destaques" onclick="catTab('destaques')">Destaques</button>
+    <button class="cat-tab-btn" id="tab-btn-recentes" onclick="catTab('recentes')">Mais Recentes</button>
+  </div>
+  <div style="display:flex;justify-content:flex-end;gap:8px;margin-bottom:0.75rem">
+    <button class="car-btn" onclick="scrollCat(-1)" aria-label="Anterior">&#8592;</button>
+    <button class="car-btn" onclick="scrollCat(1)" aria-label="Próximo">&#8594;</button>
+  </div>
+  <div class="car-wrap" id="tab-destaques"><div class="car-card" onclick="window.location.href='../artigo/preso-por-trafico-o-que-fazer-nas-primeiras-horas.html'">
       <div class="art-tag">Tráfico de Drogas</div>
       <div class="art-title">Preso por Tráfico, O Que Fazer nas Primeiras Horas</div>
       <div class="art-excerpt">Um familiar foi preso por tráfico? Entenda o que fazer agora e por que as primeiras horas decidem o resultado do caso</div>
       <div class="art-meta"><span>09/08/2026</span><span>9 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/fui-acusado-de-furto-ou-roubo-entenda-a-diferenca-na-pena.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/fui-acusado-de-furto-ou-roubo-entenda-a-diferenca-na-pena.html'">
       <div class="art-tag">Penal</div>
       <div class="art-title">Fui Acusado de Furto ou Roubo? Entenda a Diferença na Pena</div>
       <div class="art-excerpt">Saiba o que separa furto de roubo, por que a diferença muda tudo na pena e como a defesa atua em cada um desses crimes</div>
       <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/flagrado-com-droga-uso-ou-trafico-entenda-a-diferenca.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/flagrado-com-droga-uso-ou-trafico-entenda-a-diferenca.html'">
       <div class="art-tag">Penal</div>
       <div class="art-title">Flagrado com Droga, Uso ou Tráfico? Entenda a Diferença</div>
       <div class="art-excerpt">Saiba como a lei separa o usuário do traficante, o que pesa nessa definição e por que a defesa desde o flagrante é vital</div>
       <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/meu-filho-menor-foi-apreendido-o-que-fazer-agora.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/meu-filho-menor-foi-apreendido-o-que-fazer-agora.html'">
       <div class="art-tag">Penal</div>
       <div class="art-title">Meu Filho Menor Foi Apreendido, O Que Fazer Agora</div>
       <div class="art-excerpt">Entenda o que acontece na apreensão de um adolescente, os direitos dele e da família e a urgência da defesa técnica</div>
       <div class="art-meta"><span>28/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/recebi-uma-medida-protetiva-o-que-fazer-e-o-que-evitar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/recebi-uma-medida-protetiva-o-que-fazer-e-o-que-evitar.html'">
       <div class="art-tag">Penal</div>
       <div class="art-title">Recebi uma Medida Protetiva, O Que Fazer e O Que Evitar</div>
       <div class="art-excerpt">Entenda o que a medida impõe, as consequências graves de descumpri-la e como exercer a defesa da forma correta</div>
       <div class="art-meta"><span>27/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/parado-na-blitz-apos-beber-o-que-acontece-agora.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/parado-na-blitz-apos-beber-o-que-acontece-agora.html'">
       <div class="art-tag">Penal</div>
       <div class="art-title">Parado na Blitz Depois de Beber, O Que Acontece Agora</div>
       <div class="art-excerpt">Entenda a diferença entre a infração e o crime de embriaguez ao volante, seus direitos na abordagem e o que vem depois</div>
       <div class="art-meta"><span>26/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/antecedentes-criminais-quando-e-como-podem-ser-limpos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/antecedentes-criminais-quando-e-como-podem-ser-limpos.html'">
       <div class="art-tag">Penal</div>
       <div class="art-title">Antecedentes Criminais, Quando e Como Podem Ser Limpos</div>
       <div class="art-excerpt">Entenda o que são os antecedentes, quanto tempo um processo pesa na sua vida e quando o registro pode deixar de aparecer</div>
       <div class="art-meta"><span>25/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/interrogatorio-do-reu-como-funciona-e-seus-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/interrogatorio-do-reu-como-funciona-e-seus-direitos.html'">
       <div class="art-tag">Penal</div>
       <div class="art-title">Interrogatório do Réu, Como Funciona e Quais os Seus Direitos</div>
       <div class="art-excerpt">Entenda o que acontece no interrogatório, por que ele é decisivo e quais garantias protegem quem vai ser ouvido</div>
       <div class="art-meta"><span>24/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/acordo-de-nao-persecucao-penal-como-funciona.html'" style="cursor:pointer">
+    </div></div>
+  <div class="car-wrap" id="tab-recentes" style="display:none"><div class="car-card" onclick="window.location.href='../artigo/preso-por-trafico-o-que-fazer-nas-primeiras-horas.html'">
+      <div class="art-tag">Tráfico de Drogas</div>
+      <div class="art-title">Preso por Tráfico, O Que Fazer nas Primeiras Horas</div>
+      <div class="art-excerpt">Um familiar foi preso por tráfico? Entenda o que fazer agora e por que as primeiras horas decidem o resultado do caso</div>
+      <div class="art-meta"><span>09/08/2026</span><span>9 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/fui-acusado-de-furto-ou-roubo-entenda-a-diferenca-na-pena.html'">
+      <div class="art-tag">Penal</div>
+      <div class="art-title">Fui Acusado de Furto ou Roubo? Entenda a Diferença na Pena</div>
+      <div class="art-excerpt">Saiba o que separa furto de roubo, por que a diferença muda tudo na pena e como a defesa atua em cada um desses crimes</div>
+      <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/flagrado-com-droga-uso-ou-trafico-entenda-a-diferenca.html'">
+      <div class="art-tag">Penal</div>
+      <div class="art-title">Flagrado com Droga, Uso ou Tráfico? Entenda a Diferença</div>
+      <div class="art-excerpt">Saiba como a lei separa o usuário do traficante, o que pesa nessa definição e por que a defesa desde o flagrante é vital</div>
+      <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/meu-filho-menor-foi-apreendido-o-que-fazer-agora.html'">
+      <div class="art-tag">Penal</div>
+      <div class="art-title">Meu Filho Menor Foi Apreendido, O Que Fazer Agora</div>
+      <div class="art-excerpt">Entenda o que acontece na apreensão de um adolescente, os direitos dele e da família e a urgência da defesa técnica</div>
+      <div class="art-meta"><span>28/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/recebi-uma-medida-protetiva-o-que-fazer-e-o-que-evitar.html'">
+      <div class="art-tag">Penal</div>
+      <div class="art-title">Recebi uma Medida Protetiva, O Que Fazer e O Que Evitar</div>
+      <div class="art-excerpt">Entenda o que a medida impõe, as consequências graves de descumpri-la e como exercer a defesa da forma correta</div>
+      <div class="art-meta"><span>27/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/parado-na-blitz-apos-beber-o-que-acontece-agora.html'">
+      <div class="art-tag">Penal</div>
+      <div class="art-title">Parado na Blitz Depois de Beber, O Que Acontece Agora</div>
+      <div class="art-excerpt">Entenda a diferença entre a infração e o crime de embriaguez ao volante, seus direitos na abordagem e o que vem depois</div>
+      <div class="art-meta"><span>26/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/antecedentes-criminais-quando-e-como-podem-ser-limpos.html'">
+      <div class="art-tag">Penal</div>
+      <div class="art-title">Antecedentes Criminais, Quando e Como Podem Ser Limpos</div>
+      <div class="art-excerpt">Entenda o que são os antecedentes, quanto tempo um processo pesa na sua vida e quando o registro pode deixar de aparecer</div>
+      <div class="art-meta"><span>25/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/interrogatorio-do-reu-como-funciona-e-seus-direitos.html'">
+      <div class="art-tag">Penal</div>
+      <div class="art-title">Interrogatório do Réu, Como Funciona e Quais os Seus Direitos</div>
+      <div class="art-excerpt">Entenda o que acontece no interrogatório, por que ele é decisivo e quais garantias protegem quem vai ser ouvido</div>
+      <div class="art-meta"><span>24/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/acordo-de-nao-persecucao-penal-como-funciona.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Acordo de Não Persecução Penal, Como Funciona o ANPP</div>
       <div class="art-excerpt">Entenda quando é possível encerrar um caso criminal sem virar réu, os requisitos e os riscos de aceitar sem análise</div>
       <div class="art-meta"><span>21/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-
-  <div id="mais-artigos" style="display:none;margin-top:1.25rem" class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/remicao-de-pena-por-trabalho-e-estudo.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/remicao-de-pena-por-trabalho-e-estudo.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Remição de Pena por Trabalho e Estudo, Como Funciona</div>
       <div class="art-excerpt">Entenda como dias de trabalho e estudo reduzem a pena, por que a remição se perde e como garantir cada dia conquistado</div>
       <div class="art-meta"><span>20/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/onde-esta-meu-familiar-preso-como-localizar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/onde-esta-meu-familiar-preso-como-localizar.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Onde Está Meu Familiar Preso? Como Localizar e Visitar</div>
       <div class="art-excerpt">Entenda como descobrir para onde a pessoa presa foi levada, como funciona a visita e por que a defesa deve começar já</div>
       <div class="art-meta"><span>19/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/posso-ser-preso-por-divida-entenda.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/posso-ser-preso-por-divida-entenda.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Posso Ser Preso por Dívida? Entenda Quando É Possível</div>
       <div class="art-excerpt">Saiba em que situação única a prisão por dívida existe, o que cobradores não podem fazer e como reagir a ameaças</div>
       <div class="art-meta"><span>18/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/fianca-como-funciona-e-quando-e-negada.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/fianca-como-funciona-e-quando-e-negada.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Fiança, Como Funciona e O Que Fazer Quando É Negada</div>
       <div class="art-excerpt">Entenda quando a fiança é cabível, quem define o valor e o que fazer quando ela é negada ou fora do alcance</div>
       <div class="art-meta"><span>17/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/progressao-de-regime-quando-o-preso-tem-direito.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/progressao-de-regime-quando-o-preso-tem-direito.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Progressão de Regime, Quando o Preso Tem Direito</div>
       <div class="art-excerpt">Entenda os requisitos da progressão, por que o benefício demora e como a defesa pode acelerar a análise do pedido</div>
       <div class="art-meta"><span>16/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/preso-em-flagrante-abordagem-policial.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/preso-em-flagrante-abordagem-policial.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Preso em Flagrante em Abordagem Policial, E Agora?</div>
       <div class="art-excerpt">Entenda o que acontece nas primeiras horas após a prisão e por que a defesa imediata na custódia é decisiva</div>
       <div class="art-meta"><span>15/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/tornozeleira-eletronica-regras-e-riscos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/tornozeleira-eletronica-regras-e-riscos.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Tornozeleira Eletrônica, Regras, Violações e Riscos</div>
       <div class="art-excerpt">Entenda como funciona a monitoração eletrônica, o que pode levar de volta à prisão e por que a defesa técnica é decisiva</div>
       <div class="art-meta"><span>14/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/recebi-intimacao-policial-o-que-significa.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/recebi-intimacao-policial-o-que-significa.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Recebi uma Intimação Policial, O Que Significa e O Que Fazer</div>
       <div class="art-excerpt">Entenda o que é uma intimação policial, quais são as consequências de ignorá-la e por que buscar orientação jurídica antes de qualquer resposta</div>
       <div class="art-meta"><span>10/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/fui-indiciado-em-inquerito-policial-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/fui-indiciado-em-inquerito-policial-o-que-fazer.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Fui Indiciado em Inquérito Policial, O Que Isso Significa</div>
       <div class="art-excerpt">Entenda o que é o indiciamento, o que acontece depois e por que agir antes do oferecimento da denúncia é fundamental</div>
       <div class="art-meta"><span>10/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/fui-chamado-para-depor-na-delegacia-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/fui-chamado-para-depor-na-delegacia-o-que-fazer.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Fui Chamado Para Depor na Delegacia, O Que Fazer</div>
       <div class="art-excerpt">Entenda a diferença entre ser testemunha e ser investigado, seus direitos antes de qualquer depoimento e por que ir sozinho é arriscado</div>
       <div class="art-meta"><span>10/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/familiar-preso-como-visitar-e-ajudar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/familiar-preso-como-visitar-e-ajudar.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Familiar Preso, Como Visitar e O Que Fazer Para Ajudar</div>
       <div class="art-excerpt">Guia prático para familiares de presos sobre visitas, direitos durante a detenção e como contribuir para a defesa</div>
       <div class="art-meta"><span>10/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/busca-e-apreensao-na-minha-casa-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/busca-e-apreensao-na-minha-casa-o-que-fazer.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Fizeram Busca e Apreensão na Minha Casa, O Que Fazer</div>
       <div class="art-excerpt">Entenda seus direitos durante uma busca e apreensão, o que a polícia pode e não pode fazer e como agir para proteger seus direitos</div>
       <div class="art-meta"><span>10/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/audiencia-de-custodia-o-que-e-como-funciona.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/audiencia-de-custodia-o-que-e-como-funciona.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Audiência de Custódia, O Que É e Como Pode Definir a Liberdade</div>
       <div class="art-excerpt">Entenda o que acontece nas primeiras 24 horas após uma prisão e por que essa audiência é o momento mais crítico do processo</div>
       <div class="art-meta"><span>10/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/tenho-processo-criminal-posso-ser-demitido.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/tenho-processo-criminal-posso-ser-demitido.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Tenho Processo Criminal, Posso Ser Demitido Por Isso</div>
       <div class="art-excerpt">Entenda como um processo criminal pode afetar sua vida profissional e quais são os limites legais para demissão por esse motivo</div>
       <div class="art-meta"><span>09/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/fui-preso-injustamente-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/fui-preso-injustamente-o-que-fazer.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Fui Preso Injustamente, Quais São Meus Direitos e Como Agir</div>
       <div class="art-excerpt">Entenda o que caracteriza uma prisão ilegal, quais instrumentos jurídicos estão disponíveis e por que agir rapidamente é essencial</div>
       <div class="art-meta"><span>07/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/preso-preventivo-ha-muito-tempo-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/preso-preventivo-ha-muito-tempo-o-que-fazer.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Preso Preventivamente Há Muito Tempo Sem Julgamento</div>
       <div class="art-excerpt">Entenda quando a prisão preventiva prolongada é ilegal e quais instrumentos jurídicos podem garantir a liberdade</div>
       <div class="art-meta"><span>06/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/perdi-prazo-recurso-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/perdi-prazo-recurso-o-que-fazer.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Fui Condenado e Perdi o Prazo de Recurso, Ainda Tenho Saída</div>
       <div class="art-excerpt">Entenda o que fazer quando o prazo recursal passou e quais instrumentos jurídicos ainda estão disponíveis após a condenação</div>
       <div class="art-meta"><span>06/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/preso-em-flagrante-o-que-fazer-agora.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/preso-em-flagrante-o-que-fazer-agora.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Familiar Preso em Flagrante, O Que Fazer Agora</div>
       <div class="art-excerpt">Guia prático para as primeiras horas após a prisão em flagrante de um familiar ou amigo</div>
       <div class="art-meta"><span>05/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/anpp-acordo-nao-persecucao-penal.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/anpp-acordo-nao-persecucao-penal.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">ANPP, O Acordo que Pode Encerrar um Processo Criminal Sem Condenação</div>
       <div class="art-excerpt">Entenda como funciona o Acordo de Não Persecução Penal, quem pode ter acesso e o que é exigido em troca</div>
       <div class="art-meta"><span>04/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/legitima-defesa-direito-penal-quando-aplica.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/legitima-defesa-direito-penal-quando-aplica.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Legítima Defesa, Quando Ela é Reconhecida no Direito Penal</div>
       <div class="art-excerpt">Entenda os requisitos para que a legítima defesa seja reconhecida e o que acontece quando ela é invocada de forma equivocada</div>
       <div class="art-meta"><span>03/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/flagrante-delito-direitos-preso.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/flagrante-delito-direitos-preso.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Flagrante Delito, Direitos de Quem é Preso em Flagrante</div>
       <div class="art-excerpt">Entenda o que é a prisão em flagrante, quando ela é legal e quais são os direitos garantidos ao preso</div>
       <div class="art-meta"><span>02/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/crimes-contra-honra-calunia-difamacao-injuria.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/crimes-contra-honra-calunia-difamacao-injuria.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Crimes Contra a Honra, Calúnia, Difamação e Injúria</div>
       <div class="art-excerpt">Entenda as diferenças entre esses crimes, as penas previstas e como agir quando você é vítima</div>
       <div class="art-meta"><span>01/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/prisao-preventiva-requisitos-prazo.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/prisao-preventiva-requisitos-prazo.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Prisão Preventiva, Requisitos, Prazo e Quando Pode Ser Revogada</div>
       <div class="art-excerpt">Entenda os limites legais da prisão cautelar e os direitos de quem está preso provisoriamente</div>
       <div class="art-meta"><span>30/06/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/habeas-corpus-como-funciona.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/habeas-corpus-como-funciona.html'">
       <div class="art-tag">Direito Penal</div>
       <div class="art-title">Habeas Corpus: Como Funciona e Quando Usar Esse Direito</div>
       <div class="art-excerpt">Entenda o instrumento constitucional que protege qualquer pessoa contra prisão ilegal ou abusiva</div>
       <div class="art-meta"><span>30/06/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-  <div style="text-align:center;margin-top:1.75rem">
-    <a href="#" id="btn-mais" onclick="document.getElementById('mais-artigos').style.display='grid';this.parentElement.style.display='none';return false" style="color:var(--gold);font-size:13px;text-decoration:none;border:1px solid rgba(201,168,76,0.4);padding:12px 28px;display:inline-block">Ver todos os 34 artigos ↓</a>
-  </div>
+    </div></div>
+  <script>
+  function catTab(nome) {
+    ['destaques','recentes'].forEach(function(n) {
+      document.getElementById('tab-'+n).style.display = (n===nome) ? 'flex' : 'none';
+      document.getElementById('tab-btn-'+n).classList.toggle('active', n===nome);
+    });
+  }
+  function scrollCat(dir) {
+    var ativo = document.querySelector('.cat-tab-btn.active').id.replace('tab-btn-','');
+    var el = document.getElementById('tab-'+ativo);
+    if (el) el.scrollBy({left: dir * 320, behavior: 'smooth'});
+  }
+  </script>
 
   <div style="background:#100e0a;border:1px solid var(--gold);padding:2.5rem;margin-top:3.5rem;display:grid;grid-template-columns:2fr 1fr;gap:2rem;align-items:center">
     <div>
@@ -328,6 +358,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
 </div>
+</main>
 
 <div class="float-wrap">
   <div class="float-label">Falar com um advogado</div>
@@ -338,7 +369,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 
 <footer>
   <div class="foot-inner">
-    <img src="../logo-mark.png" class="foot-mark" alt="">
+    <img src="../logo-mark.png" class="foot-mark" alt="" width="225" height="210">
     <div class="foot-brand">Michel Rocha, Advocacia e Consultoria</div>
     <div class="foot-info">Atuação nacional, BA, CE, RJ, SP, MG, SC, PA e outros estados</div>
     <div class="foot-links">
