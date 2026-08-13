@@ -136,7 +136,7 @@ for i, (slug, nome, descr) in enumerate(CIDADES):
                   "Execução Penal e Progressão", "Tornozeleira Eletrônica", "Tribunal do Júri"]
     )
 
-    body = f'''
+    body = f'''<main>
 <div style="max-width:1000px;margin:0 auto;padding:4rem 2rem">
   <div style="margin-bottom:3rem">
     <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:1rem;display:flex;align-items:center;gap:14px">
@@ -168,6 +168,7 @@ for i, (slug, nome, descr) in enumerate(CIDADES):
     </div>
   </div>
 </div>
+</main>
 
 '''
     html = (HEAD.format(nome=nome, desc=desc, base=BASE, slug=slug, wa=WA, uf=uf) + header + body + tail).replace("</head>", GA_TAG + "</head>", 1)
