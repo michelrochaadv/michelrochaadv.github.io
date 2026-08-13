@@ -23,7 +23,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 <header>
   <div class="header-inner">
     <a href="../index.html" class="logo-area">
-      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia">
+      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia" width="225" height="210">
       <div class="logo-textblock">
         <div class="logo-name">Michel Rocha</div>
         <div class="logo-sub">Advocacia e Consultoria</div>
@@ -43,7 +43,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </a>
     </nav>
   </div>
-</header>
+</header><main>
 <div style="max-width:1080px;margin:0 auto;padding:4rem 2rem">
 
   <div style="display:grid;grid-template-columns:1.7fr 1fr;gap:2.5rem;align-items:start;margin-bottom:3.5rem">
@@ -54,7 +54,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </div>
       <h1 style="font-family:var(--serif);font-size:3rem;color:var(--cream);font-weight:300;line-height:1.1;margin-bottom:1rem">Direito Previdenciário</h1>
       <p style="font-size:14px;color:var(--muted);line-height:1.9;max-width:620px;margin-bottom:1rem">Benefícios do INSS: concessões negadas, cortes indevidos, aposentadorias, auxílios e BPC. Estratégia administrativa e judicial para garantir a sua renda.</p>
-      <div style="font-size:12px;color:var(--muted)">34 artigos publicados &nbsp;·&nbsp; Atualizado em 12/08/2026</div>
+      <div style="font-size:12px;color:var(--muted)">34 artigos publicados &nbsp;·&nbsp; Atualizado em 13/08/2026</div>
     </div>
     <div style="padding-top:2.2rem">
       <a href="https://wa.me/5571981758097?text=Ol%C3%A1%2C%20Dr.%20Michel%21%20Preciso%20de%20ajuda%20com%20um%20benef%C3%ADcio%20do%20INSS." target="_blank" class="btn-whatsapp" style="display:flex;justify-content:center;gap:10px;width:100%">Falar com um Advogado</a>
@@ -74,248 +74,278 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem">
-    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Todos os Artigos</div>
-    <span style="font-size:12px;color:var(--muted)">34 artigos</span>
+    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Mais Artigos</div>
+    <span style="font-size:12px;color:var(--muted)">34 artigos ao todo</span>
   </div>
-  <div class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/posso-me-aposentar-descubra-antes-de-perder-tempo-e-dinheiro.html'" style="cursor:pointer">
+  <div class="cat-tabs">
+    <button class="cat-tab-btn active" id="tab-btn-destaques" onclick="catTab('destaques')">Destaques</button>
+    <button class="cat-tab-btn" id="tab-btn-recentes" onclick="catTab('recentes')">Mais Recentes</button>
+  </div>
+  <div style="display:flex;justify-content:flex-end;gap:8px;margin-bottom:0.75rem">
+    <button class="car-btn" onclick="scrollCat(-1)" aria-label="Anterior">&#8592;</button>
+    <button class="car-btn" onclick="scrollCat(1)" aria-label="Próximo">&#8594;</button>
+  </div>
+  <div class="car-wrap" id="tab-destaques"><div class="car-card" onclick="window.location.href='../artigo/posso-me-aposentar-descubra-antes-de-perder-tempo-e-dinheiro.html'">
       <div class="art-tag">Aposentadoria</div>
       <div class="art-title">Posso Me Aposentar? Descubra Antes de Perder Tempo e Dinheiro</div>
       <div class="art-excerpt">Saiba por que dar entrada sem análise prévia pode custar caro, e como descobrir se você já tem direito hoje</div>
       <div class="art-meta"><span>09/08/2026</span><span>9 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/trabalhei-exposto-a-agente-nocivo-tempo-especial-como-provar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/trabalhei-exposto-a-agente-nocivo-tempo-especial-como-provar.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Trabalhei Exposto a Agente Nocivo, Como Provar o Tempo Especial</div>
       <div class="art-excerpt">Entenda o que é o tempo especial, como ele antecipa a aposentadoria e os documentos que comprovam a exposição</div>
       <div class="art-meta"><span>05/08/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/bpc-para-crianca-com-deficiencia-ou-autismo-como-pedir.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/bpc-para-crianca-com-deficiencia-ou-autismo-como-pedir.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">BPC Para Criança com Deficiência ou Autismo, Como Pedir</div>
       <div class="art-excerpt">Entenda quem tem direito ao benefício assistencial para crianças, os critérios de renda e o que fazer diante da negativa</div>
       <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/pensao-por-morte-para-companheiro-uniao-estavel-como-provar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/pensao-por-morte-para-companheiro-uniao-estavel-como-provar.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Pensão por Morte Para Companheiro, Como Provar a União</div>
       <div class="art-excerpt">Entenda por que o INSS costuma negar a pensão de quem vivia em união estável e como provar o vínculo sem certidão</div>
       <div class="art-meta"><span>31/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/aposentado-com-doenca-grave-isencao-do-imposto-de-renda.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentado-com-doenca-grave-isencao-do-imposto-de-renda.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Aposentado com Doença Grave, Isenção do Imposto de Renda</div>
       <div class="art-excerpt">Conheça a isenção sobre aposentadorias e pensões para portadores de doenças graves e como recuperar o que foi pago</div>
       <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/vinculo-nao-aparece-no-cnis-como-corrigir.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/vinculo-nao-aparece-no-cnis-como-corrigir.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Vínculo Não Aparece no CNIS, Como Corrigir</div>
       <div class="art-excerpt">Entenda por que empregos e contribuições somem do cadastro do INSS e como corrigir antes que custe a aposentadoria</div>
       <div class="art-meta"><span>29/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/aposentadoria-hibrida-como-somar-tempo-rural-e-urbano.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentadoria-hibrida-como-somar-tempo-rural-e-urbano.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Aposentadoria Híbrida, Como Somar Tempo Rural e Urbano</div>
       <div class="art-excerpt">Conheça a aposentadoria que une a roça e a cidade na mesma conta e beneficia quem migrou do campo para o trabalho urbano</div>
       <div class="art-meta"><span>29/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/parei-de-contribuir-para-o-inss-ainda-estou-protegido.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/parei-de-contribuir-para-o-inss-ainda-estou-protegido.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Parei de Contribuir Para o INSS, Ainda Estou Protegido?</div>
       <div class="art-excerpt">Conheça o período de graça, em que o INSS segue cobrindo quem parou de pagar, e os erros que custam benefícios</div>
       <div class="art-meta"><span>29/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/alta-programada-do-inss-o-que-fazer-se-nao-pode-voltar.html'" style="cursor:pointer">
+    </div></div>
+  <div class="car-wrap" id="tab-recentes" style="display:none"><div class="car-card" onclick="window.location.href='../artigo/posso-me-aposentar-descubra-antes-de-perder-tempo-e-dinheiro.html'">
+      <div class="art-tag">Aposentadoria</div>
+      <div class="art-title">Posso Me Aposentar? Descubra Antes de Perder Tempo e Dinheiro</div>
+      <div class="art-excerpt">Saiba por que dar entrada sem análise prévia pode custar caro, e como descobrir se você já tem direito hoje</div>
+      <div class="art-meta"><span>09/08/2026</span><span>9 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/trabalhei-exposto-a-agente-nocivo-tempo-especial-como-provar.html'">
+      <div class="art-tag">Previdenciário</div>
+      <div class="art-title">Trabalhei Exposto a Agente Nocivo, Como Provar o Tempo Especial</div>
+      <div class="art-excerpt">Entenda o que é o tempo especial, como ele antecipa a aposentadoria e os documentos que comprovam a exposição</div>
+      <div class="art-meta"><span>05/08/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/bpc-para-crianca-com-deficiencia-ou-autismo-como-pedir.html'">
+      <div class="art-tag">Previdenciário</div>
+      <div class="art-title">BPC Para Criança com Deficiência ou Autismo, Como Pedir</div>
+      <div class="art-excerpt">Entenda quem tem direito ao benefício assistencial para crianças, os critérios de renda e o que fazer diante da negativa</div>
+      <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/pensao-por-morte-para-companheiro-uniao-estavel-como-provar.html'">
+      <div class="art-tag">Previdenciário</div>
+      <div class="art-title">Pensão por Morte Para Companheiro, Como Provar a União</div>
+      <div class="art-excerpt">Entenda por que o INSS costuma negar a pensão de quem vivia em união estável e como provar o vínculo sem certidão</div>
+      <div class="art-meta"><span>31/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentado-com-doenca-grave-isencao-do-imposto-de-renda.html'">
+      <div class="art-tag">Previdenciário</div>
+      <div class="art-title">Aposentado com Doença Grave, Isenção do Imposto de Renda</div>
+      <div class="art-excerpt">Conheça a isenção sobre aposentadorias e pensões para portadores de doenças graves e como recuperar o que foi pago</div>
+      <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/vinculo-nao-aparece-no-cnis-como-corrigir.html'">
+      <div class="art-tag">Previdenciário</div>
+      <div class="art-title">Vínculo Não Aparece no CNIS, Como Corrigir</div>
+      <div class="art-excerpt">Entenda por que empregos e contribuições somem do cadastro do INSS e como corrigir antes que custe a aposentadoria</div>
+      <div class="art-meta"><span>29/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentadoria-hibrida-como-somar-tempo-rural-e-urbano.html'">
+      <div class="art-tag">Previdenciário</div>
+      <div class="art-title">Aposentadoria Híbrida, Como Somar Tempo Rural e Urbano</div>
+      <div class="art-excerpt">Conheça a aposentadoria que une a roça e a cidade na mesma conta e beneficia quem migrou do campo para o trabalho urbano</div>
+      <div class="art-meta"><span>29/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/parei-de-contribuir-para-o-inss-ainda-estou-protegido.html'">
+      <div class="art-tag">Previdenciário</div>
+      <div class="art-title">Parei de Contribuir Para o INSS, Ainda Estou Protegido?</div>
+      <div class="art-excerpt">Conheça o período de graça, em que o INSS segue cobrindo quem parou de pagar, e os erros que custam benefícios</div>
+      <div class="art-meta"><span>29/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/alta-programada-do-inss-o-que-fazer-se-nao-pode-voltar.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Alta Programada do INSS, O Que Fazer Se Não Pode Voltar</div>
       <div class="art-excerpt">Entenda a cessação automática do benefício por incapacidade e os caminhos de quem segue sem poder trabalhar</div>
       <div class="art-meta"><span>29/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-
-  <div id="mais-artigos" style="display:none;margin-top:1.25rem" class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/contribuicao-do-inss-atrasada-quando-da-para-regularizar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/contribuicao-do-inss-atrasada-quando-da-para-regularizar.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Contribuição do INSS Atrasada, Quando Dá Para Regularizar</div>
       <div class="art-excerpt">Entenda quem pode pagar períodos em atraso, quais épocas se recuperam e os cuidados antes de emitir qualquer guia</div>
       <div class="art-meta"><span>29/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/mei-se-aposenta-como-funciona-a-previdencia-do-mei.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/mei-se-aposenta-como-funciona-a-previdencia-do-mei.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">MEI Se Aposenta? Como Funciona a Previdência do MEI</div>
       <div class="art-excerpt">Entenda o que a guia mensal do MEI garante, o que ela não garante e como planejar uma aposentadoria melhor</div>
       <div class="art-meta"><span>29/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/auxilio-reclusao-quem-tem-direito-e-como-funciona.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/auxilio-reclusao-quem-tem-direito-e-como-funciona.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Auxílio-Reclusão, Quem Tem Direito e Como Funciona</div>
       <div class="art-excerpt">Desfaça os mitos sobre o benefício, saiba quais famílias podem receber e o que fazer quando o INSS nega</div>
       <div class="art-meta"><span>28/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/aposentadoria-da-pessoa-com-deficiencia-como-funciona.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentadoria-da-pessoa-com-deficiencia-como-funciona.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Aposentadoria da Pessoa com Deficiência, Como Funciona</div>
       <div class="art-excerpt">Conheça a aposentadoria com regras mais vantajosas para quem trabalhou com deficiência e saiba por que é tão pouco usada</div>
       <div class="art-meta"><span>27/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/acidente-de-trabalho-e-inss-quais-os-seus-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/acidente-de-trabalho-e-inss-quais-os-seus-direitos.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Acidente de Trabalho e INSS, Quais os Seus Direitos</div>
       <div class="art-excerpt">Entenda o que caracteriza acidente de trabalho, a importância da CAT e os benefícios que o INSS deve ao acidentado</div>
       <div class="art-meta"><span>26/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/pericia-medica-do-inss-como-funciona-e-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/pericia-medica-do-inss-como-funciona-e-o-que-fazer.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Perícia Médica do INSS, Como Funciona e O Que Fazer Se Negar</div>
       <div class="art-excerpt">Entenda como é a perícia do INSS, por que tantos benefícios são negados e os caminhos após um resultado injusto</div>
       <div class="art-meta"><span>25/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/salario-maternidade-negado-pelo-inss-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/salario-maternidade-negado-pelo-inss-o-que-fazer.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Salário-Maternidade Negado pelo INSS, O Que Fazer</div>
       <div class="art-excerpt">Entenda quem tem direito ao salário-maternidade, por que o INSS nega o benefício e como reverter a decisão</div>
       <div class="art-meta"><span>24/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/aposentadoria-por-tempo-de-contribuicao-regras-atuais.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentadoria-por-tempo-de-contribuicao-regras-atuais.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Aposentadoria por Tempo de Contribuição, Regras Atuais</div>
       <div class="art-excerpt">Entenda as regras de transição após a reforma, por que o melhor momento de se aposentar varia e como evitar erros</div>
       <div class="art-meta"><span>22/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/auxilio-acidente-o-beneficio-que-poucos-conhecem.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/auxilio-acidente-o-beneficio-que-poucos-conhecem.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Auxílio-Acidente, o Benefício Que Poucos Sabem Que Têm</div>
       <div class="art-excerpt">Sofreu acidente e ficou com sequela? Você pode ter direito a um benefício mensal mesmo continuando a trabalhar</div>
       <div class="art-meta"><span>20/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/atividade-insalubre-aposentadoria-especial.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/atividade-insalubre-aposentadoria-especial.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Atividade Insalubre e Aposentadoria Especial, Entenda</div>
       <div class="art-excerpt">Trabalhou exposto a ruído, agentes químicos ou biológicos? Entenda como o tempo especial encurta a aposentadoria</div>
       <div class="art-meta"><span>19/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/inss-nao-reconheceu-tempo-de-trabalho.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/inss-nao-reconheceu-tempo-de-trabalho.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">INSS Não Reconheceu Seu Tempo de Trabalho, O Que Fazer</div>
       <div class="art-excerpt">Entenda por que vínculos e contribuições somem do cadastro do INSS e como comprovar o tempo que é seu por direito</div>
       <div class="art-meta"><span>18/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/pedido-parado-no-inss-ha-meses-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/pedido-parado-no-inss-ha-meses-o-que-fazer.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Pedido Parado no INSS Há Meses, O Que Fazer Agora</div>
       <div class="art-excerpt">Entenda os prazos que o INSS deve cumprir, por que a análise atrasa e como destravar seu benefício, inclusive na Justiça</div>
       <div class="art-meta"><span>17/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/inss-cortou-beneficio-apos-revisao-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/inss-cortou-beneficio-apos-revisao-o-que-fazer.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">INSS Cortou Seu Benefício Após Revisão, O Que Fazer</div>
       <div class="art-excerpt">Entenda por que benefícios são cortados no pente-fino, quais os seus direitos e como agir para restabelecer o pagamento</div>
       <div class="art-meta"><span>16/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/bpc-loas-negado-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/bpc-loas-negado-o-que-fazer.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">BPC LOAS Negado, O Que Fazer Para Reverter a Decisão</div>
       <div class="art-excerpt">Entenda por que o benefício ao idoso e à pessoa com deficiência é tão negado e como reverter a decisão</div>
       <div class="art-meta"><span>15/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/inss-negou-auxilio-por-incapacidade.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/inss-negou-auxilio-por-incapacidade.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">INSS Negou Auxílio por Incapacidade, O Que Fazer Agora</div>
       <div class="art-excerpt">Entenda por que tantos pedidos são negados na perícia e quais caminhos existem para reverter a decisão do INSS</div>
       <div class="art-meta"><span>14/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/aposentadoria-por-tempo-contribuicao-regras-2026.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentadoria-por-tempo-contribuicao-regras-2026.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Aposentadoria por Tempo de Contribuição, Regras em 2026</div>
       <div class="art-excerpt">Entenda como funcionam as regras de transição após a reforma previdenciária e quais caminhos ainda estão disponíveis</div>
       <div class="art-meta"><span>09/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/aposentadoria-negada-como-recorrer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentadoria-negada-como-recorrer.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Aposentadoria Negada pelo INSS, Como Recorrer e O Que Esperar</div>
       <div class="art-excerpt">Entenda os caminhos disponíveis após a negativa do INSS e por que cada caso exige uma estratégia diferente</div>
       <div class="art-meta"><span>07/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/aposentadoria-rural-como-comprovar-atividade.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentadoria-rural-como-comprovar-atividade.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Aposentadoria Rural, Como Comprovar a Atividade e Conseguir o Benefício</div>
       <div class="art-excerpt">Entenda quais documentos comprovam o trabalho rural para o INSS e como agir quando a documentação é escassa</div>
       <div class="art-meta"><span>06/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/inss-negou-beneficio-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/inss-negou-beneficio-o-que-fazer.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">INSS Negou Seu Benefício, O Que Fazer Agora</div>
       <div class="art-excerpt">Entenda por que o INSS nega benefícios, quais recursos estão disponíveis e como reverter a decisão pela via judicial</div>
       <div class="art-meta"><span>05/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/aposentadoria-especial-atividade-insalubre.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentadoria-especial-atividade-insalubre.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Aposentadoria Especial, Quem Trabalha em Condições Insalubres</div>
       <div class="art-excerpt">Entenda como funciona a aposentadoria especial para quem trabalha exposto a agentes nocivos à saúde e quais os requisitos</div>
       <div class="art-meta"><span>03/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/pensao-por-morte-inss-quem-tem-direito.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/pensao-por-morte-inss-quem-tem-direito.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Pensão por Morte INSS, Quem Tem Direito e Como Requerer</div>
       <div class="art-excerpt">Entenda os requisitos para receber a pensão por morte do INSS e como o valor é calculado para cada dependente</div>
       <div class="art-meta"><span>02/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/auxilio-doenca-inss-como-requerer-2026.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/auxilio-doenca-inss-como-requerer-2026.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Auxílio Doença INSS, Como Requerer e Evitar Negativas</div>
       <div class="art-excerpt">Entenda os requisitos, documentos necessários e como agir quando o benefício é negado pelo INSS</div>
       <div class="art-meta"><span>01/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/bpc-loas-quem-tem-direito-2026.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/bpc-loas-quem-tem-direito-2026.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">BPC LOAS, Saiba Se Você Tem Direito ao Benefício Assistencial</div>
       <div class="art-excerpt">Entenda os critérios de renda, idade e deficiência para receber o benefício de prestação continuada</div>
       <div class="art-meta"><span>30/06/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/aposentadoria-por-incapacidade-2026.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/aposentadoria-por-incapacidade-2026.html'">
       <div class="art-tag">Previdenciário</div>
       <div class="art-title">Aposentadoria por Incapacidade: Quem Tem Direito em 2026</div>
       <div class="art-excerpt">Entenda as regras atualizadas, os documentos necessários e como evitar indeferimentos no INSS</div>
       <div class="art-meta"><span>29/06/2026</span><span>6 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-  <div style="text-align:center;margin-top:1.75rem">
-    <a href="#" id="btn-mais" onclick="document.getElementById('mais-artigos').style.display='grid';this.parentElement.style.display='none';return false" style="color:var(--gold);font-size:13px;text-decoration:none;border:1px solid rgba(201,168,76,0.4);padding:12px 28px;display:inline-block">Ver todos os 34 artigos ↓</a>
-  </div>
+    </div></div>
+  <script>
+  function catTab(nome) {
+    ['destaques','recentes'].forEach(function(n) {
+      document.getElementById('tab-'+n).style.display = (n===nome) ? 'flex' : 'none';
+      document.getElementById('tab-btn-'+n).classList.toggle('active', n===nome);
+    });
+  }
+  function scrollCat(dir) {
+    var ativo = document.querySelector('.cat-tab-btn.active').id.replace('tab-btn-','');
+    var el = document.getElementById('tab-'+ativo);
+    if (el) el.scrollBy({left: dir * 320, behavior: 'smooth'});
+  }
+  </script>
 
   <div style="background:#100e0a;border:1px solid var(--gold);padding:2.5rem;margin-top:3.5rem;display:grid;grid-template-columns:2fr 1fr;gap:2rem;align-items:center">
     <div>
@@ -328,6 +358,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
 </div>
+</main>
 
 <div class="float-wrap">
   <div class="float-label">Falar com um advogado</div>
@@ -338,7 +369,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 
 <footer>
   <div class="foot-inner">
-    <img src="../logo-mark.png" class="foot-mark" alt="">
+    <img src="../logo-mark.png" class="foot-mark" alt="" width="225" height="210">
     <div class="foot-brand">Michel Rocha, Advocacia e Consultoria</div>
     <div class="foot-info">Atuação nacional, BA, CE, RJ, SP, MG, SC, PA e outros estados</div>
     <div class="foot-links">
