@@ -61,26 +61,41 @@ def gerar():
         destaque, resto = arts[0], arts[1:]
         wa_url = f"https://wa.me/{WA}?text={urllib.parse.quote(A['wa'])}"
 
-        def card(a):
-            return f'''    <div class="art-card" onclick="window.location.href='../artigo/{a["slug"]}.html'" style="cursor:pointer">
+        def tempo_min(a):
+            import re
+            m = re.search(r"\d+", a.get("tempo_leitura", "5 min"))
+            return int(m.group()) if m else 5
+
+        def car_card(a):
+            return f'''<div class="car-card" onclick="window.location.href='../artigo/{a["slug"]}.html'">
       <div class="art-tag">{a["tag"]}</div>
       <div class="art-title">{a["titulo"]}</div>
       <div class="art-excerpt">{a["subtitulo"]}</div>
       <div class="art-meta"><span>{a["date_display"]}</span><span>{a["tempo_leitura"]}</span></div>
       <span class="art-more">Ler artigo \u2192</span>
     </div>'''
-        visiveis, ocultos = resto[:9], resto[9:]
-        cards = "\n".join(card(a) for a in visiveis)
-        extra = ""
-        if ocultos:
-            cards_ocultos = "\n".join(card(a) for a in ocultos)
-            extra = f'''
-  <div id="mais-artigos" style="display:none;margin-top:1.25rem" class="grid3">
-{cards_ocultos}
-  </div>
-  <div style="text-align:center;margin-top:1.75rem">
-    <a href="#" id="btn-mais" onclick="document.getElementById('mais-artigos').style.display='grid';this.parentElement.style.display='none';return false" style="color:var(--gold);font-size:13px;text-decoration:none;border:1px solid rgba(201,168,76,0.4);padding:12px 28px;display:inline-block">Ver todos os {len(arts)} artigos \u2193</a>
-  </div>'''
+
+        # Recentes: tudo que sobrou do destaque, do mais novo pro mais antigo
+        # (o index.json ja vem nessa ordem).
+        recentes_list = resto
+
+        # Destaques: artigos elaborados (>=8 min de leitura, conteudo mais
+        # aprofundado) primeiro; se ficar abaixo de um piso minimo, completa
+        # com os mais recentes restantes para a aba nunca ficar rala.
+        PISO_DESTAQUES = 8
+        elaborados = [a for a in resto if tempo_min(a) >= 8]
+        destaques_list = list(elaborados)
+        if len(destaques_list) < PISO_DESTAQUES:
+            usados = {a["slug"] for a in destaques_list}
+            for a in resto:
+                if len(destaques_list) >= PISO_DESTAQUES:
+                    break
+                if a["slug"] not in usados:
+                    destaques_list.append(a)
+                    usados.add(a["slug"])
+
+        cards_destaques = "".join(car_card(a) for a in destaques_list)
+        cards_recentes = "".join(car_card(a) for a in recentes_list)
 
         cidades_html = ""
         if slug == "penal":
@@ -89,7 +104,7 @@ def gerar():
         else:
             cidades_html = '<div style="font-size:12px;color:var(--muted);line-height:1.8">Atendimento em Salvador,<br>em toda a Bahia e online<br>para todo o Brasil</div>'
 
-        body = f'''
+        body = f'''<main>
 <div style="max-width:1080px;margin:0 auto;padding:4rem 2rem">
 
   <div style="display:grid;grid-template-columns:1.7fr 1fr;gap:2.5rem;align-items:start;margin-bottom:3.5rem">
@@ -120,13 +135,32 @@ def gerar():
   </div>
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem">
-    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Todos os Artigos</div>
-    <span style="font-size:12px;color:var(--muted)">{len(arts)} artigos</span>
+    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Mais Artigos</div>
+    <span style="font-size:12px;color:var(--muted)">{len(arts)} artigos ao todo</span>
   </div>
-  <div class="grid3">
-{cards}
+  <div class="cat-tabs">
+    <button class="cat-tab-btn active" id="tab-btn-destaques" onclick="catTab('destaques')">Destaques</button>
+    <button class="cat-tab-btn" id="tab-btn-recentes" onclick="catTab('recentes')">Mais Recentes</button>
   </div>
-{extra}
+  <div style="display:flex;justify-content:flex-end;gap:8px;margin-bottom:0.75rem">
+    <button class="car-btn" onclick="scrollCat(-1)" aria-label="Anterior">&#8592;</button>
+    <button class="car-btn" onclick="scrollCat(1)" aria-label="Pr\u00f3ximo">&#8594;</button>
+  </div>
+  <div class="car-wrap" id="tab-destaques">{cards_destaques}</div>
+  <div class="car-wrap" id="tab-recentes" style="display:none">{cards_recentes}</div>
+  <script>
+  function catTab(nome) {{
+    ['destaques','recentes'].forEach(function(n) {{
+      document.getElementById('tab-'+n).style.display = (n===nome) ? 'flex' : 'none';
+      document.getElementById('tab-btn-'+n).classList.toggle('active', n===nome);
+    }});
+  }}
+  function scrollCat(dir) {{
+    var ativo = document.querySelector('.cat-tab-btn.active').id.replace('tab-btn-','');
+    var el = document.getElementById('tab-'+ativo);
+    if (el) el.scrollBy({{left: dir * 320, behavior: 'smooth'}});
+  }}
+  </script>
 
   <div style="background:#100e0a;border:1px solid var(--gold);padding:2.5rem;margin-top:3.5rem;display:grid;grid-template-columns:2fr 1fr;gap:2rem;align-items:center">
     <div>
@@ -139,6 +173,7 @@ def gerar():
   </div>
 
 </div>
+</main>
 
 '''
         head = f'''<!DOCTYPE html>
@@ -157,7 +192,7 @@ def gerar():
 <body>
 '''
         open(f"categoria/{slug}.html", "w", encoding="utf-8").write((head + header + body + tail).replace("</head>", GA_TAG + "</head>", 1))
-        print(f"\u2713 categoria/{slug}.html \u2192 destaque + {len(resto)} no grid")
+        print(f"\u2713 categoria/{slug}.html \u2192 destaque + {len(destaques_list)} destaques + {len(recentes_list)} recentes")
 
 if __name__ == "__main__":
     gerar()
