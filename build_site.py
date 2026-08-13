@@ -68,7 +68,7 @@ def build_article_page(article: dict) -> str:
 <header>
   <div class="header-inner">
     <a href="../index.html" class="logo-area">
-      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia">
+      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia" width="225" height="210">
       <div class="logo-textblock">
         <div class="logo-name">Michel Rocha</div>
         <div class="logo-sub">Advocacia e Consultoria</div>
@@ -141,7 +141,7 @@ def build_article_page(article: dict) -> str:
 
 <footer>
   <div class="foot-inner">
-    <img src="../logo-mark.png" class="foot-mark" alt="">\n    <div class="foot-brand">Michel Rocha · Advocacia e Consultoria</div>
+    <img src="../logo-mark.png" class="foot-mark" alt="" width="225" height="210">\n    <div class="foot-brand">Michel Rocha · Advocacia e Consultoria</div>
     <div class="foot-info">Atuação nacional · BA · CE · RJ · SP · MG · SC · PA · GO · RS · PE</div>
     <div class="foot-links">
       <a href="../index.html">Início</a>
