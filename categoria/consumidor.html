@@ -23,7 +23,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 <header>
   <div class="header-inner">
     <a href="../index.html" class="logo-area">
-      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia">
+      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia" width="225" height="210">
       <div class="logo-textblock">
         <div class="logo-name">Michel Rocha</div>
         <div class="logo-sub">Advocacia e Consultoria</div>
@@ -43,7 +43,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </a>
     </nav>
   </div>
-</header>
+</header><main>
 <div style="max-width:1080px;margin:0 auto;padding:4rem 2rem">
 
   <div style="display:grid;grid-template-columns:1.7fr 1fr;gap:2.5rem;align-items:start;margin-bottom:3.5rem">
@@ -54,7 +54,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </div>
       <h1 style="font-family:var(--serif);font-size:3rem;color:var(--cream);font-weight:300;line-height:1.1;margin-bottom:1rem">Direito do Consumidor</h1>
       <p style="font-size:14px;color:var(--muted);line-height:1.9;max-width:620px;margin-bottom:1rem">Defesa do consumidor contra planos de saúde, bancos, concessionárias e companhias aéreas. Negativas abusivas, cobranças indevidas e indenizações.</p>
-      <div style="font-size:12px;color:var(--muted)">52 artigos publicados &nbsp;·&nbsp; Atualizado em 12/08/2026</div>
+      <div style="font-size:12px;color:var(--muted)">52 artigos publicados &nbsp;·&nbsp; Atualizado em 13/08/2026</div>
     </div>
     <div style="padding-top:2.2rem">
       <a href="https://wa.me/5571981758097?text=Ol%C3%A1%2C%20Dr.%20Michel%21%20Tive%20um%20problema%20como%20consumidor%20e%20preciso%20de%20orienta%C3%A7%C3%A3o." target="_blank" class="btn-whatsapp" style="display:flex;justify-content:center;gap:10px;width:100%">Falar com um Advogado</a>
@@ -74,374 +74,386 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem">
-    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Todos os Artigos</div>
-    <span style="font-size:12px;color:var(--muted)">52 artigos</span>
+    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Mais Artigos</div>
+    <span style="font-size:12px;color:var(--muted)">52 artigos ao todo</span>
   </div>
-  <div class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/desconto-de-consignado-acima-do-limite-direitos-do-servidor.html'" style="cursor:pointer">
+  <div class="cat-tabs">
+    <button class="cat-tab-btn active" id="tab-btn-destaques" onclick="catTab('destaques')">Destaques</button>
+    <button class="cat-tab-btn" id="tab-btn-recentes" onclick="catTab('recentes')">Mais Recentes</button>
+  </div>
+  <div style="display:flex;justify-content:flex-end;gap:8px;margin-bottom:0.75rem">
+    <button class="car-btn" onclick="scrollCat(-1)" aria-label="Anterior">&#8592;</button>
+    <button class="car-btn" onclick="scrollCat(1)" aria-label="Próximo">&#8594;</button>
+  </div>
+  <div class="car-wrap" id="tab-destaques"><div class="car-card" onclick="window.location.href='../artigo/desconto-de-consignado-acima-do-limite-direitos-do-servidor.html'">
       <div class="art-tag">Servidor Público</div>
       <div class="art-title">Desconto de Consignado Acima do Limite, Direitos do Servidor</div>
       <div class="art-excerpt">Entenda a margem consignável, por que o seu desconto pode passar do limite legal e o que fazer para corrigir isso</div>
       <div class="art-meta"><span>05/08/2026</span><span>9 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/empresa-vazou-meus-dados-pessoais-tenho-direito-a-indenizacao.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/empresa-vazou-meus-dados-pessoais-tenho-direito-a-indenizacao.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Empresa Vazou Meus Dados, Tenho Direito a Indenização?</div>
       <div class="art-excerpt">Entenda o que a lei garante à vítima de vazamento de dados pessoais e quando cabe indenização pela exposição sofrida</div>
       <div class="art-meta"><span>05/08/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/carro-financiado-pode-ser-apreendido-por-atraso-entenda.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/carro-financiado-pode-ser-apreendido-por-atraso-entenda.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Carro Financiado Pode Ser Apreendido por Atraso, Entenda</div>
       <div class="art-excerpt">Saiba como funciona a busca e apreensão do veículo, os seus direitos antes disso acontecer e o que fazer se já ocorreu</div>
       <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/comprei-pela-internet-e-me-arrependi-e-agora.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/comprei-pela-internet-e-me-arrependi-e-agora.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Comprei pela Internet e Me Arrependi, E Agora?</div>
       <div class="art-excerpt">Entenda o direito de arrependimento em compras online, o prazo para exercê-lo e o que fazer se a loja dificultar</div>
       <div class="art-meta"><span>31/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/emprestimo-nao-contratado-descontado-do-inss-como-agir.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/emprestimo-nao-contratado-descontado-do-inss-como-agir.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Empréstimo Não Contratado Descontado do INSS, Como Agir</div>
       <div class="art-excerpt">Descontos de consignado que o aposentado nunca pediu: entenda a fraude, a devolução em dobro e a indenização devida</div>
       <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/cai-em-golpe-do-pix-o-banco-deve-devolver.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/cai-em-golpe-do-pix-o-banco-deve-devolver.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Caí em Golpe do PIX, O Banco Deve Devolver?</div>
       <div class="art-excerpt">Entenda quando o banco responde pelo golpe, o que fazer nas primeiras horas e como buscar o dinheiro de volta</div>
       <div class="art-meta"><span>28/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-e-internacao-psiquiatrica-seus-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-e-internacao-psiquiatrica-seus-direitos.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde e Internação Psiquiátrica, Seus Direitos</div>
       <div class="art-excerpt">Entenda a cobertura de saúde mental nos planos, os limites das restrições de dias e o que fazer diante de negativas</div>
       <div class="art-meta"><span>27/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-e-parto-o-que-a-gestante-precisa-saber.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-e-parto-o-que-a-gestante-precisa-saber.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde e Parto, O Que a Gestante Precisa Saber</div>
       <div class="art-excerpt">Entenda como funciona a carência para parto, o que muda em urgências e os direitos da mãe e do recém-nascido</div>
       <div class="art-meta"><span>26/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-negou-tratamento-de-doenca-rara-como-agir.html'" style="cursor:pointer">
+    </div></div>
+  <div class="car-wrap" id="tab-recentes" style="display:none"><div class="car-card" onclick="window.location.href='../artigo/desconto-de-consignado-acima-do-limite-direitos-do-servidor.html'">
+      <div class="art-tag">Servidor Público</div>
+      <div class="art-title">Desconto de Consignado Acima do Limite, Direitos do Servidor</div>
+      <div class="art-excerpt">Entenda a margem consignável, por que o seu desconto pode passar do limite legal e o que fazer para corrigir isso</div>
+      <div class="art-meta"><span>05/08/2026</span><span>9 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/empresa-vazou-meus-dados-pessoais-tenho-direito-a-indenizacao.html'">
+      <div class="art-tag">Consumidor</div>
+      <div class="art-title">Empresa Vazou Meus Dados, Tenho Direito a Indenização?</div>
+      <div class="art-excerpt">Entenda o que a lei garante à vítima de vazamento de dados pessoais e quando cabe indenização pela exposição sofrida</div>
+      <div class="art-meta"><span>05/08/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/carro-financiado-pode-ser-apreendido-por-atraso-entenda.html'">
+      <div class="art-tag">Consumidor</div>
+      <div class="art-title">Carro Financiado Pode Ser Apreendido por Atraso, Entenda</div>
+      <div class="art-excerpt">Saiba como funciona a busca e apreensão do veículo, os seus direitos antes disso acontecer e o que fazer se já ocorreu</div>
+      <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/comprei-pela-internet-e-me-arrependi-e-agora.html'">
+      <div class="art-tag">Consumidor</div>
+      <div class="art-title">Comprei pela Internet e Me Arrependi, E Agora?</div>
+      <div class="art-excerpt">Entenda o direito de arrependimento em compras online, o prazo para exercê-lo e o que fazer se a loja dificultar</div>
+      <div class="art-meta"><span>31/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/emprestimo-nao-contratado-descontado-do-inss-como-agir.html'">
+      <div class="art-tag">Consumidor</div>
+      <div class="art-title">Empréstimo Não Contratado Descontado do INSS, Como Agir</div>
+      <div class="art-excerpt">Descontos de consignado que o aposentado nunca pediu: entenda a fraude, a devolução em dobro e a indenização devida</div>
+      <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/cai-em-golpe-do-pix-o-banco-deve-devolver.html'">
+      <div class="art-tag">Consumidor</div>
+      <div class="art-title">Caí em Golpe do PIX, O Banco Deve Devolver?</div>
+      <div class="art-excerpt">Entenda quando o banco responde pelo golpe, o que fazer nas primeiras horas e como buscar o dinheiro de volta</div>
+      <div class="art-meta"><span>28/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-e-internacao-psiquiatrica-seus-direitos.html'">
+      <div class="art-tag">Plano de Saúde</div>
+      <div class="art-title">Plano de Saúde e Internação Psiquiátrica, Seus Direitos</div>
+      <div class="art-excerpt">Entenda a cobertura de saúde mental nos planos, os limites das restrições de dias e o que fazer diante de negativas</div>
+      <div class="art-meta"><span>27/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-e-parto-o-que-a-gestante-precisa-saber.html'">
+      <div class="art-tag">Plano de Saúde</div>
+      <div class="art-title">Plano de Saúde e Parto, O Que a Gestante Precisa Saber</div>
+      <div class="art-excerpt">Entenda como funciona a carência para parto, o que muda em urgências e os direitos da mãe e do recém-nascido</div>
+      <div class="art-meta"><span>26/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-negou-tratamento-de-doenca-rara-como-agir.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano Negou Tratamento de Doença Rara, Como Agir</div>
       <div class="art-excerpt">Entenda por que as negativas de tratamentos e medicamentos para doenças raras costumam ser abusivas e como enfrentá-las</div>
       <div class="art-meta"><span>26/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-
-  <div id="mais-artigos" style="display:none;margin-top:1.25rem" class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/operadora-dificultou-a-portabilidade-do-numero-e-agora.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/operadora-dificultou-a-portabilidade-do-numero-e-agora.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Operadora Dificultou a Portabilidade do Número? E Agora</div>
       <div class="art-excerpt">Saiba os seus direitos ao levar o seu número para outra operadora e o que fazer quando a atual trava a mudança</div>
       <div class="art-meta"><span>26/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/portabilidade-de-carencias-no-plano-de-saude-como-funciona.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/portabilidade-de-carencias-no-plano-de-saude-como-funciona.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Portabilidade de Carências no Plano de Saúde, Como Funciona</div>
       <div class="art-excerpt">Saiba como trocar de plano de saúde sem cumprir novas carências e o que fazer quando a operadora dificulta a mudança</div>
       <div class="art-meta"><span>25/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/milhas-expiraram-sem-aviso-conheca-os-seus-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/milhas-expiraram-sem-aviso-conheca-os-seus-direitos.html'">
       <div class="art-tag">Direito Aéreo</div>
       <div class="art-title">Milhas Expiraram Sem Aviso? Conheça os Seus Direitos</div>
       <div class="art-excerpt">Entenda quando a perda de milhas e pontos pode ser questionada e o que fazer para recuperar o que você acumulou</div>
       <div class="art-meta"><span>25/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-protese-na-cirurgia-como-agir.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-protese-na-cirurgia-como-agir.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Negou a Prótese da Cirurgia, Como Agir</div>
       <div class="art-excerpt">Entenda por que a negativa de próteses e órteses ligadas ao ato cirúrgico costuma ser abusiva e como reverter a situação</div>
       <div class="art-meta"><span>24/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/perdeu-a-conexao-do-voo-conheca-os-seus-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/perdeu-a-conexao-do-voo-conheca-os-seus-direitos.html'">
       <div class="art-tag">Direito Aéreo</div>
       <div class="art-title">Perdeu a Conexão do Voo por Atraso? Conheça os Seus Direitos</div>
       <div class="art-excerpt">Saiba o que a companhia aérea deve a você quando o atraso do primeiro voo faz a conexão ser perdida</div>
       <div class="art-meta"><span>24/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/cancelou-a-linha-e-a-cobranca-continuou-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/cancelou-a-linha-e-a-cobranca-continuou-o-que-fazer.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Cancelou a Linha e a Cobrança Continuou? O Que Fazer</div>
       <div class="art-excerpt">Entenda os seus direitos quando a operadora segue cobrando um serviço de telefonia, internet ou TV que você já cancelou</div>
       <div class="art-meta"><span>24/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/nome-negativado-indevidamente-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/nome-negativado-indevidamente-o-que-fazer.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Nome Negativado Indevidamente, Como Limpar e Ser Indenizado</div>
       <div class="art-excerpt">Entenda quando a negativação é indevida, como retirar o nome dos cadastros e quando cabe indenização por danos morais</div>
       <div class="art-meta"><span>22/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-medicamento-de-alto-custo.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-medicamento-de-alto-custo.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano Negou Medicamento de Alto Custo, Como Conseguir</div>
       <div class="art-excerpt">Entenda quando a negativa de remédio caro é abusiva e como a Justiça pode garantir o tratamento com urgência</div>
       <div class="art-meta"><span>21/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-coletivo-cancelado-pela-operadora.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-coletivo-cancelado-pela-operadora.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Coletivo Cancelado pela Operadora, E Agora?</div>
       <div class="art-excerpt">Entenda os limites da rescisão unilateral, a proteção de quem está em tratamento e as alternativas ao cancelamento</div>
       <div class="art-meta"><span>20/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/energia-cortada-religacao-prazos-e-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/energia-cortada-religacao-prazos-e-direitos.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Cortaram Sua Energia? Prazos de Religação e Direitos</div>
       <div class="art-excerpt">Entenda quando o corte é permitido, os prazos que a distribuidora tem para religar e o que fazer quando ela descumpre</div>
       <div class="art-meta"><span>20/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-limitou-sessoes-de-terapia-e-agora.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-limitou-sessoes-de-terapia-e-agora.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano Limitou as Sessões de Terapia? Conheça a Regra</div>
       <div class="art-excerpt">Entenda por que limites de psicoterapia, fono e fisioterapia caíram e o que fazer quando o plano ainda restringe</div>
       <div class="art-meta"><span>19/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-reembolso-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-reembolso-o-que-fazer.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Negou o Reembolso, Saiba Como Agir</div>
       <div class="art-excerpt">Entenda quando o reembolso é devido, por que os planos negam ou pagam valores irrisórios e como buscar a diferença</div>
       <div class="art-meta"><span>19/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/overbooking-impedido-de-embarcar-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/overbooking-impedido-de-embarcar-direitos.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Overbooking, Impedido de Embarcar Mesmo com Passagem</div>
       <div class="art-excerpt">Entenda seus direitos quando a companhia vende mais assentos do que tem e nega o seu embarque no voo contratado</div>
       <div class="art-meta"><span>18/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/medidor-de-energia-trocado-conta-disparou.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/medidor-de-energia-trocado-conta-disparou.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Trocaram o Medidor e a Conta de Luz Disparou, E Agora?</div>
       <div class="art-excerpt">Entenda por que contas sobem após a troca do medidor, quando a cobrança é questionável e como exigir a verificação</div>
       <div class="art-meta"><span>18/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/medico-descredenciado-plano-de-saude-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/medico-descredenciado-plano-de-saude-direitos.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Médico Descredenciado no Meio do Tratamento, E Agora?</div>
       <div class="art-excerpt">Entenda os deveres do plano quando descredencia médicos e hospitais e o que fazer para não interromper seu tratamento</div>
       <div class="art-meta"><span>18/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/voo-atrasado-direitos-e-indenizacao.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/voo-atrasado-direitos-e-indenizacao.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Voo Atrasado, Seus Direitos e Quando Cabe Indenização</div>
       <div class="art-excerpt">Entenda o que a companhia aérea deve oferecer conforme o tempo de atraso e quando o transtorno gera direito à reparação</div>
       <div class="art-meta"><span>17/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-cirurgia-bariatrica.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-cirurgia-bariatrica.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Negou Cirurgia Bariátrica, Como Reverter</div>
       <div class="art-excerpt">Entenda quando a negativa da bariátrica é abusiva, o que pesa na decisão judicial e como garantir a cirurgia indicada</div>
       <div class="art-meta"><span>17/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/internet-lenta-ou-caindo-direitos-do-consumidor.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/internet-lenta-ou-caindo-direitos-do-consumidor.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Internet Lenta ou Caindo Direto, Quais os Seus Direitos</div>
       <div class="art-excerpt">Entenda o que fazer quando a operadora entrega menos do que vende, cobra pelo que não funciona ou impõe multa</div>
       <div class="art-meta"><span>17/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-tratamento-de-cancer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-tratamento-de-cancer.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Negou Tratamento de Câncer, Como Agir</div>
       <div class="art-excerpt">Entenda por que negativas em oncologia costumam ser abusivas e como a Justiça pode garantir o tratamento com urgência</div>
       <div class="art-meta"><span>16/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-home-care.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-home-care.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Negou Home Care, Saiba Como Reverter</div>
       <div class="art-excerpt">Entenda quando a negativa de atendimento domiciliar é abusiva e como garantir o tratamento indicado pelo médico</div>
       <div class="art-meta"><span>15/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/conta-de-agua-errada-cobranca-indevida.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/conta-de-agua-errada-cobranca-indevida.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Conta de Água Errada, Como Contestar Cobrança Indevida</div>
       <div class="art-excerpt">Entenda o que fazer quando a conta de água vem fora da realidade e seus direitos diante da ameaça de corte</div>
       <div class="art-meta"><span>15/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/bagagem-extraviada-direitos-e-indenizacao.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/bagagem-extraviada-direitos-e-indenizacao.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Bagagem Extraviada, Seus Direitos e Como Ser Indenizado</div>
       <div class="art-excerpt">Entenda o que a companhia aérea deve fazer quando sua mala some, os prazos que correm e quando cabe indenização</div>
       <div class="art-meta"><span>15/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/voo-cancelado-sem-aviso-indenizacao.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/voo-cancelado-sem-aviso-indenizacao.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Voo Cancelado Sem Aviso, Quando Cabe Indenização</div>
       <div class="art-excerpt">Entenda os direitos do passageiro diante do cancelamento de voo e o que a companhia aérea é obrigada a oferecer</div>
       <div class="art-meta"><span>14/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-internacao-uti.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-internacao-uti.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Negou Internação na UTI, Como Agir Agora</div>
       <div class="art-excerpt">Entenda por que a negativa de UTI em situação grave pode ser abusiva e como funciona a ação judicial de urgência</div>
       <div class="art-meta"><span>14/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/conta-de-luz-alta-cobranca-indevida.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/conta-de-luz-alta-cobranca-indevida.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Conta de Luz Muito Alta, Cobrança Indevida e Seus Direitos</div>
       <div class="art-excerpt">Entenda o que pode estar por trás de uma conta de energia fora do padrão e como contestar cobranças indevidas na Bahia</div>
       <div class="art-meta"><span>14/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-exame-como-contestar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-exame-como-contestar.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Negou Exame, Como Contestar e Garantir o Procedimento</div>
       <div class="art-excerpt">Saiba quando a negativa de exame pelo plano é ilegal e como agir para garantir o diagnóstico que seu médico indicou</div>
       <div class="art-meta"><span>11/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-reajuste-abusivo-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-reajuste-abusivo-o-que-fazer.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde com Reajuste Abusivo, Quando Contestar</div>
       <div class="art-excerpt">Entenda os limites legais para reajuste de planos de saúde e quando um aumento pode ser contestado judicialmente</div>
       <div class="art-meta"><span>11/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-medicamento-prescrito.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-medicamento-prescrito.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Negou Medicamento Prescrito, Como Contestar</div>
       <div class="art-excerpt">Entenda quando a negativa de medicamento pelo plano é ilegal e quais caminhos existem para garantir o tratamento prescrito</div>
       <div class="art-meta"><span>11/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-negou-cirurgia-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-negou-cirurgia-o-que-fazer.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Negou Cirurgia, O Que Fazer Agora</div>
       <div class="art-excerpt">Entenda quando a negativa de cirurgia pelo plano é ilegal e quais caminhos existem para garantir o procedimento que você precisa</div>
       <div class="art-meta"><span>11/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-saude-carencia-emergencia-e-urgencia.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-saude-carencia-emergencia-e-urgencia.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Alegou Carência em Emergência, Isso é Legal</div>
       <div class="art-excerpt">Entenda quando a carência pode e quando não pode ser aplicada pelo plano de saúde em situações de urgência e emergência</div>
       <div class="art-meta"><span>11/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-de-saude-cancelou-meu-plano-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-de-saude-cancelou-meu-plano-o-que-fazer.html'">
       <div class="art-tag">Plano de Saúde</div>
       <div class="art-title">Plano de Saúde Cancelou Meu Plano, O Que Fazer</div>
       <div class="art-excerpt">Entenda quando o cancelamento unilateral do plano de saúde é ilegal e como contestar para manter sua cobertura</div>
       <div class="art-meta"><span>11/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/servidor-publico-endividado-consignado-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/servidor-publico-endividado-consignado-o-que-fazer.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Servidor Público Endividado com Consignado, O Que Fazer</div>
       <div class="art-excerpt">Entenda os direitos do servidor que está com a margem consignável comprometida e como contestar descontos abusivos ou não autorizados</div>
       <div class="art-meta"><span>09/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/plano-saude-negou-cobertura-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/plano-saude-negou-cobertura-o-que-fazer.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Plano de Saúde Negou Cobertura, O Que Fazer</div>
       <div class="art-excerpt">Saiba quando a negativa do plano de saúde é ilegal e quais caminhos existem para garantir o tratamento que você precisa</div>
       <div class="art-meta"><span>07/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/nome-sujo-sem-dever-como-limpar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/nome-sujo-sem-dever-como-limpar.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Nome Sujo Sem Dever, Como Limpar e Ser Indenizado</div>
       <div class="art-excerpt">Saiba o que fazer quando seu nome está no SPC ou Serasa por uma dívida que não existe ou já foi paga</div>
       <div class="art-meta"><span>06/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/fui-demitido-sem-justa-causa-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/fui-demitido-sem-justa-causa-direitos.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Fui Demitido Sem Justa Causa, Quais São Meus Direitos</div>
       <div class="art-excerpt">Entenda o que você tem direito a receber na demissão sem justa causa e como identificar quando a empresa não pagou corretamente</div>
       <div class="art-meta"><span>06/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/banco-cobrou-indevido-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/banco-cobrou-indevido-o-que-fazer.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Banco Cobrou Valor Indevido, O Que Fazer Para Recuperar</div>
       <div class="art-excerpt">Saiba como agir quando o banco faz cobranças irregulares, desconta valores sem autorização ou aplica tarifas abusivas</div>
       <div class="art-meta"><span>05/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/juros-abusivos-emprestimo-como-contestar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/juros-abusivos-emprestimo-como-contestar.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Juros Abusivos em Empréstimo, Como Identificar e Contestar</div>
       <div class="art-excerpt">Saiba quando os juros cobrados em empréstimos e financiamentos são abusivos e como o consumidor pode contestar essas cobranças</div>
       <div class="art-meta"><span>04/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/fraude-cartao-credito-direitos-consumidor.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/fraude-cartao-credito-direitos-consumidor.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Fraude no Cartão de Crédito, Seus Direitos e Como Agir</div>
       <div class="art-excerpt">Saiba o que fazer quando seu cartão é clonado ou usado sem autorização e quais são as obrigações do banco nesse caso</div>
       <div class="art-meta"><span>03/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/cancelamento-contrato-fornecedor-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/cancelamento-contrato-fornecedor-direitos.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Cancelamento de Contrato pelo Fornecedor, Seus Direitos</div>
       <div class="art-excerpt">Saiba o que você pode exigir quando uma empresa cancela seu serviço unilateralmente ou não cumpre o que foi contratado</div>
       <div class="art-meta"><span>02/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/produto-com-defeito-direitos-consumidor.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/produto-com-defeito-direitos-consumidor.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Produto com Defeito, Conheça Seus Direitos como Consumidor</div>
       <div class="art-excerpt">Saiba quais são os prazos para reclamar, o que o fornecedor é obrigado a fazer e quando você pode exigir devolução do dinheiro</div>
       <div class="art-meta"><span>01/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/tabela-price-juros-cobrados-financiamento.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/tabela-price-juros-cobrados-financiamento.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Tabela Price, Como Identificar Juros Cobrados a Mais</div>
       <div class="art-excerpt">Entenda como funciona esse sistema de amortização e quando os juros podem estar sendo cobrados de forma indevida</div>
       <div class="art-meta"><span>30/06/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/negativacao-indevida-como-agir.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/negativacao-indevida-como-agir.html'">
       <div class="art-tag">Consumidor</div>
       <div class="art-title">Negativação Indevida: Como Agir e Quanto Você Pode Receber</div>
       <div class="art-excerpt">Entenda seus direitos quando seu nome é incluído no SPC ou Serasa sem justificativa legal</div>
       <div class="art-meta"><span>27/06/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-  <div style="text-align:center;margin-top:1.75rem">
-    <a href="#" id="btn-mais" onclick="document.getElementById('mais-artigos').style.display='grid';this.parentElement.style.display='none';return false" style="color:var(--gold);font-size:13px;text-decoration:none;border:1px solid rgba(201,168,76,0.4);padding:12px 28px;display:inline-block">Ver todos os 52 artigos ↓</a>
-  </div>
+    </div></div>
+  <script>
+  function catTab(nome) {
+    ['destaques','recentes'].forEach(function(n) {
+      document.getElementById('tab-'+n).style.display = (n===nome) ? 'flex' : 'none';
+      document.getElementById('tab-btn-'+n).classList.toggle('active', n===nome);
+    });
+  }
+  function scrollCat(dir) {
+    var ativo = document.querySelector('.cat-tab-btn.active').id.replace('tab-btn-','');
+    var el = document.getElementById('tab-'+ativo);
+    if (el) el.scrollBy({left: dir * 320, behavior: 'smooth'});
+  }
+  </script>
 
   <div style="background:#100e0a;border:1px solid var(--gold);padding:2.5rem;margin-top:3.5rem;display:grid;grid-template-columns:2fr 1fr;gap:2rem;align-items:center">
     <div>
@@ -454,6 +466,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
 </div>
+</main>
 
 <div class="float-wrap">
   <div class="float-label">Falar com um advogado</div>
@@ -464,7 +477,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 
 <footer>
   <div class="foot-inner">
-    <img src="../logo-mark.png" class="foot-mark" alt="">
+    <img src="../logo-mark.png" class="foot-mark" alt="" width="225" height="210">
     <div class="foot-brand">Michel Rocha, Advocacia e Consultoria</div>
     <div class="foot-info">Atuação nacional, BA, CE, RJ, SP, MG, SC, PA e outros estados</div>
     <div class="foot-links">
