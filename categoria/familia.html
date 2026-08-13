@@ -23,7 +23,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 <header>
   <div class="header-inner">
     <a href="../index.html" class="logo-area">
-      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia">
+      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia" width="225" height="210">
       <div class="logo-textblock">
         <div class="logo-name">Michel Rocha</div>
         <div class="logo-sub">Advocacia e Consultoria</div>
@@ -43,7 +43,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </a>
     </nav>
   </div>
-</header>
+</header><main>
 <div style="max-width:1080px;margin:0 auto;padding:4rem 2rem">
 
   <div style="display:grid;grid-template-columns:1.7fr 1fr;gap:2.5rem;align-items:start;margin-bottom:3.5rem">
@@ -54,7 +54,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </div>
       <h1 style="font-family:var(--serif);font-size:3rem;color:var(--cream);font-weight:300;line-height:1.1;margin-bottom:1rem">Família e Divórcio</h1>
       <p style="font-size:14px;color:var(--muted);line-height:1.9;max-width:620px;margin-bottom:1rem">Divórcio, guarda, convivência com os filhos e pensão alimentícia. Condução técnica e humana para os momentos mais delicados da vida familiar.</p>
-      <div style="font-size:12px;color:var(--muted)">24 artigos publicados &nbsp;·&nbsp; Atualizado em 12/08/2026</div>
+      <div style="font-size:12px;color:var(--muted)">24 artigos publicados &nbsp;·&nbsp; Atualizado em 13/08/2026</div>
     </div>
     <div style="padding-top:2.2rem">
       <a href="https://wa.me/5571981758097?text=Ol%C3%A1%2C%20Dr.%20Michel%21%20Preciso%20de%20orienta%C3%A7%C3%A3o%20em%20uma%20quest%C3%A3o%20de%20fam%C3%ADlia." target="_blank" class="btn-whatsapp" style="display:flex;justify-content:center;gap:10px;width:100%">Falar com um Advogado</a>
@@ -74,178 +74,218 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem">
-    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Todos os Artigos</div>
-    <span style="font-size:12px;color:var(--muted)">24 artigos</span>
+    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Mais Artigos</div>
+    <span style="font-size:12px;color:var(--muted)">24 artigos ao todo</span>
   </div>
-  <div class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/curatela-de-idoso-ou-familiar-doente-como-funciona.html'" style="cursor:pointer">
+  <div class="cat-tabs">
+    <button class="cat-tab-btn active" id="tab-btn-destaques" onclick="catTab('destaques')">Destaques</button>
+    <button class="cat-tab-btn" id="tab-btn-recentes" onclick="catTab('recentes')">Mais Recentes</button>
+  </div>
+  <div style="display:flex;justify-content:flex-end;gap:8px;margin-bottom:0.75rem">
+    <button class="car-btn" onclick="scrollCat(-1)" aria-label="Anterior">&#8592;</button>
+    <button class="car-btn" onclick="scrollCat(1)" aria-label="Próximo">&#8594;</button>
+  </div>
+  <div class="car-wrap" id="tab-destaques"><div class="car-card" onclick="window.location.href='../artigo/curatela-de-idoso-ou-familiar-doente-como-funciona.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Curatela de Idoso ou Familiar Doente, Como Funciona</div>
       <div class="art-excerpt">Entenda quando a curatela é necessária, como o processo funciona e os deveres e limites de quem se torna curador</div>
       <div class="art-meta"><span>05/08/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/alimentos-gravidicos-o-pai-deve-ajudar-antes-do-nascimento.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/alimentos-gravidicos-o-pai-deve-ajudar-antes-do-nascimento.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Alimentos Gravídicos, o Pai Deve Ajudar Antes do Nascimento</div>
       <div class="art-excerpt">Entenda o direito da gestante a receber ajuda financeira do futuro pai, mesmo sem exame de DNA feito ainda</div>
       <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/uniao-estavel-ou-casamento-o-que-muda-na-pratica.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/uniao-estavel-ou-casamento-o-que-muda-na-pratica.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">União Estável ou Casamento, O Que Muda na Prática</div>
       <div class="art-excerpt">Entenda as diferenças entre os dois formatos, os riscos de não formalizar nada e por que o contrato protege o casal</div>
       <div class="art-meta"><span>31/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/reconhecimento-de-paternidade-como-funciona-o-processo.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/reconhecimento-de-paternidade-como-funciona-o-processo.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Reconhecimento de Paternidade, Como Funciona o Processo</div>
       <div class="art-excerpt">Entenda os caminhos para reconhecer ou contestar a paternidade, o papel do DNA e os direitos que nascem desse vínculo</div>
       <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/divorcio-com-empresa-no-patrimonio-como-fica-a-partilha.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/divorcio-com-empresa-no-patrimonio-como-fica-a-partilha.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Divórcio com Empresa no Patrimônio, Como Fica a Partilha</div>
       <div class="art-excerpt">Entenda quando as cotas entram na divisão, como se calcula o valor e como proteger o negócio e o direito de cada um</div>
       <div class="art-meta"><span>28/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/testamento-quando-fazer-e-por-que-ele-evita-brigas.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/testamento-quando-fazer-e-por-que-ele-evita-brigas.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Testamento, Quando Fazer e Por Que Ele Evita Brigas</div>
       <div class="art-excerpt">Entenda o que o testamento pode e não pode fazer, os seus tipos e como ele protege a família de anos de disputa</div>
       <div class="art-meta"><span>27/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/mudanca-de-cidade-com-os-filhos-o-que-diz-a-lei.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/mudanca-de-cidade-com-os-filhos-o-que-diz-a-lei.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Mudança de Cidade com os Filhos, O Que Diz a Lei</div>
       <div class="art-excerpt">Pais separados e a mudança de cidade: quando ela pode acontecer, quando pode ser barrada e como a Justiça decide</div>
       <div class="art-meta"><span>26/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/avos-tem-direito-de-visitar-os-netos-entenda.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/avos-tem-direito-de-visitar-os-netos-entenda.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Avós Têm Direito de Visitar os Netos? Entenda</div>
       <div class="art-excerpt">Saiba o que a lei garante aos avós impedidos de conviver com os netos e como esse direito pode ser exercido</div>
       <div class="art-meta"><span>24/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/uniao-estavel-como-comprovar-e-por-que-importa.html'" style="cursor:pointer">
+    </div></div>
+  <div class="car-wrap" id="tab-recentes" style="display:none"><div class="car-card" onclick="window.location.href='../artigo/curatela-de-idoso-ou-familiar-doente-como-funciona.html'">
+      <div class="art-tag">Família</div>
+      <div class="art-title">Curatela de Idoso ou Familiar Doente, Como Funciona</div>
+      <div class="art-excerpt">Entenda quando a curatela é necessária, como o processo funciona e os deveres e limites de quem se torna curador</div>
+      <div class="art-meta"><span>05/08/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/alimentos-gravidicos-o-pai-deve-ajudar-antes-do-nascimento.html'">
+      <div class="art-tag">Família</div>
+      <div class="art-title">Alimentos Gravídicos, o Pai Deve Ajudar Antes do Nascimento</div>
+      <div class="art-excerpt">Entenda o direito da gestante a receber ajuda financeira do futuro pai, mesmo sem exame de DNA feito ainda</div>
+      <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/uniao-estavel-ou-casamento-o-que-muda-na-pratica.html'">
+      <div class="art-tag">Família</div>
+      <div class="art-title">União Estável ou Casamento, O Que Muda na Prática</div>
+      <div class="art-excerpt">Entenda as diferenças entre os dois formatos, os riscos de não formalizar nada e por que o contrato protege o casal</div>
+      <div class="art-meta"><span>31/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/reconhecimento-de-paternidade-como-funciona-o-processo.html'">
+      <div class="art-tag">Família</div>
+      <div class="art-title">Reconhecimento de Paternidade, Como Funciona o Processo</div>
+      <div class="art-excerpt">Entenda os caminhos para reconhecer ou contestar a paternidade, o papel do DNA e os direitos que nascem desse vínculo</div>
+      <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/divorcio-com-empresa-no-patrimonio-como-fica-a-partilha.html'">
+      <div class="art-tag">Família</div>
+      <div class="art-title">Divórcio com Empresa no Patrimônio, Como Fica a Partilha</div>
+      <div class="art-excerpt">Entenda quando as cotas entram na divisão, como se calcula o valor e como proteger o negócio e o direito de cada um</div>
+      <div class="art-meta"><span>28/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/testamento-quando-fazer-e-por-que-ele-evita-brigas.html'">
+      <div class="art-tag">Família</div>
+      <div class="art-title">Testamento, Quando Fazer e Por Que Ele Evita Brigas</div>
+      <div class="art-excerpt">Entenda o que o testamento pode e não pode fazer, os seus tipos e como ele protege a família de anos de disputa</div>
+      <div class="art-meta"><span>27/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/mudanca-de-cidade-com-os-filhos-o-que-diz-a-lei.html'">
+      <div class="art-tag">Família</div>
+      <div class="art-title">Mudança de Cidade com os Filhos, O Que Diz a Lei</div>
+      <div class="art-excerpt">Pais separados e a mudança de cidade: quando ela pode acontecer, quando pode ser barrada e como a Justiça decide</div>
+      <div class="art-meta"><span>26/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/avos-tem-direito-de-visitar-os-netos-entenda.html'">
+      <div class="art-tag">Família</div>
+      <div class="art-title">Avós Têm Direito de Visitar os Netos? Entenda</div>
+      <div class="art-excerpt">Saiba o que a lei garante aos avós impedidos de conviver com os netos e como esse direito pode ser exercido</div>
+      <div class="art-meta"><span>24/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/uniao-estavel-como-comprovar-e-por-que-importa.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">União Estável, Como Comprovar e Por Que Isso Importa</div>
       <div class="art-excerpt">Entenda o que caracteriza a união estável, os direitos que ela gera e por que a falta de reconhecimento gera conflito</div>
       <div class="art-meta"><span>23/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-
-  <div id="mais-artigos" style="display:none;margin-top:1.25rem" class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/divorcio-quem-fica-com-a-casa-partilha-de-bens.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/divorcio-quem-fica-com-a-casa-partilha-de-bens.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Divórcio, Quem Fica com a Casa e Como Se Divide o Resto</div>
       <div class="art-excerpt">Entenda como o regime de bens define a partilha, os erros que custam patrimônio e o que fazer com a casa financiada</div>
       <div class="art-meta"><span>20/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/como-o-juiz-decide-a-guarda-dos-filhos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/como-o-juiz-decide-a-guarda-dos-filhos.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Como o Juiz Decide a Guarda dos Filhos no Divórcio</div>
       <div class="art-excerpt">Entenda o que pesa de verdade na decisão sobre guarda, os mitos que atrapalham e os erros que custam caro na disputa</div>
       <div class="art-meta"><span>19/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/intimado-a-pagar-pensao-sob-pena-de-prisao.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/intimado-a-pagar-pensao-sob-pena-de-prisao.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Intimado a Pagar Pensão Sob Pena de Prisão, Como Agir</div>
       <div class="art-excerpt">Entenda o que significa a intimação, os caminhos de quem não consegue pagar e como evitar a prisão dentro do prazo</div>
       <div class="art-meta"><span>17/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/ex-nao-deixa-ver-os-filhos-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/ex-nao-deixa-ver-os-filhos-o-que-fazer.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Ex Não Deixa Ver os Filhos, O Que Fazer Legalmente</div>
       <div class="art-excerpt">Entenda seus direitos de convivência, como regulamentar as visitas e o que fazer quando o outro genitor descumpre</div>
       <div class="art-meta"><span>16/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/pensao-alimenticia-atrasada-como-cobrar.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/pensao-alimenticia-atrasada-como-cobrar.html'">
       <div class="art-tag">Família</div>
       <div class="art-title">Pensão Alimentícia Atrasada, Como Cobrar e Quais os Riscos</div>
       <div class="art-excerpt">Entenda os caminhos legais para cobrar pensão em atraso, incluindo penhora, negativação e a prisão do devedor</div>
       <div class="art-meta"><span>14/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/pai-nao-paga-pensao-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/pai-nao-paga-pensao-o-que-fazer.html'">
       <div class="art-tag">Família e Divórcio</div>
       <div class="art-title">Pai Não Paga a Pensão, O Que Fazer Para Cobrar</div>
       <div class="art-excerpt">Entenda os instrumentos jurídicos disponíveis para cobrar pensão alimentícia atrasada e como evitar que a situação se repita</div>
       <div class="art-meta"><span>09/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/separacao-bens-divorcio-como-proteger-patrimonio.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/separacao-bens-divorcio-como-proteger-patrimonio.html'">
       <div class="art-tag">Família e Divórcio</div>
       <div class="art-title">Separação de Bens no Divórcio, Como Proteger Seu Patrimônio</div>
       <div class="art-excerpt">Entenda as regras de partilha de bens no divórcio, os riscos de um processo mal conduzido e o que está em jogo em cada decisão</div>
       <div class="art-meta"><span>07/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/divorcio-litigioso-como-funciona.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/divorcio-litigioso-como-funciona.html'">
       <div class="art-tag">Família e Divórcio</div>
       <div class="art-title">Divórcio Litigioso, Como Funciona Quando Não Há Acordo</div>
       <div class="art-excerpt">Entenda o processo de divórcio quando o casal não chega a um acordo sobre bens, guarda ou pensão e o que esperar de cada etapa</div>
       <div class="art-meta"><span>05/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/uniao-estavel-direitos-deveres.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/uniao-estavel-direitos-deveres.html'">
       <div class="art-tag">Família e Divórcio</div>
       <div class="art-title">União Estável, Direitos, Deveres e Como Reconhecer</div>
       <div class="art-excerpt">Entenda o que caracteriza a união estável, quais direitos ela garante e como regularizar a situação juridicamente</div>
       <div class="art-meta"><span>04/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/inventario-judicial-extrajudicial-como-funciona.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/inventario-judicial-extrajudicial-como-funciona.html'">
       <div class="art-tag">Família e Divórcio</div>
       <div class="art-title">Inventário, Como Funciona e Qual a Diferença Entre Judicial e Extrajudicial</div>
       <div class="art-excerpt">Entenda o processo de inventário, quando é possível fazer em cartório e como evitar conflitos entre herdeiros</div>
       <div class="art-meta"><span>03/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/alienacao-parental-como-identificar-agir.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/alienacao-parental-como-identificar-agir.html'">
       <div class="art-tag">Família e Divórcio</div>
       <div class="art-title">Alienação Parental, Como Identificar e o Que Fazer</div>
       <div class="art-excerpt">Entenda o que caracteriza a alienação parental, como ela afeta os filhos e quais medidas a Justiça pode adotar</div>
       <div class="art-meta"><span>02/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/pensao-alimenticia-como-calcular-requerer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/pensao-alimenticia-como-calcular-requerer.html'">
       <div class="art-tag">Família e Divórcio</div>
       <div class="art-title">Pensão Alimentícia, Como Calcular e Como Requerer</div>
       <div class="art-excerpt">Entenda os critérios que definem o valor da pensão, como pedir na Justiça e o que fazer quando o pagamento não ocorre</div>
       <div class="art-meta"><span>01/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/guarda-compartilhada-como-funciona-na-pratica.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/guarda-compartilhada-como-funciona-na-pratica.html'">
       <div class="art-tag">Família e Divórcio</div>
       <div class="art-title">Guarda Compartilhada, Como Funciona na Prática</div>
       <div class="art-excerpt">Entenda os direitos, deveres e como evitar conflitos no convívio com os filhos após a separação</div>
       <div class="art-meta"><span>30/06/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/divorcio-consensual-2026.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/divorcio-consensual-2026.html'">
       <div class="art-tag">Família e Divórcio</div>
       <div class="art-title">Divórcio Consensual: Como Fazer, Prazos e Custos em 2026</div>
       <div class="art-excerpt">Entenda as duas formas de divorciar-se rapidamente quando há acordo entre o casal</div>
       <div class="art-meta"><span>26/06/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-  <div style="text-align:center;margin-top:1.75rem">
-    <a href="#" id="btn-mais" onclick="document.getElementById('mais-artigos').style.display='grid';this.parentElement.style.display='none';return false" style="color:var(--gold);font-size:13px;text-decoration:none;border:1px solid rgba(201,168,76,0.4);padding:12px 28px;display:inline-block">Ver todos os 24 artigos ↓</a>
-  </div>
+    </div></div>
+  <script>
+  function catTab(nome) {
+    ['destaques','recentes'].forEach(function(n) {
+      document.getElementById('tab-'+n).style.display = (n===nome) ? 'flex' : 'none';
+      document.getElementById('tab-btn-'+n).classList.toggle('active', n===nome);
+    });
+  }
+  function scrollCat(dir) {
+    var ativo = document.querySelector('.cat-tab-btn.active').id.replace('tab-btn-','');
+    var el = document.getElementById('tab-'+ativo);
+    if (el) el.scrollBy({left: dir * 320, behavior: 'smooth'});
+  }
+  </script>
 
   <div style="background:#100e0a;border:1px solid var(--gold);padding:2.5rem;margin-top:3.5rem;display:grid;grid-template-columns:2fr 1fr;gap:2rem;align-items:center">
     <div>
@@ -258,6 +298,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
 </div>
+</main>
 
 <div class="float-wrap">
   <div class="float-label">Falar com um advogado</div>
@@ -268,7 +309,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 
 <footer>
   <div class="foot-inner">
-    <img src="../logo-mark.png" class="foot-mark" alt="">
+    <img src="../logo-mark.png" class="foot-mark" alt="" width="225" height="210">
     <div class="foot-brand">Michel Rocha, Advocacia e Consultoria</div>
     <div class="foot-info">Atuação nacional, BA, CE, RJ, SP, MG, SC, PA e outros estados</div>
     <div class="foot-links">
