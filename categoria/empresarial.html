@@ -23,7 +23,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 <header>
   <div class="header-inner">
     <a href="../index.html" class="logo-area">
-      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia">
+      <img src="../logo-mark.png" class="logo-img" alt="Michel Rocha Advocacia" width="225" height="210">
       <div class="logo-textblock">
         <div class="logo-name">Michel Rocha</div>
         <div class="logo-sub">Advocacia e Consultoria</div>
@@ -43,7 +43,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </a>
     </nav>
   </div>
-</header>
+</header><main>
 <div style="max-width:1080px;margin:0 auto;padding:4rem 2rem">
 
   <div style="display:grid;grid-template-columns:1.7fr 1fr;gap:2.5rem;align-items:start;margin-bottom:3.5rem">
@@ -54,7 +54,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
       </div>
       <h1 style="font-family:var(--serif);font-size:3rem;color:var(--cream);font-weight:300;line-height:1.1;margin-bottom:1rem">Direito Empresarial</h1>
       <p style="font-size:14px;color:var(--muted);line-height:1.9;max-width:620px;margin-bottom:1rem">Assessoria jurídica para empresas: contratos, cobranças, bloqueios judiciais e proteção do negócio. Prevenção e defesa para quem empreende.</p>
-      <div style="font-size:12px;color:var(--muted)">22 artigos publicados &nbsp;·&nbsp; Atualizado em 12/08/2026</div>
+      <div style="font-size:12px;color:var(--muted)">22 artigos publicados &nbsp;·&nbsp; Atualizado em 13/08/2026</div>
     </div>
     <div style="padding-top:2.2rem">
       <a href="https://wa.me/5571981758097?text=Ol%C3%A1%2C%20Dr.%20Michel%21%20Preciso%20de%20assessoria%20jur%C3%ADdica%20para%20minha%20empresa." target="_blank" class="btn-whatsapp" style="display:flex;justify-content:center;gap:10px;width:100%">Falar com um Advogado</a>
@@ -74,164 +74,206 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
   <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:1rem">
-    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Todos os Artigos</div>
-    <span style="font-size:12px;color:var(--muted)">22 artigos</span>
+    <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase">Mais Artigos</div>
+    <span style="font-size:12px;color:var(--muted)">22 artigos ao todo</span>
   </div>
-  <div class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/advogado-para-empresa-quando-contratar-e-o-que-muda.html'" style="cursor:pointer">
+  <div class="cat-tabs">
+    <button class="cat-tab-btn active" id="tab-btn-destaques" onclick="catTab('destaques')">Destaques</button>
+    <button class="cat-tab-btn" id="tab-btn-recentes" onclick="catTab('recentes')">Mais Recentes</button>
+  </div>
+  <div style="display:flex;justify-content:flex-end;gap:8px;margin-bottom:0.75rem">
+    <button class="car-btn" onclick="scrollCat(-1)" aria-label="Anterior">&#8592;</button>
+    <button class="car-btn" onclick="scrollCat(1)" aria-label="Próximo">&#8594;</button>
+  </div>
+  <div class="car-wrap" id="tab-destaques"><div class="car-card" onclick="window.location.href='../artigo/advogado-para-empresa-quando-contratar-e-o-que-muda.html'">
       <div class="art-tag">Assessoria Jurídica</div>
       <div class="art-title">Advogado Para Empresa, Quando Contratar e o Que Muda</div>
       <div class="art-excerpt">Entenda os sinais de que a sua empresa precisa de advogado, o que muda no negócio e como escolher a assessoria certa</div>
       <div class="art-meta"><span>09/08/2026</span><span>9 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/minha-empresa-sofreu-vazamento-de-dados-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/minha-empresa-sofreu-vazamento-de-dados-o-que-fazer.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Minha Empresa Sofreu Vazamento de Dados, O Que Fazer</div>
       <div class="art-excerpt">Entenda as obrigações após um incidente de segurança, os prazos de comunicação e como reduzir o risco de indenizações</div>
       <div class="art-meta"><span>05/08/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/locador-nao-quer-renovar-o-contrato-do-meu-ponto-comercial.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/locador-nao-quer-renovar-o-contrato-do-meu-ponto-comercial.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Locador Não Quer Renovar o Contrato do Meu Ponto Comercial</div>
       <div class="art-excerpt">Entenda o direito à renovação do contrato comercial, os requisitos para exigi-lo e como proteger o ponto construído</div>
       <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/empresa-recebeu-reclamacao-trabalhista-primeiros-passos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/empresa-recebeu-reclamacao-trabalhista-primeiros-passos.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Empresa Recebeu Reclamação Trabalhista, Primeiros Passos</div>
       <div class="art-excerpt">Entenda o que fazer nos primeiros dias, os documentos que protegem a empresa e os erros que agravam o processo</div>
       <div class="art-meta"><span>31/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/seguradora-negou-o-sinistro-da-empresa-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/seguradora-negou-o-sinistro-da-empresa-o-que-fazer.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Seguradora Negou o Sinistro da Empresa, O Que Fazer</div>
       <div class="art-excerpt">Entenda as negativas mais comuns de seguros empresariais, os limites das cláusulas de exclusão e como reverter a recusa</div>
       <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/exclusao-de-socio-quando-e-como-e-possivel.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/exclusao-de-socio-quando-e-como-e-possivel.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Exclusão de Sócio, Quando e Como É Possível</div>
       <div class="art-excerpt">Entenda as hipóteses que autorizam excluir um sócio, o caminho correto para fazê-lo e os direitos de quem sai</div>
       <div class="art-meta"><span>28/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/empresa-recebeu-notificacao-extrajudicial-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/empresa-recebeu-notificacao-extrajudicial-o-que-fazer.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Empresa Recebeu Notificação Extrajudicial, O Que Fazer</div>
       <div class="art-excerpt">Entenda o que a notificação significa, os riscos de ignorá-la ou responder mal e como transformá-la a seu favor</div>
       <div class="art-meta"><span>27/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/registro-de-marca-por-que-sua-empresa-precisa-dele.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/registro-de-marca-por-que-sua-empresa-precisa-dele.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Registro de Marca, Por Que Sua Empresa Precisa Dele</div>
       <div class="art-excerpt">Entenda o que o registro de marca protege, os riscos de operar sem ele e o que fazer se alguém estiver usando o seu nome</div>
       <div class="art-meta"><span>25/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/empresa-recebeu-reclamacao-trabalhista-o-que-fazer.html'" style="cursor:pointer">
+    </div></div>
+  <div class="car-wrap" id="tab-recentes" style="display:none"><div class="car-card" onclick="window.location.href='../artigo/advogado-para-empresa-quando-contratar-e-o-que-muda.html'">
+      <div class="art-tag">Assessoria Jurídica</div>
+      <div class="art-title">Advogado Para Empresa, Quando Contratar e o Que Muda</div>
+      <div class="art-excerpt">Entenda os sinais de que a sua empresa precisa de advogado, o que muda no negócio e como escolher a assessoria certa</div>
+      <div class="art-meta"><span>09/08/2026</span><span>9 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/minha-empresa-sofreu-vazamento-de-dados-o-que-fazer.html'">
+      <div class="art-tag">Empresarial</div>
+      <div class="art-title">Minha Empresa Sofreu Vazamento de Dados, O Que Fazer</div>
+      <div class="art-excerpt">Entenda as obrigações após um incidente de segurança, os prazos de comunicação e como reduzir o risco de indenizações</div>
+      <div class="art-meta"><span>05/08/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/locador-nao-quer-renovar-o-contrato-do-meu-ponto-comercial.html'">
+      <div class="art-tag">Empresarial</div>
+      <div class="art-title">Locador Não Quer Renovar o Contrato do Meu Ponto Comercial</div>
+      <div class="art-excerpt">Entenda o direito à renovação do contrato comercial, os requisitos para exigi-lo e como proteger o ponto construído</div>
+      <div class="art-meta"><span>02/08/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/empresa-recebeu-reclamacao-trabalhista-primeiros-passos.html'">
+      <div class="art-tag">Empresarial</div>
+      <div class="art-title">Empresa Recebeu Reclamação Trabalhista, Primeiros Passos</div>
+      <div class="art-excerpt">Entenda o que fazer nos primeiros dias, os documentos que protegem a empresa e os erros que agravam o processo</div>
+      <div class="art-meta"><span>31/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/seguradora-negou-o-sinistro-da-empresa-o-que-fazer.html'">
+      <div class="art-tag">Empresarial</div>
+      <div class="art-title">Seguradora Negou o Sinistro da Empresa, O Que Fazer</div>
+      <div class="art-excerpt">Entenda as negativas mais comuns de seguros empresariais, os limites das cláusulas de exclusão e como reverter a recusa</div>
+      <div class="art-meta"><span>30/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/exclusao-de-socio-quando-e-como-e-possivel.html'">
+      <div class="art-tag">Empresarial</div>
+      <div class="art-title">Exclusão de Sócio, Quando e Como É Possível</div>
+      <div class="art-excerpt">Entenda as hipóteses que autorizam excluir um sócio, o caminho correto para fazê-lo e os direitos de quem sai</div>
+      <div class="art-meta"><span>28/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/empresa-recebeu-notificacao-extrajudicial-o-que-fazer.html'">
+      <div class="art-tag">Empresarial</div>
+      <div class="art-title">Empresa Recebeu Notificação Extrajudicial, O Que Fazer</div>
+      <div class="art-excerpt">Entenda o que a notificação significa, os riscos de ignorá-la ou responder mal e como transformá-la a seu favor</div>
+      <div class="art-meta"><span>27/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/registro-de-marca-por-que-sua-empresa-precisa-dele.html'">
+      <div class="art-tag">Empresarial</div>
+      <div class="art-title">Registro de Marca, Por Que Sua Empresa Precisa Dele</div>
+      <div class="art-excerpt">Entenda o que o registro de marca protege, os riscos de operar sem ele e o que fazer se alguém estiver usando o seu nome</div>
+      <div class="art-meta"><span>25/07/2026</span><span>5 min</span></div>
+      <span class="art-more">Ler artigo →</span>
+    </div><div class="car-card" onclick="window.location.href='../artigo/empresa-recebeu-reclamacao-trabalhista-o-que-fazer.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Sua Empresa Recebeu uma Reclamação Trabalhista, E Agora?</div>
       <div class="art-excerpt">Entenda os prazos que começam a correr, os erros que multiplicam a condenação e como a defesa técnica reduz o risco</div>
       <div class="art-meta"><span>20/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-
-  <div id="mais-artigos" style="display:none;margin-top:1.25rem" class="grid3">
-    <div class="art-card" onclick="window.location.href='../artigo/cliente-nao-paga-como-cobrar-judicialmente.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/cliente-nao-paga-como-cobrar-judicialmente.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Cliente Não Paga? Como Cobrar Sem Destruir o Seu Caixa</div>
       <div class="art-excerpt">Entenda os caminhos de cobrança do inadimplente, da negociação à execução judicial, e os erros que custam caro</div>
       <div class="art-meta"><span>18/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/conta-da-empresa-bloqueada-pela-justica.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/conta-da-empresa-bloqueada-pela-justica.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Conta da Empresa Bloqueada pela Justiça, Como Agir</div>
       <div class="art-excerpt">Entenda por que ocorrem bloqueios judiciais, o que fazer nas primeiras horas e como proteger o caixa da empresa</div>
       <div class="art-meta"><span>16/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/contrato-verbal-tem-validade-juridica.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/contrato-verbal-tem-validade-juridica.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Contrato Verbal Tem Validade Jurídica no Brasil</div>
       <div class="art-excerpt">Entenda quando acordos verbais são juridicamente válidos, como comprová-los e os riscos de não formalizar relações comerciais</div>
       <div class="art-meta"><span>09/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/divida-empresa-veio-no-meu-nome-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/divida-empresa-veio-no-meu-nome-o-que-fazer.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Dívida da Empresa Veio no Meu Nome, O Que Fazer</div>
       <div class="art-excerpt">Entenda quando o sócio pode ser pessoalmente responsabilizado por dívidas da empresa e como contestar cobranças indevidas</div>
       <div class="art-meta"><span>07/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/empresa-nao-cumpriu-contrato-o-que-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/empresa-nao-cumpriu-contrato-o-que-fazer.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Empresa Não Cumpriu o Contrato, O Que Fazer Para Ser Indenizado</div>
       <div class="art-excerpt">Saiba quais são seus direitos quando a outra parte descumpre um contrato empresarial e como buscar reparação</div>
       <div class="art-meta"><span>06/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/socio-quer-sair-da-empresa-direitos.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/socio-quer-sair-da-empresa-direitos.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Sócio Quer Sair da Empresa, Quais São Seus Direitos</div>
       <div class="art-excerpt">Entenda o que o sócio retirante tem direito a receber, como é calculado o valor das quotas e o que fazer quando os sócios não chegam a um acordo</div>
       <div class="art-meta"><span>05/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/dissolucao-societaria-como-funciona.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/dissolucao-societaria-como-funciona.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Dissolução Societária, Como Encerrar uma Sociedade Corretamente</div>
       <div class="art-excerpt">Entenda as formas de encerrar uma sociedade empresarial, os direitos dos sócios e como evitar problemas futuros</div>
       <div class="art-meta"><span>04/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/penhora-salario-quando-possivel-limites.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/penhora-salario-quando-possivel-limites.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Penhora de Salário, Quando é Possível e Quais São os Limites</div>
       <div class="art-excerpt">Entenda em quais situações o salário pode ser penhorado, quais são os limites legais e como se defender</div>
       <div class="art-meta"><span>03/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/contrato-social-alteracao-como-fazer.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/contrato-social-alteracao-como-fazer.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Alteração de Contrato Social, Como Fazer e Quando é Necessário</div>
       <div class="art-excerpt">Entenda em quais situações o contrato social precisa ser alterado e como fazer esse processo corretamente</div>
       <div class="art-meta"><span>02/07/2026</span><span>4 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/recuperacao-judicial-como-funciona-empresa.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/recuperacao-judicial-como-funciona-empresa.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Recuperação Judicial, Como Funciona e Quando Pedir</div>
       <div class="art-excerpt">Entenda o que é a recuperação judicial, quem pode pedir e como ela protege a empresa em crise</div>
       <div class="art-meta"><span>01/07/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/holding-familiar-vantagens-como-constituir.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/holding-familiar-vantagens-como-constituir.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Holding Familiar, Vantagens e Como Constituir Uma</div>
       <div class="art-excerpt">Entenda como essa estrutura jurídica pode proteger patrimônio e facilitar a sucessão familiar</div>
       <div class="art-meta"><span>30/06/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-    <div class="art-card" onclick="window.location.href='../artigo/responsabilidade-socio-dividas-empresa.html'" style="cursor:pointer">
+    </div><div class="car-card" onclick="window.location.href='../artigo/responsabilidade-socio-dividas-empresa.html'">
       <div class="art-tag">Empresarial</div>
       <div class="art-title">Responsabilidade do Sócio por Dívidas da Empresa: O Que Saber</div>
       <div class="art-excerpt">Entenda quando o patrimônio pessoal do empresário pode ser atingido por dívidas do negócio</div>
       <div class="art-meta"><span>28/06/2026</span><span>5 min</span></div>
       <span class="art-more">Ler artigo →</span>
-    </div>
-  </div>
-  <div style="text-align:center;margin-top:1.75rem">
-    <a href="#" id="btn-mais" onclick="document.getElementById('mais-artigos').style.display='grid';this.parentElement.style.display='none';return false" style="color:var(--gold);font-size:13px;text-decoration:none;border:1px solid rgba(201,168,76,0.4);padding:12px 28px;display:inline-block">Ver todos os 22 artigos ↓</a>
-  </div>
+    </div></div>
+  <script>
+  function catTab(nome) {
+    ['destaques','recentes'].forEach(function(n) {
+      document.getElementById('tab-'+n).style.display = (n===nome) ? 'flex' : 'none';
+      document.getElementById('tab-btn-'+n).classList.toggle('active', n===nome);
+    });
+  }
+  function scrollCat(dir) {
+    var ativo = document.querySelector('.cat-tab-btn.active').id.replace('tab-btn-','');
+    var el = document.getElementById('tab-'+ativo);
+    if (el) el.scrollBy({left: dir * 320, behavior: 'smooth'});
+  }
+  </script>
 
   <div style="background:#100e0a;border:1px solid var(--gold);padding:2.5rem;margin-top:3.5rem;display:grid;grid-template-columns:2fr 1fr;gap:2rem;align-items:center">
     <div>
@@ -244,6 +286,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
   </div>
 
 </div>
+</main>
 
 <div class="float-wrap">
   <div class="float-label">Falar com um advogado</div>
@@ -254,7 +297,7 @@ document.addEventListener('click',function(e){var a=e.target&&e.target.closest?e
 
 <footer>
   <div class="foot-inner">
-    <img src="../logo-mark.png" class="foot-mark" alt="">
+    <img src="../logo-mark.png" class="foot-mark" alt="" width="225" height="210">
     <div class="foot-brand">Michel Rocha, Advocacia e Consultoria</div>
     <div class="foot-info">Atuação nacional, BA, CE, RJ, SP, MG, SC, PA e outros estados</div>
     <div class="foot-links">
