@@ -99,7 +99,7 @@ def gerar():
             for a in ["Benefício Negado ou Cortado", "Aposentadorias", "Auxílio por Incapacidade",
                       "BPC ao Idoso e à Pessoa com Deficiência", "Pensão por Morte", "Revisões de Benefício", "Pedidos Parados no INSS"])
 
-        body = f'''
+        body = f'''<main>
 <div style="max-width:1000px;margin:0 auto;padding:4rem 2rem">
   <div style="margin-bottom:3rem">
     <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:1rem;display:flex;align-items:center;gap:14px"><span style="width:28px;height:1px;background:var(--gold);display:inline-block"></span>Direito Previdenci\u00e1rio \u00b7 INSS</div>
@@ -124,6 +124,7 @@ def gerar():
     </div>
   </div>
 </div>
+</main>
 
 '''
         head = f'''<!DOCTYPE html>
