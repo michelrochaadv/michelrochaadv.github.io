@@ -82,7 +82,7 @@ def gerar():
 <body>
 '''
 
-        body = f'''
+        body = f'''<main>
 
 <div style="max-width:1000px;margin:0 auto;padding:4rem 2rem">
   <div style="margin-bottom:3rem">
@@ -114,6 +114,7 @@ def gerar():
   <div style="font-size:9px;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:1.1rem;display:flex;align-items:center;gap:14px"><span style="width:28px;height:1px;background:var(--gold);display:inline-block"></span>Atuação em {nome} por área</div>
   <div class="grid3" style="gap:1rem">{hub_cards}</div>
 </div>
+</main>
 
 '''
         open(f"cidade/{slug}.html", "w", encoding="utf-8").write(head + header + body + tail)
