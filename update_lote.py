@@ -8,7 +8,7 @@ from datetime import date
 from collections import defaultdict
 
 # ---------- ÚNICA coisa a editar a cada publicação ----------
-DATE = "2026-08-11"  # <- editar aqui a cada publicacao  # AAAA-MM-DD da publicação de hoje
+DATE = "2026-08-14"  # <- editar aqui a cada publicacao  # AAAA-MM-DD da publicação de hoje
 # DATE_DISPLAY e DATE_SHORT são derivados automaticamente abaixo, não editar.
 
 _MESES_PT = ["", "jan", "fev", "mar", "abr", "mai", "jun",
@@ -127,11 +127,14 @@ for area, arts in por_area.items():
     pos = html.find(marker)
     if pos == -1:
         raise SystemExit("ERRO: carrossel " + uid + " nao encontrado")
-    # Escopo da checagem de duplicidade: so dentro deste carrossel
-    # especifico (do marker ate o proximo "id=\"car-" ou fim do arquivo),
-    # nunca a pagina inteira -- a secao Publicados Hoje usa o mesmo
-    # formato de link e geraria falso positivo se checassemos tudo.
-    fim_escopo = html.find('id="car-', pos + len(marker))
+    # Escopo da checagem de duplicidade: so dentro da </section> deste
+    # carrossel especifico. Usar "proximo id=car- ou fim do arquivo" e
+    # errado: o ultimo carrossel do documento (ex: car-imobiliario) nao
+    # tem outro "id=car-" depois dele, entao o escopo vazava ate o fim
+    # do arquivo e pegava a secao "Publicados Hoje" (que fica mais
+    # abaixo), gerando falso positivo de "ja existe" e pulando a
+    # insercao do card. </section> fecha exatamente este carrossel.
+    fim_escopo = html.find('</section>', pos)
     if fim_escopo == -1:
         fim_escopo = len(html)
     escopo_atual = html[pos:fim_escopo]
