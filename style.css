@@ -118,5 +118,5 @@ a[style*="background:var(--card)"]{overflow-wrap:anywhere}
 .logo-textblock{display:flex;flex-direction:column;gap:2px}
 .logo-name{font-family:var(--serif);font-size:19px;color:var(--cream);letter-spacing:5px;font-weight:400;line-height:1;text-transform:uppercase}
 .logo-sub{font-size:8px;letter-spacing:4px;color:var(--muted);text-transform:uppercase;font-weight:300}
-.foot-mark{height:32px;display:block;margin:0 auto 12px;opacity:0.9}
+.foot-mark{height:32px;width:auto;display:block;margin:0 auto 12px;opacity:0.9}
 @media(max-width:900px){.logo-img{height:32px}.logo-name{font-size:15px;letter-spacing:3px}.logo-sub{font-size:7px;letter-spacing:3px}}
